@@ -1,0 +1,114 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+
+-libraryjars /libs/Baidu-Frontia-Android-2.0.2.jar
+-libraryjars /libs/Baidu-SocialShare-SDK-Android-2.0.0.jar
+-dontwarn com.baidu.frontia.module.social.share.ShareContent
+-dontwarn com.baidu.frontia.base.stat.StatUtils
+-dontwarn com.baidu.frontia.module.authorization.IBaiduListener
+-dontwarn com.baidu.frontia.module.authorization.BaiduException
+-dontwarn com.baidu.frontia.base.impl.service.FrontiaServiceImpl
+-dontwarn com.baidu.frontia.module.social.share.SocialShare
+
+
+-dontwarn com.baidu.frontia.module.social.share.SocialShare
+-dontwarn com.baidu.android.pushservice.internal.BasicPushNotificationBuilder
+-dontwarn com.baidu.android.pushservice.internal.CustomPushNotificationBuilder
+-dontwarn com.baidu.android.pushservice.internal.PushNotificationBuilder
+-dontwarn com.baidu.android.pushservice.internal.PushSettings
+-dontwarn com.baidu.android.pushservice.util.Internal
+-dontwarn com.baidu.android.pushservice.internal.PushConstants
+-dontwarn com.baidu.android.pushservice.internal.PushManager
+-dontwarn com.baidu.frontia.base.impl.FrontiaAccountImpl
+-dontwarn com.baidu.frontia.base.impl.FrontiaImpl
+-dontwarn com.baidu.frontia.base.impl.FrontiaRoleImpl
+-dontwarn com.baidu.frontia.base.impl.IFrontiaAccountImpl
+-dontwarn com.baidu.frontia.base.impl.IFrontiaAccountImpl$Type
+-dontwarn com.baidu.frontia.base.impl.FrontiaObjectImpl
+-dontwarn com.baidu.frontia.base.impl.FrontiaDataImpl
+-dontwarn com.baidu.frontia.base.impl.FrontiaACLImpl
+-dontwarn com.baidu.frontia.base.impl.FrontiaQueryImpl
+-dontwarn com.baidu.frontia.base.impl.FrontiaQueryImpl$SortOrder
+-dontwarn com.baidu.frontia.base.impl.FrontiaRoleImpl
+-dontwarn com.baidu.frontia.base.impl.FrontiaUserImpl
+-dontwarn com.baidu.frontia.base.impl.FrontiaRoleManagerImpl
+-dontwarn com.baidu.frontia.module.authorization.ProxyActivityListener
+-dontwarn com.baidu.frontia.module.social.share.handler.LocalShareHandler
+-dontwarn com.baidu.frontia.module.social.share.handler.LocalShareHandlerFactory
+-dontwarn com.baidu.frontia.module.authorization.ProxyActivityListener
+-dontwarn com.baidu.frontia.module.authorization.Build
+-dontwarn com.baidu.frontia.module.social.share.handler.QQFriendShareHandler
+-dontwarn com.baidu.frontia.module.authorization.oauth.SocialOAuthHandler
+-dontwarn com.baidu.frontia.module.authorization.oauth.SocialOAuthHandlerFactory
+-dontwarn com.baidu.frontia.module.authorization.core.SessionManager
+-dontwarn com.baidu.frontia.module.authorization.core.SessionManager$Session
+-dontwarn com.baidu.frontia.module.authorization.core.util.Weixin
+-dontwarn com.baidu.frontia.module.authorization.core.util.Weixin$IWXResponseHandler
+-dontwarn com.baidu.frontia.module.authorization.core.MediaType
+-dontwarn com.baidu.frontia.module.authorization.core.SessionManager
+-dontwarn com.baidu.frontia.module.social.share.handler.SocialShareStatisticsManager
+-dontwarn com.baidu.frontia.module.social.share.handler.WeixinShareHandler
+-dontwarn com.baidu.frontia.module.social.share.handler.SocialShareStatisticsManager
+-dontwarn com.baidu.frontia.module.authorization.oauth.SocialConfig
+-dontwarn com.baidu.frontia.module.authorization.oauth.SocialOAuth
+-dontwarn com.baidu.frontia.module.authorization.restapi.SocialRestAPIImpl
+-dontwarn com.baidu.android.pushservice.internal.BasicPushNotificationBuilder
+-dontwarn com.baidu.android.pushservice.internal.CustomPushNotificationBuilder
+-dontwarn com.baidu.android.pushservice.internal.PushNotificationBuilder
+-dontwarn com.baidu.android.pushservice.util.Internal
+-dontwarn com.baidu.android.pushservice.internal.PushConstants
+-dontwarn com.baidu.android.pushservice.internal.PushManager
+-dontwarn com.baidu.android.pushservice.internal.PushSettings
+-dontwarn com.baidu.frontia.base.impl.FrontiaAccountImpl
+-dontwarn com.baidu.frontia.base.impl.FrontiaImpl
+-dontwarn com.baidu.frontia.base.impl.FrontiaRoleImpl
+-dontwarn com.baidu.frontia.base.impl.FrontiaUserImpl
+-dontwarn com.baidu.frontia.base.impl.IFrontiaAccountImpl
+-dontwarn com.baidu.frontia.base.impl.IFrontiaAccountImpl$Type
+-dontwarn com.baidu.frontia.base.impl.FrontiaACLImpl
+-dontwarn com.baidu.frontia.base.impl.FrontiaAccountImpl
+-dontwarn com.baidu.frontia.base.impl.FrontiaACLImpl
+-dontwarn com.baidu.frontia.base.impl.FrontiaDataImpl
+-dontwarn com.baidu.frontia.base.impl.FrontiaObjectImpl
+-dontwarn com.baidu.frontia.module.push.FrontiaPushListenerImpl$CommonMessageListenerImpl
+-dontwarn com.baidu.frontia.base.impl.FrontiaQueryImpl$SortOrder
+-dontwarn com.baidu.frontia.base.impl.FrontiaFileImpl
+-dontwarn com.baidu.frontia.module.push.FrontiaPushListenerImpl$DescribeMessageListenerImpl
+-dontwarn com.baidu.frontia.module.push.FrontiaPushListenerImpl$ListMessageListenerImpl
+-dontwarn com.baidu.frontia.module.push.FrontiaPushListenerImpl$PushMessageListenerImpl
+-dontwarn com.baidu.frontia.base.impl.FrontiaUserQueryImpl
+-dontwarn com.baidu.frontia.module.push.FrontiaPushImpl
+-dontwarn com.baidu.frontia.module.push.FrontiaPushListenerImpl
+-dontwarn com.baidu.frontia.module.push.FrontiaPushListenerImpl$CommonMessageListenerImpl
+-dontwarn com.baidu.frontia.module.push.FrontiaPushListenerImpl$DescribeMessageListenerImpl
+-dontwarn com.baidu.frontia.module.push.FrontiaPushUtilImpl
+-dontwarn com.baidu.frontia.module.push.FrontiaPushUtilImpl$MessageContentImpl
+-dontwarn com.baidu.frontia.module.push.FrontiaPushUtilImpl$TriggerImpl
+-dontwarn com.baidu.frontia.module.push.FrontiaPushImpl
+-dontwarn com.baidu.frontia.module.push.FrontiaPushListenerImpl$DescribeMessageResult
+-dontwarn com.baidu.frontia.module.push.FrontiaPushUtilImpl$AndroidContentImpl
+-dontwarn com.baidu.frontia.module.push.FrontiaPushUtilImpl$DefaultNotificationStyleImpl
+-dontwarn com.baidu.frontia.module.push.FrontiaPushUtilImpl$IOSContentImpl
+-dontwarn com.baidu.frontia.module.push.FrontiaPushUtilImpl$NotificationContentImpl
+-dontwarn com.baidu.frontia.module.authorization.util.Validator
+-dontwarn com.baidu.frontia.module.social.share.SocialShare$Theme
+-dontwarn com.baidu.frontia.module.push.FrontiaPushUtilImpl$TriggerImpl
+
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/taobao_rebate_back"
+    android:orientation="vertical" >
+    
+   <!-- <TextView 
+        android:id="@+id/taobao_rebate_shuoming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginBottom="8dip"
+        android:textSize="12sp"
+        android:textColor="#B5B5B5"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/paipai_rebate_shuoming"/>
+     pulldownlistview 暂时没有作用，这个功能先缓一下
+     <com.cosji.view.PullDownListView
+        android:id="@+id/main_pull_refresh_view"
+    android:background="@android:color/white"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"> -->
+    <ListView 
+        android:layout_gravity="center"
+        android:clickable="false"
+        android:id="@+id/rebate_list"
+        android:divider="@null"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000">
+    </ListView>
+<!-- </com.cosji.view.PullDownListView> -->
+</LinearLayout>
+

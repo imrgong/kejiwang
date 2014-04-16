@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent" >
+
+    
+        <TextView
+            android:id="@+id/advice_item_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dip"
+           
+            android:background="@color/transparent"
+            android:textScaleX="0.8"
+            android:textColor="#9f414141"
+            android:textSize="10.0sp" />
+   
+        <TextView
+            android:id="@+id/advice_item_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25.0dip"
+            android:layout_marginRight="25.0dip"
+            android:layout_marginTop="10dip"
+            android:background="@color/white"
+           android:layout_below="@id/advice_item_date"
+            android:textColor="#414141"
+            android:textIsSelectable="true"
+            android:gravity="center|left"
+            android:paddingLeft="10dip"
+            android:linksClickable="true"
+            android:minHeight="60dip"
+            android:autoLink="all"    
+            android:textSize="15.0sp" />
+
+
+</RelativeLayout>

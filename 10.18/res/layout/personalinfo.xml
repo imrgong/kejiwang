@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/taobao_rebate_back"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@color/twentyper_white"
+        android:paddingTop="15dip" >
+
+        <TextView
+            android:id="@+id/personalinfo_title_nomean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="完善您的个人信息:"
+            android:textColor="@color/income_time_color" />
+        <!-- 登录密码 -->
+
+        <TextView
+            android:id="@+id/pesonalinfo_mima_nomean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/personalinfo_title_nomean"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="15dip"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:text="本站登录密码:"
+            android:textColor="@color/income_entity_color" />
+
+        <EditText
+            android:id="@+id/personal_password"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_below="@id/personalinfo_title_nomean"
+            android:layout_marginTop="15dip"
+            android:layout_toRightOf="@id/pesonalinfo_mima_nomean"
+            android:background="@drawable/tixian_bg"
+            android:paddingLeft="5dip"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+        <!-- qq号码 -->
+
+	 <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_alignTop="@+id/personal_qq_number"
+	            android:paddingBottom="10dip"
+	            android:paddingTop="10dip"
+	            android:text="QQ号 码:"
+	            android:textColor="@color/income_entity_color" />
+
+	 <EditText
+	     android:id="@+id/personal_qq_number"
+	     android:layout_width="fill_parent"
+	     android:layout_height="40dip"
+	     android:layout_alignParentRight="true"
+	     android:layout_below="@+id/personal_password"
+	     android:layout_marginTop="19dp"
+	     android:layout_toRightOf="@+id/pesonalinfo_mima_nomean"
+	     android:background="@drawable/tixian_bg"
+	     android:ems="10"
+	     android:textSize="15sp"
+	      android:paddingLeft="5dip"
+	     android:inputType="numberSigned"
+	     android:maxLines="1" />
+
+        <!-- email -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/personal_email"
+            android:layout_toLeftOf="@+id/personal_email"
+            android:paddingBottom="10dip"
+            android:paddingTop="8dip"
+            android:text="电子邮箱:"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/income_entity_color" />
+        
+         <EditText
+            android:id="@+id/personal_email"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_below="@id/personal_qq_number"
+            android:layout_alignLeft="@id/personal_qq_number"
+            android:background="@drawable/tixian_bg"
+            android:ems="10"
+            android:textSize="15sp"
+            android:layout_marginTop="19dp"
+            android:inputType="textEmailAddress"
+             android:paddingLeft="5dip"
+            android:maxLines="1" />
+        <!-- mobilphone number -->
+
+	<TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="8dp"
+	            android:layout_alignTop="@+id/personal_phone_number"
+	            android:layout_alignParentLeft="true"
+	            android:gravity="center_vertical"
+	            android:text="手机号码:"
+	            android:textColor="@color/income_entity_color" />
+      
+
+        <EditText
+            android:id="@+id/personal_phone_number"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_alignLeft="@+id/personal_email"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="19dp"
+            android:layout_below="@+id/personal_email"
+            android:background="@drawable/tixian_bg"
+            android:ems="10"
+             android:paddingLeft="5dip"
+            android:textSize="15sp"
+            android:inputType="phone"
+            android:maxLines="1" >
+        </EditText>
+
+        <Button
+            android:id="@+id/submitPersonalinfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="35dip"
+            android:background="@drawable/inform_button"
+            android:paddingBottom="12dip"
+            android:paddingLeft="25dip"
+            android:paddingRight="25dip"
+            android:paddingTop="12dip"
+            android:text="保存信息"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,208 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cosji.activitys"
+    android:installLocation="preferExternal"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+ <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+   <!-- <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" /> --> 
+      <!-- Push service 运行需要的权限 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- for log. -->
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    
+    <!-- 网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 网络状态权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- network网络开关权限(可选权限) -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <!-- 开机自启权限（可选权限） -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <!-- 获取手机设备号权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 手机震动权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" >
+    </uses-permission>
+      <!-- 唤醒权限 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 获取当前任务权限 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 悬浮窗体权限(可选权限) -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+     <!-- 往sdcard中写入数据的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+ 	<!-- 获取基站需要的权限 (可选权限)-->
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <!-- 打电话的权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+	
+    
+    <application
+        android:name="com.cosji.application.Base"
+        android:icon="@drawable/cosji_launcher_big"
+        android:label="@string/app_name"
+         android:theme="@android:style/Theme.NoTitleBar" >
+        <activity android:name=".WelcomeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GuideActivity" >
+        </activity>
+        <activity
+            android:name=".MainTabActivity"
+            android:launchMode="singleTask"
+            android:label="@string/title_activity_main"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity android:name=".HomeActivity" 
+               >
+        </activity>
+        <activity android:name=".TaoBaoActivity" >
+        </activity>
+     
+         <activity android:name=".JiuYuanActivity" >
+        </activity>
+        
+        <activity android:name=".MineActivity">
+        </activity>
+        <activity android:name=".GoodsActivity" >
+        </activity>
+        <activity android:name=".WebviewActivity" >
+        </activity>
+        <activity android:name=".MallMoreActivity" >
+        </activity>
+        <activity android:name=".LoginActivity" >
+        </activity>
+        <activity android:name=".RebateActivity" >
+        </activity>
+        <activity android:name=".AcountDetils" >
+        </activity>
+        <activity android:name=".InnerMessageActivity" >
+        </activity>
+        <activity android:name=".SettingActivity" >
+        </activity>
+        <activity android:name=".TiXianActivity" >
+        </activity>
+        <activity android:name=".AdviceActivity" >
+        </activity>
+        <activity android:name=".JifenbaoActivity" >
+        </activity>
+        <activity android:name=".rebateQuestionActivity" >
+        </activity>
+        <activity android:name=".RegisterActivity" >
+        </activity>
+         <activity android:name=".CustomActivity" />
+         <activity android:name=".OtherGoodsDetilsActivity" />
+         
+         <activity android:name=".WelcomeGuid" />
+         <activity android:name=".GoodsDetialsActivitys" >
+             <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="cosji" android:host="guang" />
+            </intent-filter>
+         </activity>
+         <activity android:name="com.android.browser.BrowserActivity">
+              <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="cosji" android:host="guang" />
+            </intent-filter>
+         </activity>
+
+         <!-- 百度推送功能 -->
+	   <receiver android:name="com.baidu.android.pushservice.PushServiceReceiver"  
+		                  android:process=":bdservice_v1">  
+		  <intent-filter> 
+		        <action  android:name="android.intent.action.BOOT_COMPLETED" />  
+		        <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />  
+		        <action 
+		android:name="com.baidu.android.pushservice.action.notification.SHOW" />  
+		        <action android:name="com.baidu.android.pushservice.action.media.CLICK" />  
+		        <action android:name="com.baidu.android.pushservice.action.frontia.user" /> 
+		  </intent-filter> 
+		</receiver>  
+		 
+		<receiver android:name="com.baidu.android.pushservice.RegistrationReceiver"  
+		                  android:process=":bdservice_v1"> 
+		  <intent-filter> 
+		        <action android:name="com.baidu.android.pushservice.action.METHOD" />  
+		        <action android:name="com.baidu.android.pushservice.action.BIND_SYNC" />  
+		  </intent-filter> 
+		  <intent-filter> 
+		        <action android:name="android.intent.action.PACKAGE_REMOVED"/>  
+		        <data android:scheme="package" /> 
+		  </intent-filter> 
+		</receiver>  
+		 
+		<service   android:name="com.baidu.android.pushservice.PushService" 
+		            android:exported="true"  
+		            android:process=":bdservice_v1" /> 
+		 
+		<receiver  
+		        android:name="com.baidu.frontia.module.deeplink.db.DLDataPushReceiver" >  
+		  <intent-filter> 
+		        <action android:name="com.baidu.android.pushservice.action.SDK_MESSAGE" />  
+		        <action android:name="com.baidu.android.pushservice.action.sdk.RECEIVE" />  
+		  </intent-filter> 
+		  <intent-filter> 
+		          <action android:name="android.intent.action.PACKAGE_REPLACED"/> 
+		          <action android:name="android.intent.action.PACKAGE_ADDED" /> 
+		          <data android:scheme= "package" /> 
+		  </intent-filter> 
+		</receiver>
+
+		<!-- 自己的配置一个MessageReceive-->
+		<receiver android:name="com.cosji.application.PushMessageReceiver"> 
+              <intent-filter> 
+                  <!-- 接收自定义消息 -->  
+                <action android:name="com.baidu.android.pushservice.action.MESSAGE" />  
+                  <!-- 接收bind,unbind,fetch,delete 等反馈消息 -->  
+                <action android:name="com.baidu.android.pushservice.action.RECEIVE" /> 
+                  <!--接收通知消息的点击事件 -->  
+		        <action android:name="com.baidu.android.pushservice.action.notification.CLICK" /> 
+		      </intent-filter> 
+		</receiver> 
+		
+		<!-- 自己的配置一个MessageReceive
+		<receiver android:name="com.cosji.activitys.BaseTab$TabPushMessageReceiver"> 
+              <intent-filter> 
+                <action android:name="com.baidu.android.pushservice.action.MESSAGE" />  
+                <action android:name="com.baidu.android.pushservice.action.RECEIVE" /> 
+		        <action android:name="com.baidu.android.pushservice.action.notification.CLICK" /> 
+		      </intent-filter> 
+		</receiver> -->
+		
+       <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5254dec856240b758d14bb40" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="2013CJYH360CHANNEL" >
+        </meta-data>
+        <!-- 百度分享 -->
+        <activity android:name="com.baidu.frontia.activity.share.FrontiaSocialOAuthActivity"></activity>
+        <activity android:name="com.baidu.frontia.activity.share.FrontiaLocalShareActivity"></activity>
+        <activity android:name="com.baidu.frontia.activity.share.FrontiaQQFriendShareReceiverActivity"></activity>
+        <activity android:name="com.baidu.frontia.activity.share.FrontiaWeixinShareActivity"></activity>
+    </application>
+
+</manifest>

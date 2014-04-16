@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+    <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="48dip"
+    android:background="@drawable/title_bg"
+     android:id="@+id/jiu_title"
+    android:orientation="horizontal" >
+
+         <ImageView
+        android:layout_marginTop="7dip"
+        android:id="@+id/logo_icon1"
+        android:layout_width="106dip"
+        android:layout_height="35dip"
+        android:layout_marginRight="20dip"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/cosji_logo1" />
+         
+    <ImageView
+        android:id="@+id/title_name"
+        android:layout_width="100dip"
+        android:layout_height="28dip"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+     
+       />
+    
+    <ImageView
+        android:id="@+id/jiuyuan_naoz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="8dip"
+        android:src="@drawable/naoz"
+        android:layout_alignParentRight="true"
+       />
+    </RelativeLayout>
+    
+   <com.cosji.view.PullToRefreshView
+       android:layout_below="@id/jiu_title"
+        android:id="@+id/main_pull_refresh_view"
+	    android:background="@android:color/white"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" 
+	    android:orientation="vertical">
+    
+      <RelativeLayout 
+        android:id="@+id/zhemai_title_hidden"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/zhemaiproteil">
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="25dip"
+            android:layout_marginBottom="12dip"
+            android:layout_marginTop="105dip"
+            android:orientation="horizontal"
+            >
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+            <TextView 
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textColor="#926b27"
+                android:text="本场结束仅剩 "/>
+            <TextView 
+                android:id="@+id/DownCount_hour"
+                android:gravity="center"
+                android:layout_width="25dip"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="3dip"
+                android:layout_marginBottom="3dip"
+                android:background="@drawable/down_count_back"
+                android:textColor="#926b27"
+                android:text="00"/>
+            <TextView 
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text=":"/>
+            <TextView 
+                android:id="@+id/DownCount_minetes"
+                android:gravity="center"
+                android:layout_width="25dip"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="3dip"
+                android:layout_marginBottom="3dip"
+                android:background="@drawable/down_count_back"
+                android:textColor="#926b27"
+                android:text="00"/>
+            <TextView 
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text=":"/>
+            
+            <TextView 
+                android:id="@+id/DownCount_secends"
+                android:gravity="center"
+                android:background="@drawable/down_count_back"
+                android:layout_width="25dip"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="3dip"
+                android:layout_marginBottom="3dip"
+                android:textColor="#926b27"
+                android:text="00"/>
+        </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+       
+        <GridView
+            android:id="@+id/jiuyuangou_grid"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.0"
+            android:cacheColorHint="#00000000"
+            android:gravity="center"
+            android:horizontalSpacing="10dip"
+            android:layout_below="@id/jiu_title"
+            android:numColumns="2" >
+        </GridView>
+   
+</com.cosji.view.PullToRefreshView>
+</RelativeLayout>

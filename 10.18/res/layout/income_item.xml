@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dip"
+        android:background="@color/income_item_back"
+        android:orientation="vertical">
+        <TextView 
+            android:id="@+id/income_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/incom_time"
+            android:layout_marginLeft="4dip"
+            android:layout_marginTop="5dip"
+            android:textSize="11sp"
+            android:textColor="@color/income_time_color"
+            />
+        <TextView 
+            android:id="@+id/income_item_entity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/incom_entity"
+            android:layout_marginLeft="9dip"
+            android:layout_marginTop="3dip"
+            android:textSize="12sp"
+            android:textColor="@color/income_entity_color"
+            />
+        <TextView 
+            android:id="@+id/income_item_detlis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/incom_detlis"
+            android:layout_marginLeft="4dip"
+            android:layout_marginTop="4dip"
+            android:textSize="9sp"
+            android:textColor="@color/income_entity_color"
+            android:layout_marginBottom="8dip"
+            />
+</LinearLayout>

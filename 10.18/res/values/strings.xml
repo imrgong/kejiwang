@@ -1,0 +1,101 @@
+<resources>
+
+    <string name="app_name">可及网</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Cosji</string>
+<!-- HomePage -->
+<string name="home_jiaocheng_text">点击查看>>></string>    
+   <string name="home_mallmore">更多</string>
+    <string name="home_mallmoretitle">热门商城推荐</string> 
+    <string name="search_edt_hint">输入商品名称/网址/ID,查询返利</string> 
+    
+    <string name="goto_mytaobao">淘宝</string>
+    <string name="goto_tmall">天猫</string>
+    <string name="goto_ju">聚划算</string>
+    <string name="mall_more_title">更多热门商城</string>
+      <!-- 上啦和下拉刷新 -->
+        <string name="loading">正在加载...</string>
+       <string name="drop_dowm">下拉刷新</string>
+    <string name="release_update">松开刷新</string>
+    <string name="seen_more">更多</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新\u2026</string>
+    <string name="pull_to_refresh_footer_release_label">更多商品，更好体验，请访问zhemai.com</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">更多商品，更好体验，请访问zhemai.com</string>
+      <string name="loginpassword">本站登录密码 :</string>
+    <string name="ketixianmoney">可提现金额:</string>
+    <string name="apptixian_money">申请提现金额:</string>
+    <string name="zhifubao_id">支付宝账号:</string>
+     <string name="phone">手机号码 : </string>
+    <string name="tixian_name">收款人姓名:</string>
+    <string name="immediately_tixian">马上提现</string>
+      <string name="send">发送</string>
+    <string name="compliant_tishi">输入反馈信息</string>
+    
+    <!-- @auther ty -->
+   
+     <string name="shenqing_tixian">申请提现</string> 
+    <string name="qiandao_zhuanxian">签到赚现</string> 
+    <string name="shenqing_jifenbao">申请提集分宝</string> 
+    <string name="rebate_indent">我的订单</string> 
+    <string name="referrd_bonuses">推荐奖励</string> 
+    <string name="acount_detils">账户明细</string> 
+    <string name="inner_message">站内信息</string> 
+    <string name="acount_setting">账户设置</string> 
+    <string name="welcome_login">欢迎登录</string> 
+    <string name="remenberUser">下次自动登录</string> 
+    <string name="meiyouzhanghao">还没有账号 , </string> 
+    <string name="register">注册账号</string> 
+    <string name="wangjimima">忘记密码 , </string> 
+    <string name="lookformima">找回密码</string> 
+    <string name="taobao_rebate">淘宝订单</string> 
+    <string name="paipai_rebate">拍拍订单</string> 
+    <string name="shangcheng_rebate">商城订单</string> 
+    <string name="taobao_rebate_shuoming">在"我的淘宝"确认收货后1天左右到账并显示在这里</string> 
+    <string name="paipai_rebate_shuoming">在"我的拍拍"确认收货后1天左右到账并显示在这里</string> 
+    <string name="shangcheng_rebate_shuoming">在"我的商城"确认收货后1天左右到账并显示在这里</string> 
+    <string name="deal_time">成交时间</string> 
+    <string name="incom_time">时间:2013-6-28 09:45</string> 
+    <string name="incom_entity">收入事件:收入15点积分</string> 
+    <string name="incom_detlis">每日签到奖励:积分15点</string> 
+    <string name="acount_income">我的收入</string> 
+    <string name="acount_tixian">我的提现</string> 
+    <string name="acount_tuikuan">我的退款</string> 
+    <string name="ReciveInof">收到消息</string> 
+    <string name="SendInfo">我的反馈</string> 
+    <string name="innerMessage">站内消息</string> 
+    <string name="PesonalInfo">个人信息</string> 
+    <string name="modifypassword">密码修改</string> 
+    <string name="PersonalFinance">财务管理</string> 
+    <string name="inlogin">登陆中...</string> 
+    <string name="home_page_jiaocheng">新手教程</string> 
+    <string name="home_page_tianmao">折买特惠</string> 
+    <string name="home_page_juhuasuan">聚划算</string> 
+    
+    <!-- 淘宝api 12.25 later-->
+     <string name="data_download_error">数据拉取失败</string> 
+     <string name="first_page_welcome_cosji">欢迎回到可及！</string> 
+     <string name="webView_no_result">您搜的商品已下架或者无返利</string> 
+     <string name="wenxingtishi">根据淘宝最新规则，查询返利将不显示返利比例，且跳转到淘宝客户端购买，但返利仍正常发放，具体金额以到账时为准。</string>
+     <string name="old_price">原价 :</string>  
+     <string name="old_price_number"> ￥10.00</string>  
+     <string name="fanli_wenzi">返利 :</string>  
+     <string name="goto_shopping_now">去购物，拿返利</string>  
+     <string name="Taobao_not_enabled_message">您还没有安装淘宝客户端，跳转至淘宝最新客户端下单才能返利。</string>  
+     <string name="Taobao_not_rebate_message">该商品暂无返利，是否继续购买？</string>  
+     <string name="Taobao_not_enabled_title">友情提示</string>  
+     <string name="Taobao_not_rebate_title"></string>  
+     <string name="Download_Taobao">下载安装</string>  
+     <string name="cancal">关闭</string>  
+     <string name="Taobao_no_rebate_yes">要购买</string>  
+     <string name="Taobao_no_rebate_no">不购买</string>  
+     <string name="Taobao_rebate_tongdao_wenzi">淘宝返利通道</string>  
+     <string name="diglog_zhemai_title">提示</string>  
+     <string name="diglog_zhemai_message">确定进入折买网查看下一场活动商品？</string>  
+     <string name="diglog_zhemai_home_message">折买网(zhemai.com)每天上新数百款优质商品，一折起全场包邮，确定现在访问？</string>  
+     <string name="diglog_zhemai_ok">访问</string>  
+     <string name="diglog_zhemai_cancal">稍后</string>  
+</resources>

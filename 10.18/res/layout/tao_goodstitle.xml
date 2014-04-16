@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:background="@drawable/title_bg" >
+
+    <LinearLayout
+        android:id="@+id/tao_goods_back"
+        android:background="@drawable/press_changed"
+        android:layout_width="100dip"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@+id/taogoods_btn"
+            android:layout_width="30dip"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:background="#00000000"
+            android:padding="8dip"
+            android:src="@drawable/back_btn" />
+            <TextView
+                android:id="@+id/tao_goods_titlename"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:layout_gravity="center|right"
+                android:gravity="center"
+               
+                android:textColor="@color/white"
+                android:textSize="18dip" />
+
+    
+        </LinearLayout>  
+     
+</RelativeLayout>

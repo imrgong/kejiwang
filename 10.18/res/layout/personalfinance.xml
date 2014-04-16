@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/taobao_rebate_back"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@color/twentyper_white"
+        android:paddingTop="15dip" >
+
+        <TextView
+            android:id="@+id/personalinfo_title_nomean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="绑定支付宝账号:"
+            android:textColor="@color/income_time_color" />
+        <!-- 登录密码 -->
+
+        <TextView
+            android:id="@+id/pesonalinfo_mima_nomean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/personalinfo_title_nomean"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="15dip"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:text="登录密码:"
+            android:textColor="@color/income_entity_color" />
+
+        <EditText
+            android:id="@+id/personal_password_finance"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_below="@id/personalinfo_title_nomean"
+            android:layout_marginTop="15dip"
+            android:layout_marginLeft="15dip"
+             android:paddingLeft="5dip"
+            android:layout_toRightOf="@id/pesonalinfo_mima_nomean"
+            android:background="@drawable/tixian_bg"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+        <!-- 真实姓名 -->
+
+	 <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_alignTop="@+id/personal_realname"
+	            android:paddingBottom="10dip"
+	            android:paddingTop="10dip"
+	            android:text="真实姓名:"
+	            android:textColor="@color/income_entity_color" />
+
+	 <EditText
+	     android:id="@+id/personal_realname"
+	     android:layout_width="fill_parent"
+	     android:layout_height="40dip"
+	     android:layout_alignLeft="@id/personal_password_finance"
+	     android:layout_alignParentRight="true"
+	     android:layout_below="@+id/personal_password_finance"
+	     android:layout_marginTop="19dp"
+	     android:background="@drawable/tixian_bg"
+	     android:ems="10"
+	     android:textSize="15sp"
+	      android:paddingLeft="5dip"
+	     android:inputType="text"
+	     android:maxLines="1" />
+
+        <!-- 支付宝账号: -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/personal_zhifubao_count"
+            android:layout_toLeftOf="@+id/personal_zhifubao_count"
+            android:paddingBottom="10dip"
+            android:paddingTop="8dip"
+            android:text="支付宝账号:"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/income_entity_color" />
+        
+         <EditText
+            android:id="@+id/personal_zhifubao_count"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_below="@id/personal_realname"
+            android:layout_alignLeft="@id/personal_realname"
+            android:background="@drawable/tixian_bg"
+            android:layout_marginTop="19dp"
+            android:textSize="15sp"
+             android:paddingLeft="5dip"
+            android:inputType="numberSigned"
+            android:maxLines="1" />
+        
+        <Button 
+            android:id="@+id/submitPersonalfinance"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dip"
+            android:paddingRight="25dip"
+            android:paddingTop="12dip"
+            android:paddingBottom="12dip"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="35dip"
+            android:text="保存信息"
+            android:textColor="@color/black"
+            android:background="@drawable/inform_button"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/taobao_rebate_item_back">
+        
+        <LinearLayout
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="8dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/deal_time"
+                android:textSize="11sp"
+                android:textColor="#8B8B8B"/>
+            <TextView 
+                android:id="@+id/deal_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dip"
+                android:textSize="11sp"
+                android:textColor="#8B8B8B"
+                android:text="2013-05-15 14:25:03"
+                />
+        </LinearLayout>
+        
+         <RelativeLayout
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="26.5dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            >
+             <View 
+                android:id="@+id/paipai_rebate_goods_pic"
+                android:layout_width="0dip"
+                android:layout_height="85px"/>
+            <TextView 
+                android:id="@+id/paipai_goods_ordernumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.5dip"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:layout_toRightOf="@+id/paipai_rebate_goods_pic"
+                android:text="订单号:156165165438L"
+                android:textSize="11sp"
+                android:maxLines="1"
+                android:textColor="#494949"/>
+            <TextView 
+                android:id="@+id/paipai_goods_introduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/paipai_goods_ordernumber"
+                android:layout_marginTop="3.0dip"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:layout_toRightOf="@+id/paipai_rebate_goods_pic"
+                android:text="2013新款男士内裤 竹纤维花格子时尚平角裤U凸个性底裤"
+                android:textSize="11sp"
+                android:textColor="#494949"/>
+            <TextView 
+                android:id="@+id/paipai_goods_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/paipai_rebate_goods_pic"
+                android:layout_marginBottom="8.5dip"
+                android:layout_marginLeft="8dip"
+                android:layout_marginTop="55dip"
+                android:textSize="11sp"
+                android:textColor="#494949"
+                android:text="￥10.80"
+                />
+            <TextView 
+                android:id="@+id/paipai_goods_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dip"
+                android:layout_marginBottom="8.5dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="75dip"
+                android:textSize="11sp"
+                android:textColor="#494949"
+                android:text="数量:1"
+                />
+        </RelativeLayout>
+        
+          <LinearLayout
+            android:layout_marginLeft="11dip"
+            android:layout_marginTop="111dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已优惠  :"
+                android:textSize="12sp"
+                android:textColor="#474747"/>
+            <TextView 
+                android:id="@+id/rebate_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dip"
+                android:textSize="12sp"
+                android:textColor="#CD766F"
+                android:text="0.50元"
+                />
+            <!--  
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dip"
+                android:text="奖励积分  :"
+                android:textSize="12sp"
+                android:textColor="#474747"/>
+            <TextView 
+                android:id="@+id/reward_jifen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dip"
+                android:textSize="12sp"
+                android:textColor="#397C37"
+                android:text="15点"
+                />
+                -->
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+</LinearLayout>

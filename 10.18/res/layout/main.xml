@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+         <include layout="@layout/title"
+        android:id="@+id/mine_title"
+        />
+        <!-- 这里是我的 登录部分 -->
+        <LinearLayout 
+            android:orientation="vertical"
+             android:id="@+id/userlogin"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           >
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/main_body_photo"
+                android:orientation="vertical">
+            <include 
+                android:id="@+id/for_login"
+                layout="@layout/login"
+                android:visibility="visible"/>
+       <RelativeLayout 
+           android:id="@+id/for_logined"
+           android:layout_width="fill_parent"
+           android:layout_height="88dip"
+           android:visibility="gone"
+          >
+           <ImageView 
+               android:layout_width="74dip"
+               android:layout_height="74dip"
+               android:layout_marginTop="13dip"
+               android:layout_marginLeft="10dip"
+               android:background="@drawable/photo_outside"
+               />
+           <ImageView 
+               android:id="@+id/changePhoto"
+               android:layout_width="68dip"
+               android:layout_height="68dip"
+               android:layout_marginTop="15dip"
+               android:layout_marginLeft="12.88dip"
+               />
+           
+           <TextView android:id="@+id/nickname"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_toRightOf="@id/changePhoto"
+               android:layout_marginLeft="7dip"
+               android:layout_marginTop="18dip"
+               android:text="------"
+               android:textSize="14dip"
+               android:shadowColor="#000000"
+               android:shadowDx="0"
+               android:shadowDy="1"
+               android:shadowRadius="0.5"
+               android:textColor="@color/white"
+               />
+           
+           <TextView android:id="@+id/userVIPgrade"
+               android:layout_width="wrap_content"
+               android:paddingRight="2dip"
+               android:paddingLeft="2dip"
+               android:gravity="center"
+               android:layout_height="15dip"
+               android:layout_marginTop="2dip"
+               android:layout_alignTop="@id/nickname"
+               android:layout_toRightOf="@id/nickname"
+               android:background="@drawable/vip_back"
+               android:layout_marginLeft="7dip"
+               android:text="VIP1"
+               android:textSize="13sp"
+               android:textStyle="italic"
+               android:textColor="@color/white"/>
+           
+           <TextView 
+               android:id="@+id/shyu"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignLeft="@id/nickname"
+               android:layout_below="@id/nickname"
+               android:layout_marginTop="3dip"
+               android:text="余额"
+               android:textSize="14dip"
+                android:shadowColor="#000000"
+               android:shadowDx="0"
+               android:shadowDy="1"
+               android:shadowRadius="0.5"
+               android:textColor="@color/white"/>
+           <TextView 
+               android:id="@+id/shengyumoney"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignTop="@id/shyu"
+               android:layout_toRightOf="@id/shyu"
+               android:layout_marginLeft="6dip"
+               android:paddingLeft="3dip"
+               android:paddingRight="3dip"
+               android:text="--.--元"
+               android:textSize="14sp"
+               android:gravity="center"
+               android:textColor="@color/white"
+               android:background="#6f000000"/>
+           
+           <TextView 
+               android:id="@+id/Amass"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+              android:layout_below="@id/shyu"
+              android:layout_alignLeft="@id/shyu"
+              android:layout_marginTop="3dip"
+               android:text="积分"
+               android:textSize="14dip"
+               android:textColor="@color/white"
+               />
+           <TextView 
+               android:id="@+id/AmassPoint"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_toRightOf="@id/Amass"
+               android:layout_alignTop="@id/Amass"
+               android:layout_marginLeft="6dip"
+               android:text="--"
+               android:textSize="14dip"
+               android:textColor="@color/yello"
+               />
+           <View 
+               android:id="@+id/verticalLeft"
+               android:layout_width="1dip"
+               android:layout_height="12dip"
+              android:layout_toRightOf="@id/AmassPoint"
+               android:layout_alignTop="@id/AmassPoint"
+               android:layout_marginLeft="6dip"
+               android:layout_marginTop="2dip"
+               android:background="@color/white"
+               />
+         
+           <TextView 
+               android:id="@+id/jifenbao"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+              android:layout_alignTop="@id/Amass"
+              android:layout_toRightOf="@id/verticalLeft"
+              android:layout_marginLeft="7dip"
+               android:text="集分宝"
+               android:textSize="13dip"
+               android:textColor="@color/white"
+               />
+           <TextView 
+               android:id="@+id/jifenbaoPoint"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+              android:layout_alignTop="@id/Amass"
+              android:layout_toRightOf="@id/jifenbao"
+              android:layout_marginLeft="6dip"
+               android:text="---"
+               android:textSize="13dip"
+               android:textColor="@color/yello"
+               />
+       </RelativeLayout>
+       <View 
+           android:layout_width="fill_parent"
+           android:layout_height="0.3dip"
+           android:layout_marginTop="14dip"
+           android:background="@color/twentyper_white"
+           />
+	       <LinearLayout 
+	            android:layout_width="fill_parent"
+	               android:layout_height="49dip"
+	               android:orientation="horizontal"
+	               android:background="@color/twentyper_black"
+	           >
+	           <Button android:id="@+id/apply_for_cash"
+	               android:layout_width="match_parent"
+	               android:layout_height="fill_parent"
+	               android:text="@string/shenqing_tixian"
+	               android:textColor="#faf2d8"
+	               android:background="@drawable/mine_button_selector"
+	               android:layout_weight="1"/>
+	           
+	           <Button android:id="@+id/apply_for_jifenbao"
+	               android:layout_width="match_parent"
+	               android:layout_height="fill_parent"
+	               android:text="@string/shenqing_jifenbao"
+	               android:textColor="#faf2d8"
+	               android:background="@drawable/mine_button_selector"
+	               android:layout_weight="1"/>
+	           
+	           <Button android:id="@+id/sign_in_cash"
+	               android:layout_width="match_parent"
+	               android:layout_height="fill_parent"
+	               android:text="@string/qiandao_zhuanxian"
+	               android:textColor="#faf2d8"
+	               android:background="@drawable/mine_button_selector"
+	               android:layout_weight="1"/>
+	       </LinearLayout>
+	       
+	      </LinearLayout>
+	       <!-- 返利等具体功能 -->
+
+	       <include
+	           android:layout_height="match_parent"
+	           layout="@layout/apply_for_cash" />
+	       
+       </LinearLayout>
+    </LinearLayout>
+ <TextView android:id="@+id/getcoins"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:text="+15积分"
+	           android:textSize="14dip"
+	           android:textStyle="bold"
+	           android:keepScreenOn="true"
+	           android:layout_alignParentRight="true"
+	           android:paddingRight="30dip"
+	           android:layout_marginTop="132dip"
+	           android:textColor="@color/gold"
+	           android:visibility="gone"/>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:background="#F7F7F7"
+    android:minHeight="60dip"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="23dip"
+        android:orientation="horizontal" >
+      <CheckBox
+            android:layout_marginLeft="2dip"
+            android:layout_marginTop="2dip"
+            android:id="@+id/isdeleteinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_marginRight="5dip"
+            style="@style/CustomCheckboxTheme"
+          />
+        <TextView
+            android:id="@+id/emailtime"
+            android:layout_width="0dip"
+            android:layout_height="21dip"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:text="时间: 2013 07.26 12:15:36" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/myemailcontents"
+        android:layout_width="fill_parent"
+        android:paddingTop="3dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:paddingBottom="5dip"
+        android:gravity="center|left"
+        android:textSize="12sp"
+        android:textColor="@color/income_entity_color"
+        android:text="2013 女装冬季针织新款 韩版高领修身" />
+    
+</LinearLayout>

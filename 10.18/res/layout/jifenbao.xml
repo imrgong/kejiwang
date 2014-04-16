@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@color/taobao_rebate_back"
+     >
+     <include 
+         layout="@layout/personaltitle"
+         android:id="@+id/jifenbaotitle_id"/>
+     <ScrollView 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/jifenbaotitle_id"
+         >
+    <RelativeLayout
+        
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@color/twentyper_white"
+        android:paddingTop="15dip" >
+
+        <TextView
+            android:id="@+id/personalinfo_title_nomean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正确的支付宝格式应为邮箱或手机号,登录淘宝网在设置中能找到您的支付宝。"
+            android:textColor="@color/income_time_color" />
+        
+        <TextView
+            android:id="@+id/able_to_cash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/personalinfo_title_nomean"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="15dip"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:text="可提现:"
+            android:layout_marginRight="30dip"
+            android:textColor="@color/income_entity_color" />
+        <TextView
+            android:id="@+id/jifenbaonum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/personalinfo_title_nomean"
+            android:layout_alignLeft="@+id/Jifenbao_apply_for_cash"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="15dip"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:text="0"
+            android:layout_marginRight="30dip"
+            android:textColor="@color/red" />
+        
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/jifenbaonum"
+            android:layout_alignBottom="@+id/jifenbaonum"
+            android:layout_toRightOf="@id/jifenbaonum"
+            android:text="(集分宝)"
+            android:textColor="@color/income_entity_color" />
+        <!-- 申请提现 -->
+
+        <TextView
+            android:id="@+id/pesonalinfo_mima_nomean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/able_to_cash"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="8dip"
+            android:paddingBottom="8dip"
+            android:paddingTop="8dip"
+            android:text="申请提现:"
+            android:layout_marginRight="30dip"
+            android:textColor="@color/income_entity_color" />
+        
+
+        <EditText
+            android:id="@+id/Jifenbao_apply_for_cash"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_below="@id/able_to_cash"
+            android:layout_marginTop="8dip"
+            android:layout_toRightOf="@id/pesonalinfo_mima_nomean"
+            android:background="@drawable/tixian_bg"
+            android:inputType="numberSigned"
+            android:paddingLeft="6dip"
+            android:textSize="16sp"
+            android:maxLines="1" />
+
+        <!-- qq号码 -->
+
+	 <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_alignTop="@+id/zhifubao_count"
+	            android:paddingBottom="10dip"
+	            android:paddingTop="10dip"
+	            android:text="支付宝账号:"
+	            android:textColor="@color/income_entity_color" />
+
+	 <EditText
+	     android:id="@+id/zhifubao_count"
+	     android:layout_width="fill_parent"
+	     android:layout_height="40dip"
+	     android:layout_alignParentRight="true"
+	     android:layout_below="@+id/Jifenbao_apply_for_cash"
+	     android:layout_marginTop="17dp"
+	     android:layout_toRightOf="@+id/pesonalinfo_mima_nomean"
+	     android:background="@drawable/tixian_bg"
+	     android:ems="10"
+	     android:paddingLeft="6dip"
+         android:textSize="16sp"
+	     android:inputType="text"
+	     android:maxLines="1" />
+
+        <!-- email -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/income_person_name"
+            android:layout_toLeftOf="@+id/income_person_name"
+            android:paddingBottom="10dip"
+            android:paddingTop="8dip"
+            android:text="收款人姓名:"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/income_entity_color" />
+        
+         <EditText
+            android:id="@+id/income_person_name"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_below="@id/zhifubao_count"
+            android:layout_alignLeft="@id/zhifubao_count"
+            android:background="@drawable/tixian_bg"
+            android:ems="10"
+            android:layout_marginTop="17dp"
+            android:inputType="text"
+            android:paddingLeft="6dip"
+            android:textSize="16sp"
+            android:maxLines="1" />
+        <!-- mobilphone number -->
+
+	<TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="8dp"
+	            android:layout_alignTop="@+id/personal_phone_number"
+	            android:layout_alignParentLeft="true"
+	            android:gravity="center_vertical"
+	            android:text="手机号码:"
+	            android:textColor="@color/income_entity_color" />
+      
+
+        <EditText
+            android:id="@+id/personal_phone_number"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_alignLeft="@+id/income_person_name"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="17dp"
+            android:layout_below="@+id/income_person_name"
+            android:background="@drawable/tixian_bg"
+            android:ems="10"
+            android:paddingLeft="6dip"
+            android:textSize="16sp"
+            android:inputType="phone"
+            android:maxLines="1" >
+        </EditText>
+	<TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="8dp"
+	            android:layout_alignTop="@+id/jifenbao_personal_password"
+	            android:layout_alignParentLeft="true"
+	            android:gravity="center_vertical"
+	            android:text="本站登录密码:"
+	            android:textColor="@color/income_entity_color" />
+      
+
+        <EditText
+            android:id="@+id/jifenbao_personal_password"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_alignLeft="@+id/personal_phone_number"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="17dp"
+            android:layout_below="@+id/personal_phone_number"
+            android:background="@drawable/tixian_bg"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="16sp"
+            android:maxLines="1" >
+        </EditText>
+
+        <Button 
+            android:layout_below="@id/jifenbao_personal_password"
+            android:id="@+id/submitjifenbaoApply"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dip"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:text="确定提现"
+            android:textColor="@color/black"
+            android:background="@drawable/inform_button"/>
+
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,193 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#e5e5e5" >
+
+    <include
+        android:id="@+id/home_title"
+        layout="@layout/title" />
+
+    <com.cosji.view.MyScrollView
+        android:id="@+id/home_root"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/home_title"
+        android:layout_marginTop="5dip"
+        android:fillViewport="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:scrollbars="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/home_hot"
+                android:layout_width="fill_parent"
+                android:layout_height="140dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip" >
+
+                <include layout="@layout/propageview" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/homepage_store"
+                android:layout_width="fill_parent"
+                android:layout_height="100dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dip"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:background="#ffffffff" >
+
+                <LinearLayout
+                    android:id="@+id/home_pup"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="9"
+                    android:orientation="vertical"
+                    android:background="#ffffffff"
+                    android:minHeight="60.0dip" >
+                    <ImageView 
+                        android:layout_marginLeft="18dip"
+                        android:layout_marginTop="23.5dip"
+                        android:layout_marginRight="10dip"
+                        android:layout_width="75dip"
+                        android:layout_height="50dip"
+                        android:scaleType="fitXY"
+                        android:background="@drawable/jiaocheng"/>
+                    
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="27dp"
+                        android:gravity="center_horizontal"
+                        android:textColor="#000000"
+                        android:typeface="normal"
+                        android:text="@string/home_page_jiaocheng"/>
+                </LinearLayout>
+                
+                <ImageView 
+                    android:layout_marginTop="5dip"
+                    android:layout_marginBottom="5dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/yishu1"/>
+
+             <LinearLayout
+                    android:id="@+id/home_pup1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="9"
+                    android:orientation="vertical"
+                    android:background="#ffffffff"
+                    android:minHeight="60.0dip" >
+                    <ImageView 
+                        android:layout_marginLeft="6dip"
+                        android:layout_marginTop="6dip"
+                        android:layout_marginRight="6dip"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="3"
+                        android:background="@drawable/tianmao"/>
+                    
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="27dp"
+                        android:gravity="center_horizontal"
+                        android:textColor="#000000"
+                        android:text="@string/home_page_tianmao" />
+
+                </LinearLayout>
+                
+                <ImageView 
+                    android:layout_marginTop="5dip"
+                    android:layout_marginBottom="5dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/yishu1"/>
+                
+                <LinearLayout
+                    android:id="@+id/home_pup2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="9"
+                    android:orientation="vertical"
+                    android:background="#ffffffff"
+                    android:minHeight="60.0dip" >
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dip"
+                        android:layout_marginLeft="6dip"
+                        android:layout_marginRight="6dip"
+                        android:layout_marginTop="6dip"
+                        android:layout_weight="3"
+                        android:background="@drawable/juhuasuan" />
+                    
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="27dp"
+                        android:gravity="center_horizontal"
+                        android:textColor="#000000"
+                        android:text="@string/home_page_juhuasuan" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <View 
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_width="fill_parent"
+                android:background="#c4c4c4"
+                android:layout_height="0.4dip"/>
+
+            
+            <!--  android:background="#c4c4c4" -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:layout_marginTop="5dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:orientation="vertical" >
+                <!-- 
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dip"
+                    android:layout_marginTop="5dip" >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="5dip"
+                        android:gravity="center"
+                        android:text="@string/home_mallmoretitle"
+                        android:textColor="#bf000000"
+                        android:textSize="16dip" />
+                </RelativeLayout> -->
+                <LinearLayout
+                    android:id="@+id/home_mall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                    <com.cosji.view.MyGridView
+                        android:id="@+id/home_hot_mall"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:numColumns="3" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.cosji.view.MyScrollView>
+
+</RelativeLayout>

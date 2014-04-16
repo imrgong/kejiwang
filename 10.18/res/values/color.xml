@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="lucensy">#00000001</color>
+    <color name="translucency">#e0000000</color>
+    <color name="orange">#ffa500</color>
+    <color name="blue">#836FFF</color>
+    <color name="black">#000000</color>
+    <!-- <color name="red">#bf242a</color> -->
+    <color name="transparent">#00000000</color>
+    <color name="light_orange">#fcb75c</color>
+    <color name="alpha_00">#00000000</color>
+    <color name="gray">#DBDBDB</color>
+    <color name="trans">#50000000</color>
+    <color name="red">#fe0202</color>
+    <color name="background">#e5e5e5</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="text_gray">#4F4F4F</color>
+    <color name="green">#00FF00</color>
+    <color name="grey21">#363636</color>
+    <color name="gold">#FCFA00</color>
+<color name="tab_text">#7D746F</color>
+<color name="label_pressed">#fffff7d9</color>
+<color name="label_pressed1">#5ffff7d9</color>
+<color name="home_bg_color">#f5f5f5</color>
+  <color name="alpha_pressed">#1affffff</color>
+  <color name="yello">#ffEAD615</color>
+  <color name="grey">#7fffffff</color>
+  <color name="white_gery">#E3E3E3</color>
+ 
+ <!-- @!auther zhaohai -->
+ <color name ="title_diliverleft">#b9191b</color>
+ <color name ="title_diliverright">#f05d5f</color>
+ <color name ="pressed_title">#751213</color>
+ 
+  
+  
+  <!-- @auther ty -->
+      <color name="help_grey">#BDBDBD</color>
+	   <color name="fourtyper_white">#66ffffff</color>
+	  <color name="twentyper_white">#33ffffff</color>
+	  <color name="twentyper_black">#33000000</color>
+	  <color name="fourtyper_black">#66000000</color>
+	  <color name="orange_secend">#FFB423</color>
+     <color name="hyaline">#00000000</color>
+     <color name="pink_grey">#E9E0DB</color>
+     <color name="remenberUser">#E33D3D</color>
+     <color name="rebate_tabhost">#BABABA</color>
+     <color name="taobao_rebate_back">#E5E5E5</color>
+     <color name="income_item_back">#F7F7F7</color>
+     <color name="income_time_color">#999999</color>
+     <color name="income_entity_color">#333333</color>
+     <color name ="message_page_buttom">#463B37</color>
+      <drawable name="file_list_item_press">#ff5b544d</drawable>
+    <drawable name="file_list_item_normal">#ff787470</drawable>
+  <color name="autocompletview_drop">#8fB2D6EA</color>
+</resources>

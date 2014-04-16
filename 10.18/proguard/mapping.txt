@@ -1,0 +1,3635 @@
+aa -> a:
+    com.baidu.cloudsdk.social.share.ShareContent a(android.os.Parcel) -> a
+    com.baidu.cloudsdk.social.share.ShareContent[] a(int) -> a
+    java.lang.Object[] newArray(int) -> newArray
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+android.support.v4.app.ActivityCompatHoneycomb -> android.support.v4.app.a:
+    void invalidateOptionsMenu(android.app.Activity) -> a
+android.support.v4.app.BackStackRecord -> android.support.v4.app.b:
+    android.support.v4.app.FragmentManagerImpl mManager -> a
+    android.support.v4.app.BackStackRecord$Op mHead -> b
+    android.support.v4.app.BackStackRecord$Op mTail -> c
+    int mNumOp -> d
+    int mEnterAnim -> e
+    int mExitAnim -> f
+    int mPopEnterAnim -> g
+    int mPopExitAnim -> h
+    int mTransition -> i
+    int mTransitionStyle -> j
+    boolean mAddToBackStack -> k
+    boolean mAllowAddToBackStack -> l
+    java.lang.String mName -> m
+    boolean mCommitted -> n
+    int mIndex -> o
+    int mBreadCrumbTitleRes -> p
+    java.lang.CharSequence mBreadCrumbTitleText -> q
+    int mBreadCrumbShortTitleRes -> r
+    java.lang.CharSequence mBreadCrumbShortTitleText -> s
+    void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[]) -> a
+    void addOp(android.support.v4.app.BackStackRecord$Op) -> a
+    void bumpBackStackNesting(int) -> a
+    void run() -> run
+    void popFromBackStack(boolean) -> a
+    java.lang.String getName() -> a
+android.support.v4.app.BackStackRecord$Op -> android.support.v4.app.c:
+    android.support.v4.app.BackStackRecord$Op next -> a
+    android.support.v4.app.BackStackRecord$Op prev -> b
+    int cmd -> c
+    android.support.v4.app.Fragment fragment -> d
+    int enterAnim -> e
+    int exitAnim -> f
+    int popEnterAnim -> g
+    int popExitAnim -> h
+    java.util.ArrayList removed -> i
+android.support.v4.app.BackStackState -> android.support.v4.app.BackStackState:
+    int[] mOps -> a
+    int mTransition -> b
+    int mTransitionStyle -> c
+    java.lang.String mName -> d
+    int mIndex -> e
+    int mBreadCrumbTitleRes -> f
+    java.lang.CharSequence mBreadCrumbTitleText -> g
+    int mBreadCrumbShortTitleRes -> h
+    java.lang.CharSequence mBreadCrumbShortTitleText -> i
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    android.support.v4.app.BackStackRecord instantiate(android.support.v4.app.FragmentManagerImpl) -> a
+    int describeContents() -> describeContents
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+android.support.v4.app.BackStackState$1 -> android.support.v4.app.d:
+    android.support.v4.app.BackStackState createFromParcel(android.os.Parcel) -> a
+    android.support.v4.app.BackStackState[] newArray(int) -> a
+    java.lang.Object[] newArray(int) -> newArray
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+android.support.v4.app.Fragment -> android.support.v4.app.Fragment:
+    java.util.HashMap sClassMap -> N
+    int mState -> a
+    android.view.View mAnimatingAway -> b
+    int mStateAfterAnimating -> c
+    android.os.Bundle mSavedFragmentState -> d
+    android.util.SparseArray mSavedViewState -> e
+    int mIndex -> f
+    java.lang.String mWho -> g
+    android.os.Bundle mArguments -> h
+    android.support.v4.app.Fragment mTarget -> i
+    int mTargetIndex -> j
+    int mTargetRequestCode -> k
+    boolean mAdded -> l
+    boolean mRemoving -> m
+    boolean mResumed -> n
+    boolean mFromLayout -> o
+    boolean mInLayout -> p
+    boolean mRestored -> q
+    int mBackStackNesting -> r
+    android.support.v4.app.FragmentManagerImpl mFragmentManager -> s
+    android.support.v4.app.FragmentActivity mActivity -> t
+    int mFragmentId -> u
+    int mContainerId -> v
+    java.lang.String mTag -> w
+    boolean mHidden -> x
+    boolean mDetached -> y
+    boolean mRetainInstance -> z
+    boolean mRetaining -> A
+    boolean mHasMenu -> B
+    boolean mMenuVisible -> C
+    boolean mCalled -> D
+    int mNextAnim -> E
+    android.view.ViewGroup mContainer -> F
+    android.view.View mView -> G
+    android.view.View mInnerView -> H
+    boolean mDeferStart -> I
+    boolean mUserVisibleHint -> J
+    android.support.v4.app.LoaderManagerImpl mLoaderManager -> K
+    boolean mLoadersStarted -> L
+    boolean mCheckedForLoaderManager -> M
+    android.support.v4.app.Fragment instantiate(android.content.Context,java.lang.String) -> a
+    android.support.v4.app.Fragment instantiate(android.content.Context,java.lang.String,android.os.Bundle) -> a
+    void restoreViewState() -> a
+    void setIndex(int) -> a
+    boolean isInBackStack() -> b
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+    android.support.v4.app.FragmentActivity getActivity() -> c
+    void onHiddenChanged(boolean) -> a
+    void onActivityResult(int,int,android.content.Intent) -> a
+    android.view.LayoutInflater getLayoutInflater(android.os.Bundle) -> a
+    void onInflate(android.app.Activity,android.util.AttributeSet,android.os.Bundle) -> a
+    void onAttach(android.app.Activity) -> a
+    android.view.animation.Animation onCreateAnimation(int,boolean,int) -> a
+    void onCreate(android.os.Bundle) -> b
+    android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> a
+    void onViewCreated(android.view.View,android.os.Bundle) -> a
+    void onActivityCreated(android.os.Bundle) -> c
+    void onStart() -> d
+    void onResume() -> e
+    void onSaveInstanceState(android.os.Bundle) -> d
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    void onPause() -> f
+    void onStop() -> g
+    void onLowMemory() -> onLowMemory
+    void onDestroyView() -> h
+    void onDestroy() -> i
+    void initState() -> j
+    void onDetach() -> k
+    void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater) -> a
+    void onPrepareOptionsMenu(android.view.Menu) -> a
+    void onDestroyOptionsMenu() -> l
+    boolean onOptionsItemSelected(android.view.MenuItem) -> a
+    void onOptionsMenuClosed(android.view.Menu) -> b
+    void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo) -> onCreateContextMenu
+    boolean onContextItemSelected(android.view.MenuItem) -> b
+    void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[]) -> a
+    void performStart() -> m
+    void performStop() -> n
+    void performReallyStop() -> o
+    void performDestroyView() -> p
+android.support.v4.app.Fragment$InstantiationException -> android.support.v4.app.e:
+android.support.v4.app.Fragment$SavedState -> android.support.v4.app.Fragment$SavedState:
+    android.os.Bundle mState -> a
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    int describeContents() -> describeContents
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+android.support.v4.app.Fragment$SavedState$1 -> android.support.v4.app.f:
+    android.support.v4.app.Fragment$SavedState createFromParcel(android.os.Parcel) -> a
+    android.support.v4.app.Fragment$SavedState[] newArray(int) -> a
+    java.lang.Object[] newArray(int) -> newArray
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+android.support.v4.app.FragmentActivity -> android.support.v4.app.g:
+    android.os.Handler mHandler -> a
+    android.support.v4.app.FragmentManagerImpl mFragments -> b
+    boolean mCreated -> c
+    boolean mResumed -> d
+    boolean mStopped -> e
+    boolean mReallyStopped -> f
+    boolean mRetaining -> g
+    boolean mOptionsMenuInvalidated -> h
+    boolean mCheckedForLoaderManager -> i
+    boolean mLoadersStarted -> j
+    android.support.v4.util.SparseArrayCompat mAllLoaderManagers -> k
+    android.support.v4.app.LoaderManagerImpl mLoaderManager -> l
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void onBackPressed() -> onBackPressed
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreatePanelMenu(int,android.view.Menu) -> onCreatePanelMenu
+    android.view.View onCreateView(java.lang.String,android.content.Context,android.util.AttributeSet) -> onCreateView
+    void onDestroy() -> onDestroy
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void onLowMemory() -> onLowMemory
+    boolean onMenuItemSelected(int,android.view.MenuItem) -> onMenuItemSelected
+    void onPanelClosed(int,android.view.Menu) -> onPanelClosed
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void onPostResume() -> onPostResume
+    void onResumeFragments() -> a
+    boolean onPreparePanel(int,android.view.View,android.view.Menu) -> onPreparePanel
+    java.lang.Object onRetainNonConfigurationInstance() -> onRetainNonConfigurationInstance
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    void onStart() -> onStart
+    void onStop() -> onStop
+    java.lang.Object onRetainCustomNonConfigurationInstance() -> b
+    void supportInvalidateOptionsMenu() -> c
+    void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[]) -> dump
+    void doReallyStop(boolean) -> a
+    void onReallyStop() -> d
+    void onAttachFragment(android.support.v4.app.Fragment) -> a
+    void startActivityForResult(android.content.Intent,int) -> startActivityForResult
+    void invalidateSupportFragmentIndex(int) -> a
+    android.support.v4.app.LoaderManagerImpl getLoaderManager(int,boolean,boolean) -> a
+android.support.v4.app.FragmentActivity$FragmentTag -> android.support.v4.app.h:
+    int[] Fragment -> a
+android.support.v4.app.FragmentActivity$NonConfigurationInstances -> android.support.v4.app.i:
+    java.lang.Object activity -> a
+    java.lang.Object custom -> b
+    java.util.HashMap children -> c
+    java.util.ArrayList fragments -> d
+    android.support.v4.util.SparseArrayCompat loaders -> e
+android.support.v4.app.FragmentManager -> android.support.v4.app.j:
+android.support.v4.app.FragmentManager$OnBackStackChangedListener -> android.support.v4.app.k:
+    void onBackStackChanged() -> a
+android.support.v4.app.FragmentManagerImpl -> android.support.v4.app.l:
+    boolean DEBUG -> a
+    boolean HONEYCOMB -> b
+    java.util.ArrayList mPendingActions -> c
+    java.lang.Runnable[] mTmpActions -> d
+    boolean mExecutingActions -> e
+    java.util.ArrayList mActive -> f
+    java.util.ArrayList mAdded -> g
+    java.util.ArrayList mAvailIndices -> h
+    java.util.ArrayList mBackStack -> i
+    java.util.ArrayList mCreatedMenus -> j
+    java.util.ArrayList mBackStackIndices -> k
+    java.util.ArrayList mAvailBackStackIndices -> l
+    java.util.ArrayList mBackStackChangeListeners -> m
+    int mCurState -> n
+    android.support.v4.app.FragmentActivity mActivity -> o
+    boolean mNeedMenuInvalidate -> p
+    boolean mStateSaved -> q
+    boolean mDestroyed -> r
+    java.lang.String mNoTransactionsBecause -> s
+    boolean mHavePendingDeferredStart -> t
+    android.os.Bundle mStateBundle -> u
+    android.util.SparseArray mStateArray -> v
+    java.lang.Runnable mExecCommit -> w
+    android.view.animation.Interpolator DECELERATE_QUINT -> x
+    android.view.animation.Interpolator DECELERATE_CUBIC -> y
+    android.view.animation.Interpolator ACCELERATE_QUINT -> z
+    android.view.animation.Interpolator ACCELERATE_CUBIC -> A
+    boolean executePendingTransactions() -> a
+    boolean popBackStackImmediate() -> b
+    void putFragment(android.os.Bundle,java.lang.String,android.support.v4.app.Fragment) -> a
+    android.support.v4.app.Fragment getFragment(android.os.Bundle,java.lang.String) -> a
+    java.lang.String toString() -> toString
+    void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[]) -> a
+    android.view.animation.Animation makeOpenCloseAnimation(android.content.Context,float,float,float,float) -> a
+    android.view.animation.Animation makeFadeAnimation(android.content.Context,float,float) -> a
+    android.view.animation.Animation loadAnimation(android.support.v4.app.Fragment,int,boolean,int) -> a
+    void performPendingDeferredStart(android.support.v4.app.Fragment) -> a
+    void moveToState(android.support.v4.app.Fragment,int,int,int,boolean) -> a
+    void moveToState(android.support.v4.app.Fragment) -> b
+    void moveToState(int,boolean) -> a
+    void moveToState(int,int,int,boolean) -> a
+    void startPendingDeferredFragments() -> c
+    void makeActive(android.support.v4.app.Fragment) -> c
+    void makeInactive(android.support.v4.app.Fragment) -> d
+    void addFragment(android.support.v4.app.Fragment,boolean) -> a
+    void removeFragment(android.support.v4.app.Fragment,int,int) -> a
+    void hideFragment(android.support.v4.app.Fragment,int,int) -> b
+    void showFragment(android.support.v4.app.Fragment,int,int) -> c
+    void detachFragment(android.support.v4.app.Fragment,int,int) -> d
+    void attachFragment(android.support.v4.app.Fragment,int,int) -> e
+    android.support.v4.app.Fragment findFragmentById(int) -> a
+    android.support.v4.app.Fragment findFragmentByTag(java.lang.String) -> a
+    void checkStateLoss() -> r
+    void setBackStackIndex(int,android.support.v4.app.BackStackRecord) -> a
+    void freeBackStackIndex(int) -> b
+    boolean execPendingActions() -> d
+    void reportBackStackChanged() -> e
+    void addBackStackState(android.support.v4.app.BackStackRecord) -> a
+    boolean popBackStackState(android.os.Handler,java.lang.String,int,int) -> a
+    java.util.ArrayList retainNonConfig() -> f
+    void saveFragmentViewState(android.support.v4.app.Fragment) -> e
+    android.os.Bundle saveFragmentBasicState(android.support.v4.app.Fragment) -> f
+    android.os.Parcelable saveAllState() -> g
+    void restoreAllState(android.os.Parcelable,java.util.ArrayList) -> a
+    void attachActivity(android.support.v4.app.FragmentActivity) -> a
+    void noteStateNotSaved() -> h
+    void dispatchCreate() -> i
+    void dispatchActivityCreated() -> j
+    void dispatchStart() -> k
+    void dispatchResume() -> l
+    void dispatchPause() -> m
+    void dispatchStop() -> n
+    void dispatchReallyStop() -> o
+    void dispatchDestroy() -> p
+    void dispatchConfigurationChanged(android.content.res.Configuration) -> a
+    void dispatchLowMemory() -> q
+    boolean dispatchCreateOptionsMenu(android.view.Menu,android.view.MenuInflater) -> a
+    boolean dispatchPrepareOptionsMenu(android.view.Menu) -> a
+    boolean dispatchOptionsItemSelected(android.view.MenuItem) -> a
+    boolean dispatchContextItemSelected(android.view.MenuItem) -> b
+    void dispatchOptionsMenuClosed(android.view.Menu) -> b
+    int reverseTransit(int) -> c
+    int transitToStyleIndex(int,boolean) -> b
+android.support.v4.app.FragmentManagerImpl$5 -> android.support.v4.app.m:
+    android.support.v4.app.Fragment val$fragment -> a
+    android.support.v4.app.FragmentManagerImpl this$0 -> b
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+android.support.v4.app.FragmentManagerState -> android.support.v4.app.FragmentManagerState:
+    android.support.v4.app.FragmentState[] mActive -> a
+    int[] mAdded -> b
+    android.support.v4.app.BackStackState[] mBackStack -> c
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    int describeContents() -> describeContents
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+android.support.v4.app.FragmentManagerState$1 -> android.support.v4.app.n:
+    android.support.v4.app.FragmentManagerState createFromParcel(android.os.Parcel) -> a
+    android.support.v4.app.FragmentManagerState[] newArray(int) -> a
+    java.lang.Object[] newArray(int) -> newArray
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+android.support.v4.app.FragmentState -> android.support.v4.app.FragmentState:
+    java.lang.String mClassName -> a
+    int mIndex -> b
+    boolean mFromLayout -> c
+    int mFragmentId -> d
+    int mContainerId -> e
+    java.lang.String mTag -> f
+    boolean mRetainInstance -> g
+    boolean mDetached -> h
+    android.os.Bundle mArguments -> i
+    android.os.Bundle mSavedFragmentState -> j
+    android.support.v4.app.Fragment mInstance -> k
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    android.support.v4.app.Fragment instantiate(android.support.v4.app.FragmentActivity) -> a
+    int describeContents() -> describeContents
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+android.support.v4.app.FragmentState$1 -> android.support.v4.app.o:
+    android.support.v4.app.FragmentState createFromParcel(android.os.Parcel) -> a
+    android.support.v4.app.FragmentState[] newArray(int) -> a
+    java.lang.Object[] newArray(int) -> newArray
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+android.support.v4.app.FragmentTransaction -> android.support.v4.app.p:
+android.support.v4.app.LoaderManager -> android.support.v4.app.q:
+    boolean hasRunningLoaders() -> a
+android.support.v4.app.LoaderManager$LoaderCallbacks -> android.support.v4.app.r:
+    android.support.v4.content.Loader onCreateLoader(int,android.os.Bundle) -> a
+    void onLoadFinished(android.support.v4.content.Loader,java.lang.Object) -> a
+    void onLoaderReset(android.support.v4.content.Loader) -> a
+android.support.v4.app.LoaderManagerImpl -> android.support.v4.app.s:
+    boolean DEBUG -> a
+    android.support.v4.util.SparseArrayCompat mLoaders -> b
+    android.support.v4.util.SparseArrayCompat mInactiveLoaders -> c
+    android.support.v4.app.FragmentActivity mActivity -> d
+    boolean mStarted -> e
+    boolean mRetaining -> f
+    void updateActivity(android.support.v4.app.FragmentActivity) -> a
+    void doStart() -> b
+    void doStop() -> c
+    void doRetain() -> d
+    void finishRetain() -> e
+    void doReportNextStart() -> f
+    void doReportStart() -> g
+    void doDestroy() -> h
+    java.lang.String toString() -> toString
+    void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[]) -> a
+    boolean hasRunningLoaders() -> a
+android.support.v4.app.LoaderManagerImpl$LoaderInfo -> android.support.v4.app.t:
+    int mId -> a
+    android.os.Bundle mArgs -> b
+    android.support.v4.app.LoaderManager$LoaderCallbacks mCallbacks -> c
+    android.support.v4.content.Loader mLoader -> d
+    boolean mHaveData -> e
+    boolean mDeliveredData -> f
+    java.lang.Object mData -> g
+    boolean mStarted -> h
+    boolean mRetaining -> i
+    boolean mRetainingStarted -> j
+    boolean mReportNextStart -> k
+    boolean mDestroyed -> l
+    boolean mListenerRegistered -> m
+    android.support.v4.app.LoaderManagerImpl$LoaderInfo mPendingLoader -> n
+    android.support.v4.app.LoaderManagerImpl this$0 -> o
+    void start() -> a
+    void retain() -> b
+    void finishRetain() -> c
+    void reportStart() -> d
+    void stop() -> e
+    void destroy() -> f
+    void callOnLoadFinished(android.support.v4.content.Loader,java.lang.Object) -> a
+    java.lang.String toString() -> toString
+    void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[]) -> a
+android.support.v4.app.NoSaveStateFrameLayout -> android.support.v4.app.u:
+    android.view.ViewGroup wrap(android.view.View) -> a
+    void dispatchSaveInstanceState(android.util.SparseArray) -> dispatchSaveInstanceState
+    void dispatchRestoreInstanceState(android.util.SparseArray) -> dispatchRestoreInstanceState
+android.support.v4.app.SuperNotCalledException -> android.support.v4.app.v:
+android.support.v4.content.Loader -> android.support.v4.a.a:
+    int mId -> a
+    android.support.v4.content.Loader$OnLoadCompleteListener mListener -> b
+    boolean mStarted -> c
+    boolean mAbandoned -> d
+    boolean mReset -> e
+    boolean mContentChanged -> f
+    void registerListener(int,android.support.v4.content.Loader$OnLoadCompleteListener) -> a
+    void unregisterListener(android.support.v4.content.Loader$OnLoadCompleteListener) -> a
+    void startLoading() -> a
+    void onStartLoading() -> b
+    void stopLoading() -> c
+    void onStopLoading() -> d
+    void reset() -> e
+    void onReset() -> f
+    java.lang.String dataToString(java.lang.Object) -> a
+    java.lang.String toString() -> toString
+    void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[]) -> a
+android.support.v4.content.Loader$OnLoadCompleteListener -> android.support.v4.a.b:
+android.support.v4.os.ParcelableCompat -> android.support.v4.b.a:
+    android.os.Parcelable$Creator newCreator(android.support.v4.os.ParcelableCompatCreatorCallbacks) -> a
+android.support.v4.os.ParcelableCompat$CompatCreator -> android.support.v4.b.b:
+    android.support.v4.os.ParcelableCompatCreatorCallbacks mCallbacks -> a
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+android.support.v4.os.ParcelableCompatCreatorCallbacks -> android.support.v4.b.c:
+    java.lang.Object createFromParcel(android.os.Parcel,java.lang.ClassLoader) -> a
+    java.lang.Object[] newArray(int) -> a
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2 -> android.support.v4.b.d:
+    android.support.v4.os.ParcelableCompatCreatorCallbacks mCallbacks -> a
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object createFromParcel(android.os.Parcel,java.lang.ClassLoader) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2Stub -> android.support.v4.b.e:
+    android.os.Parcelable$Creator instantiate(android.support.v4.os.ParcelableCompatCreatorCallbacks) -> a
+android.support.v4.util.DebugUtils -> android.support.v4.c.a:
+    void buildShortClassTag(java.lang.Object,java.lang.StringBuilder) -> a
+android.support.v4.util.LogWriter -> android.support.v4.c.b:
+    java.lang.String mTag -> a
+    java.lang.StringBuilder mBuilder -> b
+    void close() -> close
+    void flush() -> flush
+    void write(char[],int,int) -> write
+    void flushBuilder() -> a
+android.support.v4.util.SparseArrayCompat -> android.support.v4.c.c:
+    java.lang.Object DELETED -> a
+    boolean mGarbage -> b
+    int[] mKeys -> c
+    java.lang.Object[] mValues -> d
+    int mSize -> e
+    java.lang.Object get(int) -> a
+    java.lang.Object get(int,java.lang.Object) -> a
+    void delete(int) -> b
+    void remove(int) -> c
+    void removeAt(int) -> d
+    void gc() -> c
+    void put(int,java.lang.Object) -> b
+    int size() -> a
+    int keyAt(int) -> e
+    java.lang.Object valueAt(int) -> f
+    void clear() -> b
+    int binarySearch(int[],int,int,int) -> a
+    int idealByteArraySize(int) -> g
+    int idealIntArraySize(int) -> h
+android.support.v4.view.AccessibilityDelegateCompat -> android.support.v4.view.a:
+    android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateImpl IMPL -> b
+    java.lang.Object DEFAULT_DELEGATE -> c
+    java.lang.Object mBridge -> a
+    java.lang.Object getBridge() -> a
+    void sendAccessibilityEvent(android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+    void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat) -> a
+    boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(android.view.View) -> a
+    boolean performAccessibilityAction(android.view.View,int,android.os.Bundle) -> a
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateIcsImpl -> android.support.v4.view.b:
+    java.lang.Object newAccessiblityDelegateDefaultImpl() -> a
+    java.lang.Object newAccessiblityDelegateBridge(android.support.v4.view.AccessibilityDelegateCompat) -> a
+    boolean dispatchPopulateAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void onInitializeAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onInitializeAccessibilityNodeInfo(java.lang.Object,android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat) -> a
+    void onPopulateAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    boolean onRequestSendAccessibilityEvent(java.lang.Object,android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEvent(java.lang.Object,android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateIcsImpl$1 -> android.support.v4.view.c:
+    android.support.v4.view.AccessibilityDelegateCompat val$compat -> a
+    android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateIcsImpl this$0 -> b
+    boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onInitializeAccessibilityNodeInfo(android.view.View,java.lang.Object) -> a
+    void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEvent(android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateImpl -> android.support.v4.view.d:
+    java.lang.Object newAccessiblityDelegateDefaultImpl() -> a
+    java.lang.Object newAccessiblityDelegateBridge(android.support.v4.view.AccessibilityDelegateCompat) -> a
+    boolean dispatchPopulateAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void onInitializeAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onInitializeAccessibilityNodeInfo(java.lang.Object,android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat) -> a
+    void onPopulateAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    boolean onRequestSendAccessibilityEvent(java.lang.Object,android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEvent(java.lang.Object,android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(java.lang.Object,android.view.View) -> a
+    boolean performAccessibilityAction(java.lang.Object,android.view.View,int,android.os.Bundle) -> a
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl -> android.support.v4.view.e:
+    java.lang.Object newAccessiblityDelegateBridge(android.support.v4.view.AccessibilityDelegateCompat) -> a
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(java.lang.Object,android.view.View) -> a
+    boolean performAccessibilityAction(java.lang.Object,android.view.View,int,android.os.Bundle) -> a
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl$1 -> android.support.v4.view.f:
+    android.support.v4.view.AccessibilityDelegateCompat val$compat -> a
+    android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl this$0 -> b
+    boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onInitializeAccessibilityNodeInfo(android.view.View,java.lang.Object) -> a
+    void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEvent(android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+    java.lang.Object getAccessibilityNodeProvider(android.view.View) -> a
+    boolean performAccessibilityAction(android.view.View,int,android.os.Bundle) -> a
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateStubImpl -> android.support.v4.view.g:
+    java.lang.Object newAccessiblityDelegateDefaultImpl() -> a
+    java.lang.Object newAccessiblityDelegateBridge(android.support.v4.view.AccessibilityDelegateCompat) -> a
+    boolean dispatchPopulateAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void onInitializeAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onInitializeAccessibilityNodeInfo(java.lang.Object,android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat) -> a
+    void onPopulateAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    boolean onRequestSendAccessibilityEvent(java.lang.Object,android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEvent(java.lang.Object,android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(java.lang.Object,android.view.View) -> a
+    boolean performAccessibilityAction(java.lang.Object,android.view.View,int,android.os.Bundle) -> a
+android.support.v4.view.AccessibilityDelegateCompatIcs -> android.support.v4.view.h:
+    java.lang.Object newAccessibilityDelegateDefaultImpl() -> a
+    java.lang.Object newAccessibilityDelegateBridge(android.support.v4.view.AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge) -> a
+    boolean dispatchPopulateAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void onInitializeAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onInitializeAccessibilityNodeInfo(java.lang.Object,android.view.View,java.lang.Object) -> a
+    void onPopulateAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    boolean onRequestSendAccessibilityEvent(java.lang.Object,android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEvent(java.lang.Object,android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+android.support.v4.view.AccessibilityDelegateCompatIcs$1 -> android.support.v4.view.i:
+    android.support.v4.view.AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge val$bridge -> a
+    boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> dispatchPopulateAccessibilityEvent
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> onInitializeAccessibilityEvent
+    void onInitializeAccessibilityNodeInfo(android.view.View,android.view.accessibility.AccessibilityNodeInfo) -> onInitializeAccessibilityNodeInfo
+    void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> onPopulateAccessibilityEvent
+    boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> onRequestSendAccessibilityEvent
+    void sendAccessibilityEvent(android.view.View,int) -> sendAccessibilityEvent
+    void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent) -> sendAccessibilityEventUnchecked
+android.support.v4.view.AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge -> android.support.v4.view.j:
+    boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onInitializeAccessibilityNodeInfo(android.view.View,java.lang.Object) -> a
+    void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEvent(android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+android.support.v4.view.AccessibilityDelegateCompatJellyBean -> android.support.v4.view.k:
+    java.lang.Object newAccessibilityDelegateBridge(android.support.v4.view.AccessibilityDelegateCompatJellyBean$AccessibilityDelegateBridgeJellyBean) -> a
+    java.lang.Object getAccessibilityNodeProvider(java.lang.Object,android.view.View) -> a
+    boolean performAccessibilityAction(java.lang.Object,android.view.View,int,android.os.Bundle) -> a
+android.support.v4.view.AccessibilityDelegateCompatJellyBean$1 -> android.support.v4.view.l:
+    android.support.v4.view.AccessibilityDelegateCompatJellyBean$AccessibilityDelegateBridgeJellyBean val$bridge -> a
+    boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> dispatchPopulateAccessibilityEvent
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> onInitializeAccessibilityEvent
+    void onInitializeAccessibilityNodeInfo(android.view.View,android.view.accessibility.AccessibilityNodeInfo) -> onInitializeAccessibilityNodeInfo
+    void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> onPopulateAccessibilityEvent
+    boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> onRequestSendAccessibilityEvent
+    void sendAccessibilityEvent(android.view.View,int) -> sendAccessibilityEvent
+    void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent) -> sendAccessibilityEventUnchecked
+    android.view.accessibility.AccessibilityNodeProvider getAccessibilityNodeProvider(android.view.View) -> getAccessibilityNodeProvider
+    boolean performAccessibilityAction(android.view.View,int,android.os.Bundle) -> performAccessibilityAction
+android.support.v4.view.AccessibilityDelegateCompatJellyBean$AccessibilityDelegateBridgeJellyBean -> android.support.v4.view.m:
+    boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onInitializeAccessibilityNodeInfo(android.view.View,java.lang.Object) -> a
+    void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEvent(android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+    java.lang.Object getAccessibilityNodeProvider(android.view.View) -> a
+    boolean performAccessibilityAction(android.view.View,int,android.os.Bundle) -> a
+android.support.v4.view.KeyEventCompat -> android.support.v4.view.n:
+    android.support.v4.view.KeyEventCompat$KeyEventVersionImpl IMPL -> a
+    boolean hasModifiers(android.view.KeyEvent,int) -> a
+    boolean hasNoModifiers(android.view.KeyEvent) -> a
+android.support.v4.view.KeyEventCompat$BaseKeyEventVersionImpl -> android.support.v4.view.o:
+    int metaStateFilterDirectionalModifiers(int,int,int,int,int) -> a
+    int normalizeMetaState(int) -> a
+    boolean metaStateHasModifiers(int,int) -> a
+    boolean metaStateHasNoModifiers(int) -> b
+android.support.v4.view.KeyEventCompat$HoneycombKeyEventVersionImpl -> android.support.v4.view.p:
+    boolean metaStateHasModifiers(int,int) -> a
+    boolean metaStateHasNoModifiers(int) -> b
+android.support.v4.view.KeyEventCompat$KeyEventVersionImpl -> android.support.v4.view.q:
+    boolean metaStateHasModifiers(int,int) -> a
+    boolean metaStateHasNoModifiers(int) -> b
+android.support.v4.view.KeyEventCompatHoneycomb -> android.support.v4.view.r:
+    boolean metaStateHasModifiers(int,int) -> a
+    boolean metaStateHasNoModifiers(int) -> a
+android.support.v4.view.MotionEventCompat -> android.support.v4.view.s:
+    android.support.v4.view.MotionEventCompat$MotionEventVersionImpl IMPL -> a
+    int getActionIndex(android.view.MotionEvent) -> a
+    int findPointerIndex(android.view.MotionEvent,int) -> a
+    int getPointerId(android.view.MotionEvent,int) -> b
+    float getX(android.view.MotionEvent,int) -> c
+    float getY(android.view.MotionEvent,int) -> d
+android.support.v4.view.MotionEventCompat$BaseMotionEventVersionImpl -> android.support.v4.view.t:
+    int findPointerIndex(android.view.MotionEvent,int) -> a
+    int getPointerId(android.view.MotionEvent,int) -> b
+    float getX(android.view.MotionEvent,int) -> c
+    float getY(android.view.MotionEvent,int) -> d
+android.support.v4.view.MotionEventCompat$EclairMotionEventVersionImpl -> android.support.v4.view.u:
+    int findPointerIndex(android.view.MotionEvent,int) -> a
+    int getPointerId(android.view.MotionEvent,int) -> b
+    float getX(android.view.MotionEvent,int) -> c
+    float getY(android.view.MotionEvent,int) -> d
+android.support.v4.view.MotionEventCompat$MotionEventVersionImpl -> android.support.v4.view.v:
+    int findPointerIndex(android.view.MotionEvent,int) -> a
+    int getPointerId(android.view.MotionEvent,int) -> b
+    float getX(android.view.MotionEvent,int) -> c
+    float getY(android.view.MotionEvent,int) -> d
+android.support.v4.view.MotionEventCompatEclair -> android.support.v4.view.w:
+    int findPointerIndex(android.view.MotionEvent,int) -> a
+    int getPointerId(android.view.MotionEvent,int) -> b
+    float getX(android.view.MotionEvent,int) -> c
+    float getY(android.view.MotionEvent,int) -> d
+android.support.v4.view.PagerAdapter -> android.support.v4.view.x:
+    android.database.DataSetObservable mObservable -> a
+    int getCount() -> a
+    void startUpdate(android.view.ViewGroup) -> a
+    java.lang.Object instantiateItem(android.view.ViewGroup,int) -> a
+    void destroyItem(android.view.ViewGroup,int,java.lang.Object) -> a
+    void setPrimaryItem(android.view.ViewGroup,int,java.lang.Object) -> b
+    void finishUpdate(android.view.ViewGroup) -> b
+    void startUpdate(android.view.View) -> a
+    java.lang.Object instantiateItem(android.view.View,int) -> a
+    void destroyItem(android.view.View,int,java.lang.Object) -> a
+    void setPrimaryItem(android.view.View,int,java.lang.Object) -> b
+    void finishUpdate(android.view.View) -> b
+    boolean isViewFromObject(android.view.View,java.lang.Object) -> a
+    android.os.Parcelable saveState() -> b
+    void restoreState(android.os.Parcelable,java.lang.ClassLoader) -> a
+    int getItemPosition(java.lang.Object) -> a
+    void registerDataSetObserver(android.database.DataSetObserver) -> a
+    void unregisterDataSetObserver(android.database.DataSetObserver) -> b
+    float getPageWidth(int) -> a
+android.support.v4.view.VelocityTrackerCompat -> android.support.v4.view.y:
+    android.support.v4.view.VelocityTrackerCompat$VelocityTrackerVersionImpl IMPL -> a
+    float getXVelocity(android.view.VelocityTracker,int) -> a
+android.support.v4.view.VelocityTrackerCompat$BaseVelocityTrackerVersionImpl -> android.support.v4.view.z:
+    float getXVelocity(android.view.VelocityTracker,int) -> a
+android.support.v4.view.VelocityTrackerCompat$HoneycombVelocityTrackerVersionImpl -> android.support.v4.view.aa:
+    float getXVelocity(android.view.VelocityTracker,int) -> a
+android.support.v4.view.VelocityTrackerCompat$VelocityTrackerVersionImpl -> android.support.v4.view.ab:
+    float getXVelocity(android.view.VelocityTracker,int) -> a
+android.support.v4.view.VelocityTrackerCompatHoneycomb -> android.support.v4.view.ac:
+    float getXVelocity(android.view.VelocityTracker,int) -> a
+android.support.v4.view.ViewCompat -> android.support.v4.view.ad:
+    android.support.v4.view.ViewCompat$ViewCompatImpl IMPL -> a
+    boolean canScrollHorizontally(android.view.View,int) -> a
+    int getOverScrollMode(android.view.View) -> a
+    void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat) -> a
+    void postInvalidateOnAnimation(android.view.View) -> b
+    int getImportantForAccessibility(android.view.View) -> c
+    void setImportantForAccessibility(android.view.View,int) -> b
+android.support.v4.view.ViewCompat$BaseViewCompatImpl -> android.support.v4.view.ae:
+    boolean canScrollHorizontally(android.view.View,int) -> a
+    int getOverScrollMode(android.view.View) -> a
+    void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat) -> a
+    void postInvalidateOnAnimation(android.view.View) -> b
+    long getFrameTime() -> a
+    int getImportantForAccessibility(android.view.View) -> c
+    void setImportantForAccessibility(android.view.View,int) -> b
+android.support.v4.view.ViewCompat$GBViewCompatImpl -> android.support.v4.view.af:
+    int getOverScrollMode(android.view.View) -> a
+android.support.v4.view.ViewCompat$HCViewCompatImpl -> android.support.v4.view.ag:
+    long getFrameTime() -> a
+android.support.v4.view.ViewCompat$ICSViewCompatImpl -> android.support.v4.view.ah:
+    boolean canScrollHorizontally(android.view.View,int) -> a
+    void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat) -> a
+android.support.v4.view.ViewCompat$JBViewCompatImpl -> android.support.v4.view.ai:
+    void postInvalidateOnAnimation(android.view.View) -> b
+    int getImportantForAccessibility(android.view.View) -> c
+    void setImportantForAccessibility(android.view.View,int) -> b
+android.support.v4.view.ViewCompat$ViewCompatImpl -> android.support.v4.view.aj:
+    boolean canScrollHorizontally(android.view.View,int) -> a
+    int getOverScrollMode(android.view.View) -> a
+    void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat) -> a
+    void postInvalidateOnAnimation(android.view.View) -> b
+    int getImportantForAccessibility(android.view.View) -> c
+    void setImportantForAccessibility(android.view.View,int) -> b
+android.support.v4.view.ViewCompatGingerbread -> android.support.v4.view.ak:
+    int getOverScrollMode(android.view.View) -> a
+android.support.v4.view.ViewCompatHC -> android.support.v4.view.al:
+    long getFrameTime() -> a
+android.support.v4.view.ViewCompatICS -> android.support.v4.view.am:
+    boolean canScrollHorizontally(android.view.View,int) -> a
+    void setAccessibilityDelegate(android.view.View,java.lang.Object) -> a
+android.support.v4.view.ViewCompatJB -> android.support.v4.view.an:
+    void postInvalidateOnAnimation(android.view.View) -> a
+    int getImportantForAccessibility(android.view.View) -> b
+    void setImportantForAccessibility(android.view.View,int) -> a
+android.support.v4.view.ViewConfigurationCompat -> android.support.v4.view.ao:
+    android.support.v4.view.ViewConfigurationCompat$ViewConfigurationVersionImpl IMPL -> a
+    int getScaledPagingTouchSlop(android.view.ViewConfiguration) -> a
+android.support.v4.view.ViewConfigurationCompat$BaseViewConfigurationVersionImpl -> android.support.v4.view.ap:
+    int getScaledPagingTouchSlop(android.view.ViewConfiguration) -> a
+android.support.v4.view.ViewConfigurationCompat$FroyoViewConfigurationVersionImpl -> android.support.v4.view.aq:
+    int getScaledPagingTouchSlop(android.view.ViewConfiguration) -> a
+android.support.v4.view.ViewConfigurationCompat$ViewConfigurationVersionImpl -> android.support.v4.view.ar:
+    int getScaledPagingTouchSlop(android.view.ViewConfiguration) -> a
+android.support.v4.view.ViewConfigurationCompatFroyo -> android.support.v4.view.as:
+    int getScaledPagingTouchSlop(android.view.ViewConfiguration) -> a
+android.support.v4.view.ViewPager -> android.support.v4.view.ViewPager:
+    int[] LAYOUT_ATTRS -> a
+    java.util.Comparator COMPARATOR -> b
+    android.view.animation.Interpolator sInterpolator -> c
+    java.util.ArrayList mItems -> d
+    android.support.v4.view.ViewPager$ItemInfo mTempItem -> e
+    android.graphics.Rect mTempRect -> f
+    android.support.v4.view.PagerAdapter mAdapter -> g
+    int mCurItem -> h
+    int mRestoredCurItem -> i
+    android.os.Parcelable mRestoredAdapterState -> j
+    java.lang.ClassLoader mRestoredClassLoader -> k
+    android.widget.Scroller mScroller -> l
+    android.support.v4.view.ViewPager$PagerObserver mObserver -> m
+    int mPageMargin -> n
+    android.graphics.drawable.Drawable mMarginDrawable -> o
+    int mTopPageBounds -> p
+    int mBottomPageBounds -> q
+    float mFirstOffset -> r
+    float mLastOffset -> s
+    int mChildWidthMeasureSpec -> t
+    int mChildHeightMeasureSpec -> u
+    boolean mInLayout -> v
+    boolean mScrollingCacheEnabled -> w
+    boolean mPopulatePending -> x
+    int mOffscreenPageLimit -> y
+    boolean mIsBeingDragged -> z
+    boolean mIsUnableToDrag -> A
+    int mDefaultGutterSize -> B
+    int mGutterSize -> C
+    int mTouchSlop -> D
+    float mInitialMotionX -> E
+    float mLastMotionX -> F
+    float mLastMotionY -> G
+    int mActivePointerId -> H
+    android.view.VelocityTracker mVelocityTracker -> I
+    int mMinimumVelocity -> J
+    int mMaximumVelocity -> K
+    int mFlingDistance -> L
+    int mCloseEnough -> M
+    boolean mFakeDragging -> N
+    android.support.v4.widget.EdgeEffectCompat mLeftEdge -> O
+    android.support.v4.widget.EdgeEffectCompat mRightEdge -> P
+    boolean mFirstLayout -> Q
+    boolean mNeedCalculatePageOffsets -> R
+    boolean mCalledSuper -> S
+    int mDecorChildCount -> T
+    android.support.v4.view.ViewPager$OnPageChangeListener mOnPageChangeListener -> U
+    android.support.v4.view.ViewPager$OnPageChangeListener mInternalPageChangeListener -> V
+    android.support.v4.view.ViewPager$OnAdapterChangeListener mAdapterChangeListener -> W
+    int mScrollState -> Z
+    void initViewPager() -> a
+    void setScrollState(int) -> setScrollState
+    void setAdapter(android.support.v4.view.PagerAdapter) -> setAdapter
+    void removeNonDecorViews() -> g
+    android.support.v4.view.PagerAdapter getAdapter() -> getAdapter
+    void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener) -> setOnAdapterChangeListener
+    void setCurrentItem(int) -> setCurrentItem
+    void setCurrentItem(int,boolean) -> a
+    int getCurrentItem() -> getCurrentItem
+    void setCurrentItemInternal(int,boolean,boolean) -> a
+    void setCurrentItemInternal(int,boolean,boolean,int) -> a
+    void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener) -> setOnPageChangeListener
+    int getOffscreenPageLimit() -> getOffscreenPageLimit
+    void setOffscreenPageLimit(int) -> setOffscreenPageLimit
+    void setPageMargin(int) -> setPageMargin
+    int getPageMargin() -> getPageMargin
+    void setPageMarginDrawable(android.graphics.drawable.Drawable) -> setPageMarginDrawable
+    void setPageMarginDrawable(int) -> setPageMarginDrawable
+    boolean verifyDrawable(android.graphics.drawable.Drawable) -> verifyDrawable
+    void drawableStateChanged() -> drawableStateChanged
+    float distanceInfluenceForSnapDuration(float) -> a
+    void smoothScrollTo(int,int,int) -> a
+    android.support.v4.view.ViewPager$ItemInfo addNewItem(int,int) -> a
+    void dataSetChanged() -> b
+    void populate() -> c
+    void populate(int) -> a
+    void calculatePageOffsets(android.support.v4.view.ViewPager$ItemInfo,int,android.support.v4.view.ViewPager$ItemInfo) -> a
+    android.os.Parcelable onSaveInstanceState() -> onSaveInstanceState
+    void onRestoreInstanceState(android.os.Parcelable) -> onRestoreInstanceState
+    void addView(android.view.View,int,android.view.ViewGroup$LayoutParams) -> addView
+    android.support.v4.view.ViewPager$ItemInfo infoForChild(android.view.View) -> a
+    android.support.v4.view.ViewPager$ItemInfo infoForAnyChild(android.view.View) -> b
+    android.support.v4.view.ViewPager$ItemInfo infoForPosition(int) -> b
+    void onAttachedToWindow() -> onAttachedToWindow
+    void onMeasure(int,int) -> onMeasure
+    void onSizeChanged(int,int,int,int) -> onSizeChanged
+    void recomputeScrollPosition(int,int,int,int) -> a
+    void onLayout(boolean,int,int,int,int) -> onLayout
+    void computeScroll() -> computeScroll
+    boolean pageScrolled(int) -> d
+    void onPageScrolled(int,float,int) -> a
+    void completeScroll() -> h
+    boolean isGutterDrag(float,float) -> a
+    boolean onInterceptTouchEvent(android.view.MotionEvent) -> onInterceptTouchEvent
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    boolean performDrag(float) -> b
+    android.support.v4.view.ViewPager$ItemInfo infoForCurrentScrollPosition() -> i
+    int determineTargetPage(int,float,int,int) -> a
+    void draw(android.graphics.Canvas) -> draw
+    void onDraw(android.graphics.Canvas) -> onDraw
+    void onSecondaryPointerUp(android.view.MotionEvent) -> a
+    void endDrag() -> j
+    void setScrollingCacheEnabled(boolean) -> setScrollingCacheEnabled
+    boolean canScroll(android.view.View,boolean,int,int,int) -> a
+    boolean dispatchKeyEvent(android.view.KeyEvent) -> dispatchKeyEvent
+    boolean executeKeyEvent(android.view.KeyEvent) -> a
+    boolean arrowScroll(int) -> c
+    android.graphics.Rect getChildRectInPagerCoordinates(android.graphics.Rect,android.view.View) -> a
+    boolean pageLeft() -> d
+    boolean pageRight() -> e
+    void addFocusables(java.util.ArrayList,int,int) -> addFocusables
+    void addTouchables(java.util.ArrayList) -> addTouchables
+    boolean onRequestFocusInDescendants(int,android.graphics.Rect) -> onRequestFocusInDescendants
+    boolean dispatchPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent) -> dispatchPopulateAccessibilityEvent
+    android.view.ViewGroup$LayoutParams generateDefaultLayoutParams() -> generateDefaultLayoutParams
+    android.view.ViewGroup$LayoutParams generateLayoutParams(android.view.ViewGroup$LayoutParams) -> generateLayoutParams
+    boolean checkLayoutParams(android.view.ViewGroup$LayoutParams) -> checkLayoutParams
+    android.view.ViewGroup$LayoutParams generateLayoutParams(android.util.AttributeSet) -> generateLayoutParams
+    android.support.v4.view.PagerAdapter access$100(android.support.v4.view.ViewPager) -> a
+    int access$200(android.support.v4.view.ViewPager) -> b
+    int[] access$300() -> f
+android.support.v4.view.ViewPager$1 -> android.support.v4.view.at:
+    int compare(android.support.v4.view.ViewPager$ItemInfo,android.support.v4.view.ViewPager$ItemInfo) -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+android.support.v4.view.ViewPager$2 -> android.support.v4.view.au:
+    float getInterpolation(float) -> getInterpolation
+android.support.v4.view.ViewPager$Decor -> android.support.v4.view.av:
+android.support.v4.view.ViewPager$ItemInfo -> android.support.v4.view.aw:
+    java.lang.Object object -> a
+    int position -> b
+    boolean scrolling -> c
+    float widthFactor -> d
+    float offset -> e
+android.support.v4.view.ViewPager$LayoutParams -> android.support.v4.view.ax:
+    boolean isDecor -> a
+    int gravity -> b
+    float widthFactor -> c
+    boolean needsMeasure -> d
+android.support.v4.view.ViewPager$MyAccessibilityDelegate -> android.support.v4.view.ay:
+    android.support.v4.view.ViewPager this$0 -> b
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+    void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat) -> a
+    boolean performAccessibilityAction(android.view.View,int,android.os.Bundle) -> a
+android.support.v4.view.ViewPager$OnAdapterChangeListener -> android.support.v4.view.az:
+    void onAdapterChanged(android.support.v4.view.PagerAdapter,android.support.v4.view.PagerAdapter) -> a
+android.support.v4.view.ViewPager$OnPageChangeListener -> android.support.v4.view.ba:
+    void onPageScrolled(int,float,int) -> a
+    void onPageSelected(int) -> a
+    void onPageScrollStateChanged(int) -> b
+android.support.v4.view.ViewPager$PagerObserver -> android.support.v4.view.bb:
+    android.support.v4.view.ViewPager this$0 -> a
+    void onChanged() -> onChanged
+    void onInvalidated() -> onInvalidated
+android.support.v4.view.ViewPager$SavedState -> android.support.v4.view.ViewPager$SavedState:
+    int position -> a
+    android.os.Parcelable adapterState -> b
+    java.lang.ClassLoader loader -> c
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    java.lang.String toString() -> toString
+android.support.v4.view.ViewPager$SavedState$1 -> android.support.v4.view.bc:
+    android.support.v4.view.ViewPager$SavedState createFromParcel(android.os.Parcel,java.lang.ClassLoader) -> b
+    android.support.v4.view.ViewPager$SavedState[] newArray(int) -> b
+    java.lang.Object[] newArray(int) -> a
+    java.lang.Object createFromParcel(android.os.Parcel,java.lang.ClassLoader) -> a
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat -> android.support.v4.view.a.a:
+    android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoImpl IMPL -> a
+    java.lang.Object mInfo -> b
+    java.lang.Object getInfo() -> a
+    void addAction(int) -> a
+    void setScrollable(boolean) -> a
+    void setClassName(java.lang.CharSequence) -> a
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoIcsImpl -> android.support.v4.view.a.b:
+    void addAction(java.lang.Object,int) -> a
+    void setClassName(java.lang.Object,java.lang.CharSequence) -> a
+    void setScrollable(java.lang.Object,boolean) -> a
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoImpl -> android.support.v4.view.a.c:
+    void addAction(java.lang.Object,int) -> a
+    void setScrollable(java.lang.Object,boolean) -> a
+    void setClassName(java.lang.Object,java.lang.CharSequence) -> a
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoJellybeanImpl -> android.support.v4.view.a.d:
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoStubImpl -> android.support.v4.view.a.e:
+    void addAction(java.lang.Object,int) -> a
+    void setClassName(java.lang.Object,java.lang.CharSequence) -> a
+    void setScrollable(java.lang.Object,boolean) -> a
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs -> android.support.v4.view.a.f:
+    void addAction(java.lang.Object,int) -> a
+    void setClassName(java.lang.Object,java.lang.CharSequence) -> a
+    void setScrollable(java.lang.Object,boolean) -> a
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat -> android.support.v4.view.a.g:
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderImpl IMPL -> a
+    java.lang.Object mProvider -> b
+    java.lang.Object getProvider() -> a
+    android.support.v4.view.accessibility.AccessibilityNodeInfoCompat createAccessibilityNodeInfo(int) -> a
+    boolean performAction(int,int,android.os.Bundle) -> a
+    java.util.List findAccessibilityNodeInfosByText(java.lang.String,int) -> a
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderImpl -> android.support.v4.view.a.h:
+    java.lang.Object newAccessibilityNodeProviderBridge(android.support.v4.view.accessibility.AccessibilityNodeProviderCompat) -> a
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl -> android.support.v4.view.a.i:
+    java.lang.Object newAccessibilityNodeProviderBridge(android.support.v4.view.accessibility.AccessibilityNodeProviderCompat) -> a
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl$1 -> android.support.v4.view.a.j:
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompat val$compat -> a
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl this$0 -> b
+    boolean performAction(int,int,android.os.Bundle) -> a
+    java.util.List findAccessibilityNodeInfosByText(java.lang.String,int) -> a
+    java.lang.Object createAccessibilityNodeInfo(int) -> a
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderStubImpl -> android.support.v4.view.a.k:
+    java.lang.Object newAccessibilityNodeProviderBridge(android.support.v4.view.accessibility.AccessibilityNodeProviderCompat) -> a
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean -> android.support.v4.view.a.l:
+    java.lang.Object newAccessibilityNodeProviderBridge(android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$AccessibilityNodeInfoBridge) -> a
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$1 -> android.support.v4.view.a.m:
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$AccessibilityNodeInfoBridge val$bridge -> a
+    android.view.accessibility.AccessibilityNodeInfo createAccessibilityNodeInfo(int) -> createAccessibilityNodeInfo
+    java.util.List findAccessibilityNodeInfosByText(java.lang.String,int) -> findAccessibilityNodeInfosByText
+    boolean performAction(int,int,android.os.Bundle) -> performAction
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$AccessibilityNodeInfoBridge -> android.support.v4.view.a.n:
+    java.lang.Object createAccessibilityNodeInfo(int) -> a
+    boolean performAction(int,int,android.os.Bundle) -> a
+    java.util.List findAccessibilityNodeInfosByText(java.lang.String,int) -> a
+android.support.v4.widget.EdgeEffectCompat -> android.support.v4.d.a:
+    java.lang.Object mEdgeEffect -> a
+    android.support.v4.widget.EdgeEffectCompat$EdgeEffectImpl IMPL -> b
+    void setSize(int,int) -> a
+    boolean isFinished() -> a
+    void finish() -> b
+    boolean onPull(float) -> a
+    boolean onRelease() -> c
+    boolean draw(android.graphics.Canvas) -> a
+android.support.v4.widget.EdgeEffectCompat$BaseEdgeEffectImpl -> android.support.v4.d.b:
+    java.lang.Object newEdgeEffect(android.content.Context) -> a
+    void setSize(java.lang.Object,int,int) -> a
+    boolean isFinished(java.lang.Object) -> a
+    void finish(java.lang.Object) -> b
+    boolean onPull(java.lang.Object,float) -> a
+    boolean onRelease(java.lang.Object) -> c
+    boolean draw(java.lang.Object,android.graphics.Canvas) -> a
+android.support.v4.widget.EdgeEffectCompat$EdgeEffectIcsImpl -> android.support.v4.d.c:
+    java.lang.Object newEdgeEffect(android.content.Context) -> a
+    void setSize(java.lang.Object,int,int) -> a
+    boolean isFinished(java.lang.Object) -> a
+    void finish(java.lang.Object) -> b
+    boolean onPull(java.lang.Object,float) -> a
+    boolean onRelease(java.lang.Object) -> c
+    boolean draw(java.lang.Object,android.graphics.Canvas) -> a
+android.support.v4.widget.EdgeEffectCompat$EdgeEffectImpl -> android.support.v4.d.d:
+    java.lang.Object newEdgeEffect(android.content.Context) -> a
+    void setSize(java.lang.Object,int,int) -> a
+    boolean isFinished(java.lang.Object) -> a
+    void finish(java.lang.Object) -> b
+    boolean onPull(java.lang.Object,float) -> a
+    boolean onRelease(java.lang.Object) -> c
+    boolean draw(java.lang.Object,android.graphics.Canvas) -> a
+android.support.v4.widget.EdgeEffectCompatIcs -> android.support.v4.d.e:
+    java.lang.Object newEdgeEffect(android.content.Context) -> a
+    void setSize(java.lang.Object,int,int) -> a
+    boolean isFinished(java.lang.Object) -> a
+    void finish(java.lang.Object) -> b
+    boolean onPull(java.lang.Object,float) -> a
+    boolean onRelease(java.lang.Object) -> c
+    boolean draw(java.lang.Object,android.graphics.Canvas) -> a
+com.android.browser.BrowserActivity -> com.android.browser.BrowserActivity:
+    android.widget.LinearLayout web_back -> b
+    android.widget.ImageView refresh -> c
+    android.widget.ImageView refresh_big -> d
+    android.widget.ImageView refresh_small -> e
+    android.view.animation.Animation rotate_big -> f
+    android.view.animation.Animation rotate_small -> g
+    android.webkit.WebView webview -> h
+    android.widget.TextView loading -> i
+    android.os.Handler handler -> j
+    int number -> k
+    java.lang.String url -> l
+    android.view.View$OnClickListener myClickListener -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void initWebSettings() -> a
+    void init() -> b
+    void onStop() -> onStop
+    android.widget.ImageView access$0(com.android.browser.BrowserActivity) -> a
+    android.widget.ImageView access$1(com.android.browser.BrowserActivity) -> b
+    android.widget.ImageView access$2(com.android.browser.BrowserActivity) -> c
+    android.view.animation.Animation access$3(com.android.browser.BrowserActivity) -> d
+    android.view.animation.Animation access$4(com.android.browser.BrowserActivity) -> e
+    android.webkit.WebView access$5(com.android.browser.BrowserActivity) -> f
+    int access$6(com.android.browser.BrowserActivity) -> g
+    void access$7(com.android.browser.BrowserActivity,int) -> a
+    android.os.Handler access$8(com.android.browser.BrowserActivity) -> h
+    android.widget.TextView access$9(com.android.browser.BrowserActivity) -> i
+com.android.browser.BrowserActivity$1 -> com.android.browser.a:
+    com.android.browser.BrowserActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+    com.android.browser.BrowserActivity access$0(com.android.browser.BrowserActivity$1) -> a
+com.android.browser.BrowserActivity$1$1 -> com.android.browser.b:
+    com.android.browser.BrowserActivity$1 this$1 -> a
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+com.android.browser.BrowserActivity$2 -> com.android.browser.c:
+    com.android.browser.BrowserActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.android.browser.BrowserActivity$MyClient -> com.android.browser.d:
+    com.android.browser.BrowserActivity this$0 -> a
+    void notifyOtherSchema(java.lang.String) -> a
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+com.android.browser.BrowserActivity$MyWebViewClient -> com.android.browser.e:
+    com.android.browser.BrowserActivity this$0 -> a
+com.android.browser.BrowserActivity$ScrollTask -> com.android.browser.f:
+    com.android.browser.BrowserActivity this$0 -> a
+    void run() -> run
+com.baidu.android.silentupdate.SilentManager -> com.baidu.a.a.a:
+    java.lang.String a -> a
+    java.lang.String e -> b
+    boolean f -> c
+    boolean g -> d
+    void enableRSA(boolean) -> a
+    void setKey(java.lang.String) -> a
+    boolean loadLib(android.content.Context,java.lang.String,java.lang.String) -> a
+    boolean loadLib(android.content.Context,java.lang.String,java.lang.String,java.lang.String) -> a
+    boolean a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
+    boolean a(android.content.Context,java.io.File,java.io.File,java.lang.String,java.lang.String,java.lang.String) -> a
+    java.lang.String a(java.io.File) -> a
+    void a(java.io.InputStream,java.io.OutputStream) -> a
+    java.lang.String a(java.lang.String) -> b
+    java.lang.String a(byte[]) -> a
+    java.lang.String decrypt(java.lang.String,java.lang.String) -> a
+    void a(java.io.Closeable) -> a
+com.baidu.android.silentupdate.a -> com.baidu.a.a.b:
+    byte[] a -> a
+    byte[] a(byte[]) -> a
+    byte[] a(byte[],int) -> a
+com.baidu.android.silentupdate.b -> com.baidu.a.a.c:
+    boolean a(java.lang.ClassLoader,java.lang.ClassLoader) -> a
+    java.lang.ClassLoader a(java.lang.String,java.lang.String,java.lang.String,android.content.Context) -> a
+com.baidu.cloudsdk.common.util.Utils -> com.baidu.cloudsdk.a.a.a:
+    java.lang.String md5(byte[]) -> a
+com.baidu.cloudsdk.common.util.Validator -> com.baidu.cloudsdk.a.a.b:
+    void notNull(java.lang.Object,java.lang.String) -> a
+com.baidu.cloudsdk.social.core.MediaType -> com.baidu.cloudsdk.social.a.a:
+    com.baidu.cloudsdk.social.core.MediaType SINAWEIBO -> a
+    com.baidu.cloudsdk.social.core.MediaType QQWEIBO -> b
+    com.baidu.cloudsdk.social.core.MediaType QZONE -> c
+    com.baidu.cloudsdk.social.core.MediaType KAIXIN -> d
+    com.baidu.cloudsdk.social.core.MediaType RENREN -> e
+    com.baidu.cloudsdk.social.core.MediaType GOOGLE -> f
+    com.baidu.cloudsdk.social.core.MediaType DOUBAN -> g
+    com.baidu.cloudsdk.social.core.MediaType FEIXIN -> h
+    com.baidu.cloudsdk.social.core.MediaType WANGYI -> i
+    com.baidu.cloudsdk.social.core.MediaType SOHUWEIBO -> j
+    com.baidu.cloudsdk.social.core.MediaType TIANYA -> k
+    com.baidu.cloudsdk.social.core.MediaType BAIDU -> l
+    com.baidu.cloudsdk.social.core.MediaType TAOBAO -> m
+    com.baidu.cloudsdk.social.core.MediaType ZHIFUBAO -> n
+    com.baidu.cloudsdk.social.core.MediaType QQFRIEND -> o
+    com.baidu.cloudsdk.social.core.MediaType WEIXIN -> p
+    com.baidu.cloudsdk.social.core.MediaType WEIXIN_TIMELINE -> q
+    com.baidu.cloudsdk.social.core.MediaType TIEBA -> r
+    com.baidu.cloudsdk.social.core.MediaType YOUDAO_NOTE -> s
+    com.baidu.cloudsdk.social.core.MediaType EMAIL -> t
+    com.baidu.cloudsdk.social.core.MediaType SMS -> u
+    java.util.HashMap a -> v
+    java.lang.String b -> w
+    com.baidu.cloudsdk.social.core.MediaType[] c -> x
+    com.baidu.cloudsdk.social.core.MediaType[] values() -> values
+    com.baidu.cloudsdk.social.core.MediaType valueOf(java.lang.String) -> valueOf
+    java.lang.String toString() -> toString
+com.baidu.cloudsdk.social.share.ShareContent -> com.baidu.cloudsdk.social.share.ShareContent:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    java.lang.String f -> f
+    android.net.Uri g -> g
+    android.graphics.Bitmap h -> h
+    boolean i -> i
+    android.location.Location j -> j
+    boolean k -> k
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    com.baidu.cloudsdk.social.share.ShareContent setEmailBody(java.lang.String,java.lang.String) -> a
+    com.baidu.cloudsdk.social.share.ShareContent setLocation(android.location.Location) -> a
+    com.baidu.cloudsdk.social.share.ShareContent setNeedLoacation(boolean) -> a
+    byte[] getCompressedImageData() -> a
+    void saveImageDataIfNecessary() -> b
+    int describeContents() -> describeContents
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+com.baidu.frontia.Frontia -> com.baidu.frontia.a:
+    com.baidu.frontia.base.impl.FrontiaImpl b -> a
+    boolean init(android.content.Context,java.lang.String) -> a
+    com.baidu.frontia.api.FrontiaPush getPush() -> a
+    com.baidu.frontia.api.FrontiaSocialShare getSocialShare() -> b
+com.baidu.frontia.FrontiaApplication -> com.baidu.frontia.b:
+    void onCreate() -> onCreate
+    void initFrontiaApplication(android.content.Context) -> a
+    boolean a(android.content.Context) -> b
+    boolean b(android.content.Context) -> c
+    java.lang.String c(android.content.Context) -> d
+    boolean d(android.content.Context) -> e
+com.baidu.frontia.a -> com.baidu.frontia.c:
+    java.lang.String[] a() -> a
+    void a(android.content.Context,java.lang.String) -> a
+com.baidu.frontia.activity.share.FrontiaLocalShareActivity -> com.baidu.frontia.activity.share.FrontiaLocalShareActivity:
+    java.lang.String b -> a
+    int c -> b
+    com.baidu.frontia.module.social.share.ShareContent d -> c
+    com.baidu.frontia.module.social.share.handler.LocalShareHandler e -> d
+    com.baidu.frontia.module.authorization.IBaiduListener f -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    void onRestart() -> onRestart
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+com.baidu.frontia.activity.share.FrontiaQQFriendShareReceiverActivity -> com.baidu.frontia.activity.share.FrontiaQQFriendShareReceiverActivity:
+    java.lang.String a -> a
+    com.baidu.frontia.module.authorization.IBaiduListener b -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void a(android.net.Uri) -> a
+    void a(android.os.Bundle) -> a
+    android.os.Bundle a(java.lang.String) -> a
+com.baidu.frontia.activity.share.FrontiaSocialOAuthActivity -> com.baidu.frontia.activity.share.FrontiaSocialOAuthActivity:
+    com.baidu.frontia.module.authorization.IBaiduListener a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    boolean d -> d
+    com.baidu.frontia.module.authorization.oauth.SocialOAuthHandler e -> e
+    com.baidu.frontia.module.authorization.IBaiduListener f -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    void onDestroy() -> onDestroy
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+com.baidu.frontia.activity.share.FrontiaSocialOAuthActivity$1 -> com.baidu.frontia.activity.share.a:
+    com.baidu.frontia.activity.share.FrontiaSocialOAuthActivity a -> a
+com.baidu.frontia.activity.share.FrontiaWeixinShareActivity -> com.baidu.frontia.activity.share.FrontiaWeixinShareActivity:
+    java.lang.String a -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean handleIntent() -> a
+    void beforeHandleIntent() -> b
+    void afterHandleIntent() -> c
+com.baidu.frontia.activity.share.FrontiaWeixinShareActivity$1 -> com.baidu.frontia.activity.share.b:
+    com.baidu.frontia.activity.share.FrontiaWeixinShareActivity a -> a
+com.baidu.frontia.api.FrontiaPush -> com.baidu.frontia.a.a:
+    com.baidu.frontia.api.FrontiaPush a -> a
+    com.baidu.frontia.module.push.FrontiaPushImpl b -> b
+    android.content.Context c -> c
+    com.baidu.frontia.api.FrontiaPush newInstance(android.content.Context) -> a
+    void init(java.lang.String) -> a
+    void start() -> a
+com.baidu.frontia.api.FrontiaPushMessageReceiver -> com.baidu.frontia.a.b:
+    java.lang.String TAG -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    void onBind(android.content.Context,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
+    void onUnbind(android.content.Context,int,java.lang.String) -> a
+    void onSetTags(android.content.Context,int,java.util.List,java.util.List,java.lang.String) -> a
+    void onDelTags(android.content.Context,int,java.util.List,java.util.List,java.lang.String) -> b
+    void onListTags(android.content.Context,int,java.util.List,java.lang.String) -> a
+    void onMessage(android.content.Context,java.lang.String,java.lang.String) -> a
+    void onNotificationClicked(android.content.Context,java.lang.String,java.lang.String,java.lang.String) -> a
+com.baidu.frontia.api.FrontiaSocialShare -> com.baidu.frontia.a.c:
+    com.baidu.frontia.api.FrontiaSocialShare a -> a
+    android.content.Context b -> b
+    com.baidu.frontia.api.FrontiaSocialShare newInstance(android.content.Context) -> a
+    void setContext(android.content.Context) -> b
+    void init(java.lang.String) -> a
+    void show(android.view.View,com.baidu.frontia.api.FrontiaSocialShareContent,com.baidu.frontia.api.FrontiaSocialShare$FrontiaTheme,com.baidu.frontia.api.FrontiaSocialShareListener) -> a
+    void setClientId(java.lang.String,java.lang.String) -> a
+    void setParentView(android.view.View) -> a
+com.baidu.frontia.api.FrontiaSocialShare$1 -> com.baidu.frontia.a.d:
+    int[] a -> a
+com.baidu.frontia.api.FrontiaSocialShare$FrontiaTheme -> com.baidu.frontia.a.e:
+    com.baidu.frontia.api.FrontiaSocialShare$FrontiaTheme LIGHT -> a
+    com.baidu.frontia.api.FrontiaSocialShare$FrontiaTheme DARK -> b
+    com.baidu.frontia.api.FrontiaSocialShare$FrontiaTheme NIGHT -> c
+    com.baidu.frontia.api.FrontiaSocialShare$FrontiaTheme[] a -> d
+    com.baidu.frontia.api.FrontiaSocialShare$FrontiaTheme[] values() -> values
+    com.baidu.frontia.api.FrontiaSocialShare$FrontiaTheme valueOf(java.lang.String) -> valueOf
+com.baidu.frontia.api.FrontiaSocialShare$a -> com.baidu.frontia.a.f:
+    com.baidu.frontia.api.FrontiaSocialShareContent b -> b
+    com.baidu.frontia.module.social.share.ShareContent c -> c
+    com.baidu.frontia.api.FrontiaSocialShare a -> a
+    com.baidu.frontia.module.social.share.ShareContent a() -> a
+com.baidu.frontia.api.FrontiaSocialShare$b -> com.baidu.frontia.a.g:
+    com.baidu.frontia.api.FrontiaSocialShareListener b -> b
+    long c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    com.baidu.frontia.module.authorization.IBaiduListener f -> f
+    com.baidu.frontia.api.FrontiaSocialShare a -> a
+    com.baidu.frontia.module.authorization.IBaiduListener a() -> a
+com.baidu.frontia.api.FrontiaSocialShare$b$1 -> com.baidu.frontia.a.h:
+    com.baidu.frontia.api.FrontiaSocialShare$b a -> a
+com.baidu.frontia.api.FrontiaSocialShareContent -> com.baidu.frontia.a.i:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    android.net.Uri f -> f
+    android.graphics.Bitmap g -> g
+    android.location.Location h -> h
+    int i -> i
+    byte[] j -> j
+    java.lang.String k -> k
+    int l -> l
+    int m -> m
+    int n -> n
+    java.lang.String getTitle() -> a
+    void setTitle(java.lang.String) -> a
+    java.lang.String getContent() -> b
+    void setContent(java.lang.String) -> b
+    java.lang.String getEmailBody() -> c
+    java.lang.String getLinkUrl() -> d
+    void setLinkUrl(java.lang.String) -> c
+    android.net.Uri getImageUri() -> e
+    void setImageUri(android.net.Uri) -> a
+    android.graphics.Bitmap getImageData() -> f
+    android.location.Location getLocation() -> g
+    int getCompressDataQuality() -> h
+    int getWXMediaObjectType() -> i
+    byte[] getWXMediaContent() -> j
+    java.lang.String getWXMediaContentPath() -> k
+    int getQQRequestType() -> l
+    int getQQFlagType() -> m
+    java.lang.String toString() -> toString
+com.baidu.frontia.api.FrontiaSocialShareListener -> com.baidu.frontia.a.j:
+com.baidu.frontia.framework.IModule -> com.baidu.frontia.b.a:
+    void init(java.lang.String) -> a
+com.cosji.activitys.AcountDetils -> com.cosji.activitys.AcountDetils:
+    android.widget.TabWidget tabwidget -> a
+    java.util.List titlelist -> b
+    android.widget.LinearLayout back -> c
+    android.widget.ListView income_page_list -> d
+    android.widget.ListView my_tixian_page_list -> e
+    java.util.List incomelist -> f
+    java.util.List tixianlist -> g
+    com.cosji.adapter.IncomeAdapter adapter1 -> h
+    com.cosji.adapter.IncomeAdapter adapter2 -> i
+    android.widget.TabHost tabhost -> j
+    android.widget.Button button1 -> k
+    android.widget.Button button2 -> l
+    android.widget.ProgressBar pro1 -> m
+    android.widget.ProgressBar pro2 -> n
+    int incometotal -> o
+    int withdrawtotal -> p
+    int incomepage -> q
+    int withdrawpage -> r
+    int num -> s
+    android.widget.ImageView refresh_big -> t
+    android.widget.ImageView refresh_small -> u
+    android.widget.ImageView refresh -> v
+    android.view.animation.Animation rotate_big -> w
+    android.view.animation.Animation rotate_small -> x
+    android.view.View moreView1 -> y
+    android.view.View moreView2 -> z
+    void onCreate(android.os.Bundle) -> onCreate
+    void initView() -> a
+    void onTabChanged(java.lang.String) -> a
+    android.view.View composeLayout(int) -> a
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void LoadData(java.lang.String,int,int,java.lang.String) -> a
+    void showdate(int) -> b
+    void moredate(int,int,int) -> a
+    void anymore(int) -> c
+    int access$0(com.cosji.activitys.AcountDetils) -> a
+    void access$1(com.cosji.activitys.AcountDetils,int) -> a
+    void access$2(com.cosji.activitys.AcountDetils,int) -> b
+    java.util.List access$3(com.cosji.activitys.AcountDetils) -> b
+    void access$4(com.cosji.activitys.AcountDetils,java.util.List) -> a
+    void access$5(com.cosji.activitys.AcountDetils,com.cosji.adapter.IncomeAdapter) -> a
+    android.widget.ListView access$6(com.cosji.activitys.AcountDetils) -> c
+    com.cosji.adapter.IncomeAdapter access$7(com.cosji.activitys.AcountDetils) -> d
+    void access$8(com.cosji.activitys.AcountDetils,int) -> c
+    java.util.List access$9(com.cosji.activitys.AcountDetils) -> e
+    void access$10(com.cosji.activitys.AcountDetils,java.util.List) -> b
+    void access$11(com.cosji.activitys.AcountDetils,com.cosji.adapter.IncomeAdapter) -> b
+    android.widget.ListView access$12(com.cosji.activitys.AcountDetils) -> f
+    com.cosji.adapter.IncomeAdapter access$13(com.cosji.activitys.AcountDetils) -> g
+    int access$14(com.cosji.activitys.AcountDetils) -> h
+    int access$15(com.cosji.activitys.AcountDetils) -> i
+    android.widget.Button access$16(com.cosji.activitys.AcountDetils) -> j
+    android.widget.ProgressBar access$17(com.cosji.activitys.AcountDetils) -> k
+    int access$18(com.cosji.activitys.AcountDetils) -> l
+    int access$19(com.cosji.activitys.AcountDetils) -> m
+    android.widget.Button access$20(com.cosji.activitys.AcountDetils) -> n
+    android.widget.ProgressBar access$21(com.cosji.activitys.AcountDetils) -> o
+    android.widget.ImageView access$22(com.cosji.activitys.AcountDetils) -> p
+    android.widget.ImageView access$23(com.cosji.activitys.AcountDetils) -> q
+    android.widget.ImageView access$24(com.cosji.activitys.AcountDetils) -> r
+    android.widget.TabWidget access$25(com.cosji.activitys.AcountDetils) -> s
+    java.util.List access$26(com.cosji.activitys.AcountDetils) -> t
+    android.view.animation.Animation access$27(com.cosji.activitys.AcountDetils) -> u
+    android.view.animation.Animation access$28(com.cosji.activitys.AcountDetils) -> v
+    android.widget.TabHost access$29(com.cosji.activitys.AcountDetils) -> w
+    void access$30(com.cosji.activitys.AcountDetils,int) -> d
+    void access$31(com.cosji.activitys.AcountDetils,int) -> e
+    void access$32(com.cosji.activitys.AcountDetils,int) -> f
+    void access$33(com.cosji.activitys.AcountDetils,int,int,int) -> a
+com.cosji.activitys.AcountDetils$1 -> com.cosji.activitys.a:
+    com.cosji.activitys.AcountDetils this$0 -> a
+    void onTabChanged(java.lang.String) -> onTabChanged
+com.cosji.activitys.AcountDetils$2 -> com.cosji.activitys.b:
+    com.cosji.activitys.AcountDetils this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.AcountDetils$3 -> com.cosji.activitys.c:
+    com.cosji.activitys.AcountDetils this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.AcountDetils$4 -> com.cosji.activitys.d:
+    com.cosji.activitys.AcountDetils this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.AcountDetils$5 -> com.cosji.activitys.e:
+    com.cosji.activitys.AcountDetils this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.AcountDetils$mytask -> com.cosji.activitys.f:
+    com.cosji.activitys.AcountDetils this$0 -> a
+    java.util.List doInBackground(java.util.HashMap[]) -> a
+    void onPostExecute(java.util.List) -> a
+    void onPreExecute() -> onPreExecute
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.cosji.activitys.AdviceActivity -> com.cosji.activitys.AdviceActivity:
+    android.widget.EditText comEditText -> a
+    android.widget.ListView complaintcontents -> b
+    com.cosji.adapter.AdviceAdapter adapter -> c
+    android.widget.LinearLayout bt_back -> d
+    java.util.ArrayList data -> e
+    android.view.View$OnClickListener lin -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    void initView() -> b
+    java.util.ArrayList initGetData() -> a
+    void send() -> c
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void SendData(java.lang.String,java.lang.String,java.lang.String) -> a
+    void access$0(com.cosji.activitys.AdviceActivity) -> a
+com.cosji.activitys.AdviceActivity$1 -> com.cosji.activitys.g:
+    com.cosji.activitys.AdviceActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.AdviceActivity$mytask -> com.cosji.activitys.h:
+    com.cosji.activitys.AdviceActivity this$0 -> a
+    java.util.List doInBackground(java.util.HashMap[]) -> a
+    void onPostExecute(java.util.List) -> a
+    void onPreExecute() -> onPreExecute
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.cosji.activitys.BaseActivity -> com.cosji.activitys.i:
+    com.cosji.activitys.BaseActivity$MyHandler handler -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void handleOtherMessage(int) -> a
+    void sendMessage(int) -> b
+com.cosji.activitys.BaseActivity$MyHandler -> com.cosji.activitys.j:
+    java.lang.String toast_message -> b
+    int toast_res -> c
+    com.cosji.activitys.BaseActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.cosji.activitys.BaseTab -> com.cosji.activitys.k:
+    void onCreate(android.os.Bundle) -> onCreate
+com.cosji.activitys.GoodsActivity -> com.cosji.activitys.GoodsActivity:
+    com.cosji.view.PullDownListView mPullDownView -> g
+    android.widget.ListView listview -> a
+    android.os.Handler mHandler -> h
+    com.cosji.adapter.GoodsListAdapter adapter -> i
+    java.lang.String goodtypes -> j
+    int page -> b
+    int data_total -> c
+    java.util.List data -> k
+    android.widget.AbsListView$OnScrollListener mScrollListener -> d
+    android.view.View$OnClickListener lin -> e
+    java.lang.Runnable r -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    void initView() -> a
+    void GetData(int) -> c
+    void handleOtherMessage(int) -> a
+    void onRefresh() -> b
+    void onLoadMore() -> c
+    void onResume() -> onResume
+    void onPause() -> onPause
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    com.cosji.adapter.GoodsListAdapter access$0(com.cosji.activitys.GoodsActivity) -> a
+    java.lang.String access$1(com.cosji.activitys.GoodsActivity) -> b
+    void access$2(com.cosji.activitys.GoodsActivity,java.util.List) -> a
+    java.util.List access$3(com.cosji.activitys.GoodsActivity) -> c
+    void access$4(com.cosji.activitys.GoodsActivity,int) -> a
+    com.cosji.view.PullDownListView access$5(com.cosji.activitys.GoodsActivity) -> d
+com.cosji.activitys.GoodsActivity$1 -> com.cosji.activitys.l:
+    com.cosji.activitys.GoodsActivity this$0 -> a
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+com.cosji.activitys.GoodsActivity$2 -> com.cosji.activitys.m:
+    com.cosji.activitys.GoodsActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.GoodsActivity$3 -> com.cosji.activitys.n:
+    com.cosji.activitys.GoodsActivity this$0 -> a
+    void run() -> run
+com.cosji.activitys.GoodsActivity$4 -> com.cosji.activitys.o:
+    com.cosji.activitys.GoodsActivity this$0 -> a
+    void run() -> run
+com.cosji.activitys.GoodsActivity$5 -> com.cosji.activitys.p:
+    com.cosji.activitys.GoodsActivity this$0 -> a
+    void run() -> run
+com.cosji.activitys.GoodsDetialsActivitys -> com.cosji.activitys.GoodsDetialsActivitys:
+    android.widget.Button goto_shopping -> b
+    android.widget.ImageView fanli -> c
+    android.widget.ImageView details_image -> d
+    com.cosji.bean.TbkItem tbkItem -> e
+    com.cosji.utils.ImageLoader imageloader -> f
+    android.widget.LinearLayout web_bak -> g
+    java.lang.String click_url -> h
+    int h -> i
+    android.view.View$OnClickListener myClicklistener -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void initViews() -> a
+    void shopping(boolean) -> a
+    void access$0(com.cosji.activitys.GoodsDetialsActivitys,boolean) -> a
+com.cosji.activitys.GoodsDetialsActivitys$1 -> com.cosji.activitys.q:
+    com.cosji.activitys.GoodsDetialsActivitys this$0 -> a
+    void onClick(android.view.View) -> onClick
+    com.cosji.activitys.GoodsDetialsActivitys access$0(com.cosji.activitys.GoodsDetialsActivitys$1) -> a
+com.cosji.activitys.GoodsDetialsActivitys$1$1 -> com.cosji.activitys.r:
+    com.cosji.activitys.GoodsDetialsActivitys$1 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.cosji.activitys.GoodsDetialsActivitys$1$2 -> com.cosji.activitys.s:
+    com.cosji.activitys.GoodsDetialsActivitys$1 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.cosji.activitys.GuideActivity -> com.cosji.activitys.GuideActivity:
+    android.support.v4.view.ViewPager viewPager -> c
+    java.util.List imageViews -> d
+    int count -> a
+    int[] imageResId -> e
+    java.util.List dots -> f
+    int currentItem -> g
+    android.view.LayoutInflater inlfater -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void initProPageView() -> a
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void access$0(com.cosji.activitys.GuideActivity,int) -> a
+    java.util.List access$1(com.cosji.activitys.GuideActivity) -> a
+com.cosji.activitys.GuideActivity$1 -> com.cosji.activitys.t:
+    com.cosji.activitys.GuideActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.GuideActivity$MyPageChangeListener -> com.cosji.activitys.u:
+    int oldPosition -> b
+    com.cosji.activitys.GuideActivity this$0 -> a
+    void onPageSelected(int) -> a
+    void onPageScrollStateChanged(int) -> b
+    void onPageScrolled(int,float,int) -> a
+com.cosji.activitys.HomeActivity -> com.cosji.activitys.HomeActivity:
+    com.cosji.view.MyGridView grid -> a
+    int num -> b
+    android.widget.LinearLayout progoods1 -> c
+    android.widget.LinearLayout progoods2 -> d
+    java.util.List data1 -> e
+    boolean isloading -> f
+    com.cosji.adapter.MallMoreAdapter adapter -> g
+    android.support.v4.view.ViewPager viewPager -> m
+    java.util.List imageViews -> n
+    java.util.List dots -> o
+    android.app.AlertDialog dlg -> h
+    int currentItem -> p
+    java.util.concurrent.ScheduledExecutorService scheduledExecutorService -> i
+    com.cosji.utils.SettingUtils stu -> j
+    android.os.Handler handler -> q
+    java.util.List slidemap -> r
+    android.widget.TextView cliear_button -> s
+    android.view.View$OnClickListener hot_mall_listener -> k
+    java.lang.Runnable mallrunnable -> l
+    void onCreate(android.os.Bundle) -> onCreate
+    void initData() -> e
+    void init() -> f
+    void showSearchView() -> g
+    void initProPageView() -> a
+    void initSomePro() -> b
+    void refreshGoods() -> c
+    void IntentActivity(java.lang.Class) -> a
+    void handleOtherMessage(int) -> a
+    void onStart() -> onStart
+    void onDestroy() -> onDestroy
+    void onStop() -> onStop
+    void startshes() -> d
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void onResume() -> onResume
+    void onPause() -> onPause
+    android.support.v4.view.ViewPager access$0(com.cosji.activitys.HomeActivity) -> a
+    int access$1(com.cosji.activitys.HomeActivity) -> b
+    java.util.List access$2(com.cosji.activitys.HomeActivity) -> c
+    void access$3(com.cosji.activitys.HomeActivity,int) -> a
+    android.os.Handler access$4(com.cosji.activitys.HomeActivity) -> d
+    java.util.List access$5(com.cosji.activitys.HomeActivity) -> e
+    void access$6(com.cosji.activitys.HomeActivity,java.util.List) -> a
+    void access$7(com.cosji.activitys.HomeActivity) -> f
+    android.widget.TextView access$8(com.cosji.activitys.HomeActivity) -> g
+com.cosji.activitys.HomeActivity$1 -> com.cosji.activitys.v:
+    com.cosji.activitys.HomeActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+    com.cosji.activitys.HomeActivity access$0(com.cosji.activitys.HomeActivity$1) -> a
+com.cosji.activitys.HomeActivity$1$1 -> com.cosji.activitys.w:
+    com.cosji.activitys.HomeActivity$1 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.cosji.activitys.HomeActivity$1$2 -> com.cosji.activitys.x:
+    com.cosji.activitys.HomeActivity$1 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.cosji.activitys.HomeActivity$2 -> com.cosji.activitys.y:
+    com.cosji.activitys.HomeActivity this$0 -> a
+    void run() -> run
+com.cosji.activitys.HomeActivity$3 -> com.cosji.activitys.z:
+    com.cosji.activitys.HomeActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.cosji.activitys.HomeActivity$4 -> com.cosji.activitys.aa:
+    com.cosji.activitys.HomeActivity this$0 -> a
+    void run() -> run
+com.cosji.activitys.HomeActivity$5 -> com.cosji.activitys.ab:
+    com.cosji.activitys.HomeActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.HomeActivity$6 -> com.cosji.activitys.ac:
+    com.cosji.activitys.HomeActivity this$0 -> a
+    android.widget.AutoCompleteTextView val$searchtext -> b
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.HomeActivity$7 -> com.cosji.activitys.ad:
+    com.cosji.activitys.HomeActivity this$0 -> a
+    android.widget.AutoCompleteTextView val$searchtext -> b
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.HomeActivity$8 -> com.cosji.activitys.ae:
+    com.cosji.activitys.HomeActivity this$0 -> a
+    android.widget.AutoCompleteTextView val$searchtext -> b
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.cosji.activitys.HomeActivity$MyPageChangeListener -> com.cosji.activitys.af:
+    int oldPosition -> b
+    com.cosji.activitys.HomeActivity this$0 -> a
+    void onPageSelected(int) -> a
+    void onPageScrollStateChanged(int) -> b
+    void onPageScrolled(int,float,int) -> a
+com.cosji.activitys.HomeActivity$ScrollTask -> com.cosji.activitys.ag:
+    com.cosji.activitys.HomeActivity this$0 -> a
+    void run() -> run
+com.cosji.activitys.InnerMessageActivity -> com.cosji.activitys.InnerMessageActivity:
+    android.widget.ListView listview1 -> a
+    android.widget.ListView listview2 -> b
+    android.widget.TabWidget tabwidget -> k
+    android.widget.CheckBox ck1 -> c
+    android.widget.CheckBox ck2 -> d
+    android.widget.Button bt1 -> e
+    android.widget.Button bt2 -> f
+    java.util.List titlelist -> l
+    com.cosji.adapter.InnerMessageAdapter adapter1 -> g
+    com.cosji.adapter.InnerMessageAdapter adapter2 -> h
+    java.util.List datain -> i
+    java.util.List dataout -> j
+    int checkNum1 -> m
+    int checkNum2 -> n
+    android.widget.RelativeLayout buttom1 -> o
+    android.widget.RelativeLayout buttom2 -> p
+    int num -> q
+    int inboxtotal -> r
+    int outboxtotal -> s
+    int inboxpage -> t
+    int outboxpage -> u
+    android.widget.Button button1 -> v
+    android.widget.Button button2 -> w
+    android.widget.ProgressBar pro1 -> x
+    android.widget.ProgressBar pro2 -> y
+    android.widget.TabHost tabhost -> z
+    android.widget.ImageView refresh_big -> A
+    android.widget.ImageView refresh_small -> B
+    android.widget.ImageView refresh -> C
+    android.view.animation.Animation rotate_big -> D
+    android.view.animation.Animation rotate_small -> E
+    void onCreate(android.os.Bundle) -> onCreate
+    void initView() -> a
+    android.view.View composeLayout(int) -> a
+    void onTabChanged(java.lang.String) -> a
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void showdate(int) -> b
+    void moredate(int,int,int) -> a
+    void LoadData(java.lang.String,int,int,java.lang.String) -> a
+    void DeleteData(java.lang.String) -> b
+    void anymore(int) -> c
+    int access$0(com.cosji.activitys.InnerMessageActivity) -> a
+    void access$1(com.cosji.activitys.InnerMessageActivity,int) -> a
+    void access$2(com.cosji.activitys.InnerMessageActivity,int) -> b
+    void access$3(com.cosji.activitys.InnerMessageActivity,int) -> c
+    int access$4(com.cosji.activitys.InnerMessageActivity) -> b
+    int access$5(com.cosji.activitys.InnerMessageActivity) -> c
+    android.widget.Button access$6(com.cosji.activitys.InnerMessageActivity) -> d
+    android.widget.ProgressBar access$7(com.cosji.activitys.InnerMessageActivity) -> e
+    int access$8(com.cosji.activitys.InnerMessageActivity) -> f
+    int access$9(com.cosji.activitys.InnerMessageActivity) -> g
+    android.widget.Button access$10(com.cosji.activitys.InnerMessageActivity) -> h
+    android.widget.ProgressBar access$11(com.cosji.activitys.InnerMessageActivity) -> i
+    android.widget.ImageView access$12(com.cosji.activitys.InnerMessageActivity) -> j
+    android.widget.ImageView access$13(com.cosji.activitys.InnerMessageActivity) -> k
+    android.widget.ImageView access$14(com.cosji.activitys.InnerMessageActivity) -> l
+    android.widget.TabWidget access$15(com.cosji.activitys.InnerMessageActivity) -> m
+    java.util.List access$16(com.cosji.activitys.InnerMessageActivity) -> n
+    android.view.animation.Animation access$17(com.cosji.activitys.InnerMessageActivity) -> o
+    android.view.animation.Animation access$18(com.cosji.activitys.InnerMessageActivity) -> p
+    android.widget.TabHost access$19(com.cosji.activitys.InnerMessageActivity) -> q
+    void access$20(com.cosji.activitys.InnerMessageActivity,int) -> d
+    void access$21(com.cosji.activitys.InnerMessageActivity,int) -> e
+    void access$22(com.cosji.activitys.InnerMessageActivity,int) -> f
+    void access$23(com.cosji.activitys.InnerMessageActivity,int,int,int) -> a
+    int access$24(com.cosji.activitys.InnerMessageActivity) -> r
+    void access$25(com.cosji.activitys.InnerMessageActivity,int) -> g
+    android.widget.RelativeLayout access$26(com.cosji.activitys.InnerMessageActivity) -> s
+    void access$27(com.cosji.activitys.InnerMessageActivity,java.lang.String) -> a
+    void access$28(com.cosji.activitys.InnerMessageActivity,int) -> h
+    int access$29(com.cosji.activitys.InnerMessageActivity) -> t
+    android.widget.RelativeLayout access$30(com.cosji.activitys.InnerMessageActivity) -> u
+com.cosji.activitys.InnerMessageActivity$1 -> com.cosji.activitys.ah:
+    com.cosji.activitys.InnerMessageActivity this$0 -> a
+    void onTabChanged(java.lang.String) -> onTabChanged
+com.cosji.activitys.InnerMessageActivity$10 -> com.cosji.activitys.ai:
+    com.cosji.activitys.InnerMessageActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+    com.cosji.activitys.InnerMessageActivity access$0(com.cosji.activitys.InnerMessageActivity$10) -> a
+com.cosji.activitys.InnerMessageActivity$10$1 -> com.cosji.activitys.aj:
+    com.cosji.activitys.InnerMessageActivity$10 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.cosji.activitys.InnerMessageActivity$10$2 -> com.cosji.activitys.ak:
+    com.cosji.activitys.InnerMessageActivity$10 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.cosji.activitys.InnerMessageActivity$11 -> com.cosji.activitys.al:
+    com.cosji.activitys.InnerMessageActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.cosji.activitys.InnerMessageActivity$2 -> com.cosji.activitys.am:
+    com.cosji.activitys.InnerMessageActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.InnerMessageActivity$3 -> com.cosji.activitys.an:
+    com.cosji.activitys.InnerMessageActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.InnerMessageActivity$4 -> com.cosji.activitys.ao:
+    com.cosji.activitys.InnerMessageActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.InnerMessageActivity$5 -> com.cosji.activitys.ap:
+    com.cosji.activitys.InnerMessageActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.InnerMessageActivity$6 -> com.cosji.activitys.aq:
+    com.cosji.activitys.InnerMessageActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.cosji.activitys.InnerMessageActivity$7 -> com.cosji.activitys.ar:
+    com.cosji.activitys.InnerMessageActivity this$0 -> a
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.cosji.activitys.InnerMessageActivity$8 -> com.cosji.activitys.as:
+    com.cosji.activitys.InnerMessageActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+    com.cosji.activitys.InnerMessageActivity access$0(com.cosji.activitys.InnerMessageActivity$8) -> a
+com.cosji.activitys.InnerMessageActivity$8$1 -> com.cosji.activitys.at:
+    com.cosji.activitys.InnerMessageActivity$8 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.cosji.activitys.InnerMessageActivity$8$2 -> com.cosji.activitys.au:
+    com.cosji.activitys.InnerMessageActivity$8 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.cosji.activitys.InnerMessageActivity$9 -> com.cosji.activitys.av:
+    com.cosji.activitys.InnerMessageActivity this$0 -> a
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.cosji.activitys.InnerMessageActivity$MyAsytask -> com.cosji.activitys.aw:
+    com.cosji.activitys.InnerMessageActivity this$0 -> a
+    java.util.List doInBackground(java.util.HashMap[]) -> a
+    void onPostExecute(java.util.List) -> a
+    void onPreExecute() -> onPreExecute
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.cosji.activitys.JifenbaoActivity -> com.cosji.activitys.JifenbaoActivity:
+    android.widget.EditText apply_for_cash -> c
+    android.widget.EditText zhihubao_count -> d
+    android.widget.EditText person_name -> e
+    android.widget.EditText phone_number -> f
+    android.widget.EditText personal_password -> g
+    android.widget.TextView jifenbaonum -> h
+    android.widget.Button submitjifenbaoApply -> i
+    android.widget.LinearLayout back -> j
+    java.util.List editlist -> k
+    android.view.View$OnClickListener myclicklistener -> a
+    android.view.View$OnFocusChangeListener myFocuslistener -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void initView() -> a
+    void LoadData(java.lang.String,java.util.List,java.lang.String) -> a
+    android.widget.LinearLayout access$0(com.cosji.activitys.JifenbaoActivity) -> a
+    android.widget.EditText access$1(com.cosji.activitys.JifenbaoActivity) -> b
+    android.widget.EditText access$2(com.cosji.activitys.JifenbaoActivity) -> c
+    android.widget.EditText access$3(com.cosji.activitys.JifenbaoActivity) -> d
+    android.widget.EditText access$4(com.cosji.activitys.JifenbaoActivity) -> e
+    android.widget.EditText access$5(com.cosji.activitys.JifenbaoActivity) -> f
+    void access$6(com.cosji.activitys.JifenbaoActivity,java.lang.String,java.util.List,java.lang.String) -> a
+    android.widget.TextView access$7(com.cosji.activitys.JifenbaoActivity) -> g
+com.cosji.activitys.JifenbaoActivity$1 -> com.cosji.activitys.ax:
+    com.cosji.activitys.JifenbaoActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.JifenbaoActivity$2 -> com.cosji.activitys.ay:
+    com.cosji.activitys.JifenbaoActivity this$0 -> a
+    void onFocusChange(android.view.View,boolean) -> onFocusChange
+com.cosji.activitys.JifenbaoActivity$TixianAsytask -> com.cosji.activitys.az:
+    com.cosji.activitys.JifenbaoActivity this$0 -> a
+    java.util.HashMap doInBackground(java.util.HashMap[]) -> a
+    void onPostExecute(java.util.HashMap) -> a
+    void onPreExecute() -> onPreExecute
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.cosji.activitys.JiuYuanActivity -> com.cosji.activitys.JiuYuanActivity:
+    android.widget.GridView grid -> a
+    com.cosji.view.PullToRefreshView mPullToRefreshView -> b
+    boolean isfirstloading -> c
+    int n -> d
+    int page -> e
+    int more_num -> f
+    com.cosji.adapter.JiuYuanAdapter adapter -> g
+    java.lang.String lastupdatetime -> h
+    int data_total -> i
+    android.widget.RelativeLayout zhemai_title -> p
+    int hour -> q
+    int minute -> r
+    int second -> s
+    java.text.SimpleDateFormat sdf -> t
+    java.util.Timer timer -> j
+    android.widget.TextView textHour -> u
+    android.widget.TextView textMinute -> v
+    android.widget.TextView textSecond -> w
+    android.widget.ImageView naoz -> x
+    android.view.View$OnClickListener myClickListener -> k
+    android.widget.AbsListView$OnScrollListener mScrollListener -> l
+    android.view.animation.Animation$AnimationListener myAnmation -> m
+    android.view.animation.Animation$AnimationListener myoutputup -> n
+    java.lang.Runnable r -> o
+    void onCreate(android.os.Bundle) -> onCreate
+    void initView() -> d
+    void GetData(int,int) -> a
+    void handleOtherMessage(int) -> a
+    void onRefresh() -> a
+    void onLoadMore() -> b
+    void onFooterRefresh(com.cosji.view.PullToRefreshView) -> a
+    void onHeaderRefresh(com.cosji.view.PullToRefreshView) -> b
+    java.lang.String udpatetime() -> c
+    void CountDown() -> e
+    void countdown_hms() -> f
+    long betwenTime() -> g
+    void onResume() -> onResume
+    void onPause() -> onPause
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void access$0(com.cosji.activitys.JiuYuanActivity,android.widget.RelativeLayout) -> a
+    android.widget.RelativeLayout access$1(com.cosji.activitys.JiuYuanActivity) -> a
+    int access$2(com.cosji.activitys.JiuYuanActivity) -> b
+    int access$3(com.cosji.activitys.JiuYuanActivity) -> c
+    int access$4(com.cosji.activitys.JiuYuanActivity) -> d
+    void access$5(com.cosji.activitys.JiuYuanActivity,int) -> a
+    void access$6(com.cosji.activitys.JiuYuanActivity,int) -> b
+    void access$7(com.cosji.activitys.JiuYuanActivity,int) -> c
+com.cosji.activitys.JiuYuanActivity$1 -> com.cosji.activitys.ba:
+    com.cosji.activitys.JiuYuanActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+    com.cosji.activitys.JiuYuanActivity access$0(com.cosji.activitys.JiuYuanActivity$1) -> a
+com.cosji.activitys.JiuYuanActivity$1$1 -> com.cosji.activitys.bb:
+    com.cosji.activitys.JiuYuanActivity$1 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.cosji.activitys.JiuYuanActivity$1$2 -> com.cosji.activitys.bc:
+    com.cosji.activitys.JiuYuanActivity$1 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.cosji.activitys.JiuYuanActivity$2 -> com.cosji.activitys.bd:
+    int state -> a
+    boolean flag -> b
+    com.cosji.activitys.JiuYuanActivity this$0 -> c
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+com.cosji.activitys.JiuYuanActivity$3 -> com.cosji.activitys.be:
+    com.cosji.activitys.JiuYuanActivity this$0 -> a
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+com.cosji.activitys.JiuYuanActivity$4 -> com.cosji.activitys.bf:
+    com.cosji.activitys.JiuYuanActivity this$0 -> a
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+com.cosji.activitys.JiuYuanActivity$5 -> com.cosji.activitys.bg:
+    com.cosji.activitys.JiuYuanActivity this$0 -> a
+    void run() -> run
+com.cosji.activitys.JiuYuanActivity$6 -> com.cosji.activitys.bh:
+    com.cosji.activitys.JiuYuanActivity this$0 -> a
+    void run() -> run
+com.cosji.activitys.JiuYuanActivity$7 -> com.cosji.activitys.bi:
+    com.cosji.activitys.JiuYuanActivity this$0 -> a
+    void run() -> run
+com.cosji.activitys.JiuYuanActivity$8 -> com.cosji.activitys.bj:
+    com.cosji.activitys.JiuYuanActivity this$0 -> a
+    void run() -> run
+com.cosji.activitys.LoginActivity -> com.cosji.activitys.LoginActivity:
+    android.widget.ImageView image -> b
+    boolean remenber -> c
+    android.widget.EditText username -> d
+    android.widget.EditText password -> e
+    android.widget.RelativeLayout buttom -> f
+    android.widget.Button login_button -> g
+    android.widget.LinearLayout laytop -> h
+    android.widget.LinearLayout remenberlayout -> i
+    com.cosji.utils.HttpConnectionHepler helper -> j
+    android.widget.TextView regisger -> k
+    android.widget.TextView forget -> l
+    java.lang.String name -> m
+    java.lang.String pas -> n
+    java.lang.String flag -> o
+    android.view.View$OnFocusChangeListener myfocus -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void initData() -> a
+    void initview() -> b
+    void loding() -> c
+    void SaveUser(java.lang.String,java.lang.String,boolean) -> a
+    void ReadUser(boolean) -> a
+    com.cosji.utils.HttpConnectionHepler access$0(com.cosji.activitys.LoginActivity) -> a
+    java.lang.String access$1(com.cosji.activitys.LoginActivity) -> b
+    java.lang.String access$2(com.cosji.activitys.LoginActivity) -> c
+    boolean access$3(com.cosji.activitys.LoginActivity) -> d
+    void access$4(com.cosji.activitys.LoginActivity,java.lang.String,java.lang.String,boolean) -> a
+    android.widget.LinearLayout access$5(com.cosji.activitys.LoginActivity) -> e
+    android.widget.EditText access$6(com.cosji.activitys.LoginActivity) -> f
+    android.widget.EditText access$7(com.cosji.activitys.LoginActivity) -> g
+    android.widget.TextView access$8(com.cosji.activitys.LoginActivity) -> h
+    android.widget.LinearLayout access$9(com.cosji.activitys.LoginActivity) -> i
+    android.widget.TextView access$10(com.cosji.activitys.LoginActivity) -> j
+    android.widget.Button access$11(com.cosji.activitys.LoginActivity) -> k
+    void access$12(com.cosji.activitys.LoginActivity,boolean) -> a
+    void access$13(com.cosji.activitys.LoginActivity) -> l
+    void access$14(com.cosji.activitys.LoginActivity,java.lang.String) -> a
+    void access$15(com.cosji.activitys.LoginActivity,java.lang.String) -> b
+    void access$16(com.cosji.activitys.LoginActivity,boolean) -> b
+    android.widget.ImageView access$17(com.cosji.activitys.LoginActivity) -> m
+com.cosji.activitys.LoginActivity$1 -> com.cosji.activitys.bk:
+    com.cosji.activitys.LoginActivity this$0 -> a
+    void onFocusChange(android.view.View,boolean) -> onFocusChange
+com.cosji.activitys.LoginActivity$2 -> com.cosji.activitys.bl:
+    com.cosji.activitys.LoginActivity this$0 -> a
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.cosji.activitys.LoginActivity$3 -> com.cosji.activitys.bm:
+    com.cosji.activitys.LoginActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.LoginActivity$4 -> com.cosji.activitys.bn:
+    com.cosji.activitys.LoginActivity this$0 -> a
+    boolean onKey(android.view.View,int,android.view.KeyEvent) -> onKey
+com.cosji.activitys.LoginActivity$5 -> com.cosji.activitys.bo:
+    com.cosji.activitys.LoginActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.LoginActivity$myTashk -> com.cosji.activitys.bp:
+    com.cosji.activitys.LoginActivity this$0 -> a
+    java.lang.String doInBackground(java.lang.String[]) -> a
+    void onPostExecute(java.lang.String) -> a
+    void onPreExecute() -> onPreExecute
+    void onProgressUpdate(java.lang.Integer[]) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+    void onProgressUpdate(java.lang.Object[]) -> onProgressUpdate
+com.cosji.activitys.MainTabActivity -> com.cosji.activitys.MainTabActivity:
+    boolean hasMeasured -> h
+    android.widget.TabHost mTabHost -> i
+    java.util.List imageList -> a
+    java.util.List textList -> b
+    int MAX_WIDTH -> j
+    android.view.GestureDetector mGestureDetector -> k
+    boolean isScrolling -> l
+    int window_width -> m
+    android.widget.ToggleButton toggle_Wifi -> n
+    android.widget.ImageButton toggleButton_Wifi -> o
+    android.widget.TabWidget mTabWidget -> p
+    android.widget.LinearLayout layout_left -> q
+    android.widget.LinearLayout layout_right -> r
+    java.lang.String[] str -> c
+    int[] tab_icon -> d
+    int[] tab_icon1 -> e
+    int[] tab_color -> f
+    android.widget.Toast mToast -> s
+    java.lang.String ss -> t
+    int page -> u
+    com.cosji.activitys.MainTabActivity$MyHandler handler -> v
+    com.baidu.frontia.api.FrontiaSocialShareContent mShareContent -> w
+    int h -> x
+    java.lang.String RECEIVER_MESSAGE_ACTION -> g
+    void onCreate(android.os.Bundle) -> onCreate
+    void onTabChanged(java.lang.String) -> onTabChanged
+    android.view.View composeLayout(java.lang.String,int) -> a
+    void init() -> c
+    void InitView() -> a
+    void setListeners() -> d
+    void getMAX_WIDTH() -> b
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean dispatchTouchEvent(android.view.MotionEvent) -> dispatchTouchEvent
+    void showToast(java.lang.String) -> a
+    boolean clearcache() -> e
+    void onDestroy() -> onDestroy
+    android.widget.LinearLayout access$0(com.cosji.activitys.MainTabActivity) -> a
+    android.widget.TabHost access$1(com.cosji.activitys.MainTabActivity) -> b
+    int access$2(com.cosji.activitys.MainTabActivity) -> c
+    com.baidu.frontia.api.FrontiaSocialShareContent access$3(com.cosji.activitys.MainTabActivity) -> d
+    boolean access$4(com.cosji.activitys.MainTabActivity) -> e
+    android.widget.ToggleButton access$5(com.cosji.activitys.MainTabActivity) -> f
+    boolean access$6(com.cosji.activitys.MainTabActivity) -> g
+    void access$7(com.cosji.activitys.MainTabActivity,int) -> a
+    int access$8(com.cosji.activitys.MainTabActivity) -> h
+    android.widget.LinearLayout access$9(com.cosji.activitys.MainTabActivity) -> i
+    void access$10(com.cosji.activitys.MainTabActivity,int) -> b
+    void access$11(com.cosji.activitys.MainTabActivity,boolean) -> a
+com.cosji.activitys.MainTabActivity$1 -> com.cosji.activitys.bq:
+    com.cosji.activitys.MainTabActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+    com.cosji.activitys.MainTabActivity access$0(com.cosji.activitys.MainTabActivity$1) -> a
+com.cosji.activitys.MainTabActivity$1$1 -> com.cosji.activitys.br:
+    com.cosji.activitys.MainTabActivity$1 this$1 -> a
+com.cosji.activitys.MainTabActivity$1$myAsytask -> com.cosji.activitys.bs:
+    com.cosji.activitys.MainTabActivity$1 this$1 -> a
+    java.util.HashMap doInBackground(java.util.HashMap[]) -> a
+    void onPreExecute() -> onPreExecute
+    void onPostExecute(java.util.HashMap) -> a
+    void onProgressUpdate(java.lang.Integer[]) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+    void onProgressUpdate(java.lang.Object[]) -> onProgressUpdate
+com.cosji.activitys.MainTabActivity$2 -> com.cosji.activitys.bt:
+    com.cosji.activitys.MainTabActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.MainTabActivity$3 -> com.cosji.activitys.bu:
+    com.cosji.activitys.MainTabActivity this$0 -> a
+    boolean onPreDraw() -> onPreDraw
+com.cosji.activitys.MainTabActivity$AsynMove -> com.cosji.activitys.bv:
+    com.cosji.activitys.MainTabActivity this$0 -> a
+    java.lang.Void doInBackground(java.lang.Integer[]) -> a
+    void onProgressUpdate(java.lang.Integer[]) -> b
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+    void onProgressUpdate(java.lang.Object[]) -> onProgressUpdate
+com.cosji.activitys.MainTabActivity$MyHandler -> com.cosji.activitys.bw:
+    com.cosji.activitys.MainTabActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.cosji.activitys.MainTabActivity$TabHostTouch -> com.cosji.activitys.bx:
+    com.cosji.activitys.MainTabActivity this$0 -> a
+    boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
+com.cosji.activitys.MallMoreActivity -> com.cosji.activitys.MallMoreActivity:
+    android.widget.GridView list -> a
+    com.cosji.view.PullToRefreshView mPullToRefreshView -> b
+    com.cosji.adapter.MallMoreAdapter adapter -> c
+    java.lang.String lastupdatetime -> d
+    boolean isloading -> e
+    int num -> f
+    int page -> g
+    int data_total -> h
+    android.widget.AbsListView$OnScrollListener mScrollListener -> i
+    java.lang.Runnable mallrunnable -> j
+    void onCreate(android.os.Bundle) -> onCreate
+    void initView() -> d
+    void setData(int,int) -> a
+    void handleOtherMessage(int) -> a
+    void onRefresh() -> a
+    void onLoadMore() -> b
+    void onFooterRefresh(com.cosji.view.PullToRefreshView) -> a
+    void onHeaderRefresh(com.cosji.view.PullToRefreshView) -> b
+    java.lang.String udpatetime() -> c
+    void onResume() -> onResume
+    void onPause() -> onPause
+com.cosji.activitys.MallMoreActivity$1 -> com.cosji.activitys.by:
+    com.cosji.activitys.MallMoreActivity this$0 -> a
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+com.cosji.activitys.MallMoreActivity$2 -> com.cosji.activitys.bz:
+    com.cosji.activitys.MallMoreActivity this$0 -> a
+    void run() -> run
+com.cosji.activitys.MallMoreActivity$3 -> com.cosji.activitys.ca:
+    com.cosji.activitys.MallMoreActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.MallMoreActivity$4 -> com.cosji.activitys.cb:
+    com.cosji.activitys.MallMoreActivity this$0 -> a
+    void run() -> run
+com.cosji.activitys.MallMoreActivity$5 -> com.cosji.activitys.cc:
+    com.cosji.activitys.MallMoreActivity this$0 -> a
+    void run() -> run
+com.cosji.activitys.MineActivity -> com.cosji.activitys.MineActivity:
+    android.widget.ImageView iv_set -> c
+    android.widget.TextView getcoins -> d
+    android.widget.Button sign -> e
+    android.view.animation.Animation anim_out -> f
+    android.view.animation.Animation shake -> g
+    android.view.animation.Animation hidden -> h
+    android.view.animation.Animation anim_in -> i
+    java.lang.String ids -> j
+    com.cosji.activitys.MainTabActivity$MyHandler handler -> k
+    android.os.Handler imagehandler -> l
+    android.view.animation.Animation$AnimationListener myanim -> a
+    android.view.animation.Animation$AnimationListener myhidden -> b
+    void InitView() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void Sign_out() -> b
+    void onResume() -> onResume
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void loadavatar(java.util.HashMap) -> a
+    android.widget.Button access$0(com.cosji.activitys.MineActivity) -> a
+    android.view.animation.Animation access$1(com.cosji.activitys.MineActivity) -> b
+    android.widget.TextView access$2(com.cosji.activitys.MineActivity) -> c
+    android.view.animation.Animation access$3(com.cosji.activitys.MineActivity) -> d
+    void access$4(com.cosji.activitys.MineActivity,java.util.HashMap) -> a
+    void access$5(com.cosji.activitys.MineActivity,java.lang.String) -> a
+    java.lang.String access$6(com.cosji.activitys.MineActivity) -> e
+    android.view.animation.Animation access$7(com.cosji.activitys.MineActivity) -> f
+    android.view.animation.Animation access$8(com.cosji.activitys.MineActivity) -> g
+    void access$9(com.cosji.activitys.MineActivity) -> h
+    com.cosji.activitys.MainTabActivity$MyHandler access$10(com.cosji.activitys.MineActivity) -> i
+    android.os.Handler access$11(com.cosji.activitys.MineActivity) -> j
+com.cosji.activitys.MineActivity$1 -> com.cosji.activitys.cd:
+    com.cosji.activitys.MineActivity this$0 -> a
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+com.cosji.activitys.MineActivity$2 -> com.cosji.activitys.ce:
+    com.cosji.activitys.MineActivity this$0 -> a
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+com.cosji.activitys.MineActivity$3 -> com.cosji.activitys.cf:
+    com.cosji.activitys.MineActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.MineActivity$4 -> com.cosji.activitys.cg:
+    com.cosji.activitys.MineActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.cosji.activitys.MineActivity$5 -> com.cosji.activitys.ch:
+    com.cosji.activitys.MineActivity this$0 -> a
+    java.lang.String val$url -> b
+    void run() -> run
+com.cosji.activitys.MineActivity$mytask -> com.cosji.activitys.ci:
+    com.cosji.activitys.MineActivity this$0 -> a
+    java.util.HashMap doInBackground(java.util.HashMap[]) -> a
+    void onPostExecute(java.util.HashMap) -> a
+    void onPreExecute() -> onPreExecute
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.cosji.activitys.OtherGoodsDetilsActivity -> com.cosji.activitys.OtherGoodsDetilsActivity:
+    android.widget.Button goto_shopping -> b
+    android.widget.ImageView fanli -> c
+    android.widget.ImageView details_image -> d
+    com.cosji.bean.TbkItem tbkItem -> e
+    com.cosji.utils.ImageLoader imageloader -> f
+    android.widget.LinearLayout web_bak -> g
+    java.lang.String click_url -> h
+    int h -> i
+    android.view.View$OnClickListener myClicklistener -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void initViews() -> a
+    void shopping(boolean) -> a
+    void access$0(com.cosji.activitys.OtherGoodsDetilsActivity,boolean) -> a
+com.cosji.activitys.OtherGoodsDetilsActivity$1 -> com.cosji.activitys.cj:
+    com.cosji.activitys.OtherGoodsDetilsActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+    com.cosji.activitys.OtherGoodsDetilsActivity access$0(com.cosji.activitys.OtherGoodsDetilsActivity$1) -> a
+com.cosji.activitys.OtherGoodsDetilsActivity$1$1 -> com.cosji.activitys.ck:
+    com.cosji.activitys.OtherGoodsDetilsActivity$1 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.cosji.activitys.OtherGoodsDetilsActivity$1$2 -> com.cosji.activitys.cl:
+    com.cosji.activitys.OtherGoodsDetilsActivity$1 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.cosji.activitys.RebateActivity -> com.cosji.activitys.RebateActivity:
+    android.widget.ListView taobao_rebate_list -> a
+    android.widget.ListView paipai_rebate_list -> b
+    android.widget.ListView shangcheng_rebate_list -> c
+    android.widget.TabWidget tabwidget -> d
+    java.util.List taobaolist -> e
+    java.util.List paipailist -> f
+    java.util.List shangchenglist -> g
+    android.widget.LinearLayout back -> h
+    android.widget.TextView shuoming -> i
+    java.util.List titlelist -> j
+    com.cosji.adapter.TaobaoRebateAdapter adapter1 -> k
+    com.cosji.adapter.PaipaiRebateAdapter adapter2 -> l
+    com.cosji.adapter.ShangchengRebateAdapter adapter3 -> m
+    android.widget.Button button1 -> n
+    android.widget.Button button2 -> o
+    android.widget.Button button3 -> p
+    android.widget.ProgressBar pro1 -> q
+    android.widget.ProgressBar pro2 -> r
+    android.widget.ProgressBar pro3 -> s
+    int taobaototal -> t
+    int paipaitotal -> u
+    int shangchengtotal -> v
+    int taobaopage -> w
+    int paipaipage -> x
+    int shangchengpage -> y
+    int num -> z
+    android.widget.TabHost tabhost -> A
+    android.widget.ImageView refresh_big -> B
+    android.widget.ImageView refresh_small -> C
+    android.widget.ImageView refresh -> D
+    android.view.animation.Animation rotate_big -> E
+    android.view.animation.Animation rotate_small -> F
+    android.view.View moreView1 -> G
+    android.view.View moreView2 -> H
+    android.view.View moreView3 -> I
+    void onCreate(android.os.Bundle) -> onCreate
+    void initView() -> a
+    void onTabChanged(java.lang.String) -> a
+    android.view.View composeLayout(int) -> a
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void moredate(int,int,int) -> a
+    void LoadData(java.lang.String,int,int,java.lang.String) -> a
+    void anymore(int) -> b
+    void showdate(int) -> c
+    int access$0(com.cosji.activitys.RebateActivity) -> a
+    void access$1(com.cosji.activitys.RebateActivity,int) -> a
+    void access$2(com.cosji.activitys.RebateActivity,int) -> b
+    java.util.List access$3(com.cosji.activitys.RebateActivity) -> b
+    void access$4(com.cosji.activitys.RebateActivity,java.util.List) -> a
+    void access$5(com.cosji.activitys.RebateActivity,com.cosji.adapter.TaobaoRebateAdapter) -> a
+    android.widget.ListView access$6(com.cosji.activitys.RebateActivity) -> c
+    com.cosji.adapter.TaobaoRebateAdapter access$7(com.cosji.activitys.RebateActivity) -> d
+    void access$8(com.cosji.activitys.RebateActivity,int) -> c
+    java.util.List access$9(com.cosji.activitys.RebateActivity) -> e
+    void access$10(com.cosji.activitys.RebateActivity,java.util.List) -> b
+    void access$11(com.cosji.activitys.RebateActivity,com.cosji.adapter.PaipaiRebateAdapter) -> a
+    android.widget.ListView access$12(com.cosji.activitys.RebateActivity) -> f
+    com.cosji.adapter.PaipaiRebateAdapter access$13(com.cosji.activitys.RebateActivity) -> g
+    void access$14(com.cosji.activitys.RebateActivity,int) -> d
+    java.util.List access$15(com.cosji.activitys.RebateActivity) -> h
+    void access$16(com.cosji.activitys.RebateActivity,java.util.List) -> c
+    void access$17(com.cosji.activitys.RebateActivity,com.cosji.adapter.ShangchengRebateAdapter) -> a
+    android.widget.ListView access$18(com.cosji.activitys.RebateActivity) -> i
+    com.cosji.adapter.ShangchengRebateAdapter access$19(com.cosji.activitys.RebateActivity) -> j
+    int access$20(com.cosji.activitys.RebateActivity) -> k
+    int access$21(com.cosji.activitys.RebateActivity) -> l
+    android.widget.Button access$22(com.cosji.activitys.RebateActivity) -> m
+    android.widget.ProgressBar access$23(com.cosji.activitys.RebateActivity) -> n
+    int access$24(com.cosji.activitys.RebateActivity) -> o
+    int access$25(com.cosji.activitys.RebateActivity) -> p
+    android.widget.Button access$26(com.cosji.activitys.RebateActivity) -> q
+    android.widget.ProgressBar access$27(com.cosji.activitys.RebateActivity) -> r
+    int access$28(com.cosji.activitys.RebateActivity) -> s
+    int access$29(com.cosji.activitys.RebateActivity) -> t
+    android.widget.Button access$30(com.cosji.activitys.RebateActivity) -> u
+    android.widget.ProgressBar access$31(com.cosji.activitys.RebateActivity) -> v
+    android.widget.ImageView access$32(com.cosji.activitys.RebateActivity) -> w
+    android.widget.ImageView access$33(com.cosji.activitys.RebateActivity) -> x
+    android.widget.ImageView access$34(com.cosji.activitys.RebateActivity) -> y
+    android.widget.TabWidget access$35(com.cosji.activitys.RebateActivity) -> z
+    java.util.List access$36(com.cosji.activitys.RebateActivity) -> A
+    android.view.animation.Animation access$37(com.cosji.activitys.RebateActivity) -> B
+    android.view.animation.Animation access$38(com.cosji.activitys.RebateActivity) -> C
+    android.widget.TabHost access$39(com.cosji.activitys.RebateActivity) -> D
+    void access$40(com.cosji.activitys.RebateActivity,int) -> e
+    void access$41(com.cosji.activitys.RebateActivity,int) -> f
+    void access$42(com.cosji.activitys.RebateActivity,int) -> g
+    void access$43(com.cosji.activitys.RebateActivity,int) -> h
+    void access$44(com.cosji.activitys.RebateActivity,int,int,int) -> a
+com.cosji.activitys.RebateActivity$1 -> com.cosji.activitys.cm:
+    com.cosji.activitys.RebateActivity this$0 -> a
+    void onTabChanged(java.lang.String) -> onTabChanged
+com.cosji.activitys.RebateActivity$2 -> com.cosji.activitys.cn:
+    com.cosji.activitys.RebateActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.RebateActivity$3 -> com.cosji.activitys.co:
+    com.cosji.activitys.RebateActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.RebateActivity$4 -> com.cosji.activitys.cp:
+    com.cosji.activitys.RebateActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.RebateActivity$5 -> com.cosji.activitys.cq:
+    com.cosji.activitys.RebateActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.RebateActivity$6 -> com.cosji.activitys.cr:
+    int tabid -> a
+    com.cosji.activitys.RebateActivity this$0 -> b
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.RebateActivity$RebateAsytask -> com.cosji.activitys.cs:
+    com.cosji.activitys.RebateActivity this$0 -> a
+    java.util.List doInBackground(java.util.HashMap[]) -> a
+    void onPostExecute(java.util.List) -> a
+    void onPreExecute() -> onPreExecute
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.cosji.activitys.RegisterActivity -> com.cosji.activitys.RegisterActivity:
+    android.webkit.WebView web -> a
+    java.lang.String geturl -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void intview() -> a
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+com.cosji.activitys.RegisterActivity$MyWebViewClient -> com.cosji.activitys.ct:
+    com.cosji.activitys.RegisterActivity this$0 -> a
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+    void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap) -> onPageStarted
+    com.cosji.activitys.RegisterActivity access$0(com.cosji.activitys.RegisterActivity$MyWebViewClient) -> a
+com.cosji.activitys.RegisterActivity$MyWebViewClient$1 -> com.cosji.activitys.cu:
+    com.cosji.activitys.RegisterActivity$MyWebViewClient this$1 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.SettingActivity -> com.cosji.activitys.SettingActivity:
+    android.widget.TabWidget tabwidget -> a
+    java.util.List titlelist -> b
+    android.widget.LinearLayout back -> c
+    android.widget.LinearLayout personalinfo -> d
+    android.widget.LinearLayout modify -> e
+    android.widget.LinearLayout Finance -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    void initView() -> a
+    void onTabChanged(java.lang.String) -> a
+    void setonclicklistener() -> b
+    android.view.View composeLayout(int) -> a
+    void onStart() -> onStart
+    android.widget.LinearLayout access$0(com.cosji.activitys.SettingActivity) -> a
+    android.widget.LinearLayout access$1(com.cosji.activitys.SettingActivity) -> b
+    android.widget.TabWidget access$2(com.cosji.activitys.SettingActivity) -> c
+    java.util.List access$3(com.cosji.activitys.SettingActivity) -> d
+    android.widget.LinearLayout access$4(com.cosji.activitys.SettingActivity) -> e
+    android.widget.LinearLayout access$5(com.cosji.activitys.SettingActivity) -> f
+com.cosji.activitys.SettingActivity$1 -> com.cosji.activitys.cv:
+    com.cosji.activitys.SettingActivity this$0 -> a
+    void onTabChanged(java.lang.String) -> onTabChanged
+com.cosji.activitys.SettingActivity$2 -> com.cosji.activitys.cw:
+    com.cosji.activitys.SettingActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.SettingActivity$3 -> com.cosji.activitys.cx:
+    com.cosji.activitys.SettingActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.SettingActivity$MyAsyTask -> com.cosji.activitys.cy:
+    com.cosji.activitys.SettingActivity this$0 -> a
+    java.util.HashMap doInBackground(java.util.HashMap[]) -> a
+    void onPostExecute(java.util.HashMap) -> a
+    void onPreExecute() -> onPreExecute
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.cosji.activitys.TaoBaoActivity -> com.cosji.activitys.TaoBaoActivity:
+    android.view.LayoutInflater inflater -> o
+    int[] good_type_logos -> a
+    int[] good_type_name -> b
+    int[] good_typesitem -> c
+    int count -> d
+    int more_num -> e
+    java.util.List hod -> f
+    android.os.Handler handler -> g
+    boolean isloading -> h
+    com.cosji.utils.AsynDownloadManager manager -> i
+    android.widget.EditText act -> p
+    java.util.List data -> j
+    com.cosji.utils.HttpConnectionHepler th -> k
+    com.cosji.utils.SettingUtils stu -> l
+    java.lang.Runnable r -> m
+    android.view.View$OnClickListener hot_mall_listener -> n
+    void onCreate(android.os.Bundle) -> onCreate
+    void init() -> c
+    void initGTsView() -> d
+    void handleOtherMessage(int) -> a
+    java.util.List getData() -> a
+    void setData(java.util.List) -> a
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> a
+    void refreshView(com.cosji.activitys.TaoBaoActivity$ViewHolder,int) -> a
+    void initHot_MallEnter() -> b
+    void toGoodsListActivity(java.lang.String) -> a
+    void onPause() -> onPause
+    void onResume() -> onResume
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    android.widget.EditText access$0(com.cosji.activitys.TaoBaoActivity) -> a
+    void access$1(com.cosji.activitys.TaoBaoActivity,java.lang.String) -> a
+com.cosji.activitys.TaoBaoActivity$1 -> com.cosji.activitys.cz:
+    com.cosji.activitys.TaoBaoActivity this$0 -> a
+    void run() -> run
+com.cosji.activitys.TaoBaoActivity$2 -> com.cosji.activitys.da:
+    com.cosji.activitys.TaoBaoActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.TaoBaoActivity$3 -> com.cosji.activitys.db:
+    com.cosji.activitys.TaoBaoActivity this$0 -> a
+    boolean onKey(android.view.View,int,android.view.KeyEvent) -> onKey
+com.cosji.activitys.TaoBaoActivity$4 -> com.cosji.activitys.dc:
+    com.cosji.activitys.TaoBaoActivity this$0 -> a
+    android.widget.TextView val$cliear_button -> b
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.cosji.activitys.TaoBaoActivity$5 -> com.cosji.activitys.dd:
+    com.cosji.activitys.TaoBaoActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.TaoBaoActivity$6 -> com.cosji.activitys.de:
+    com.cosji.activitys.TaoBaoActivity this$0 -> a
+    java.lang.String val$name -> b
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.TaoBaoActivity$ViewHolder -> com.cosji.activitys.df:
+    android.widget.ImageView[] goodt_types_logo -> a
+    android.widget.TextView[] goodt_types_name -> b
+    android.widget.RelativeLayout[] tao_good_types -> c
+    android.widget.TextView type_name -> d
+    com.cosji.activitys.TaoBaoActivity this$0 -> e
+com.cosji.activitys.TiXianActivity -> com.cosji.activitys.TiXianActivity:
+    android.widget.EditText money -> b
+    android.widget.EditText zhifubao_id -> c
+    android.widget.EditText name -> d
+    android.widget.EditText phone -> e
+    android.widget.EditText password -> f
+    android.widget.TextView allowedmoney -> g
+    android.widget.Button bt -> h
+    android.widget.LinearLayout bt_back -> i
+    android.view.View$OnFocusChangeListener focuschange -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void initview() -> a
+    void LoadData(java.lang.String,java.util.List,java.lang.String) -> a
+    android.widget.TextView access$0(com.cosji.activitys.TiXianActivity) -> a
+    android.widget.EditText access$1(com.cosji.activitys.TiXianActivity) -> b
+    android.widget.EditText access$2(com.cosji.activitys.TiXianActivity) -> c
+    android.widget.EditText access$3(com.cosji.activitys.TiXianActivity) -> d
+    android.widget.EditText access$4(com.cosji.activitys.TiXianActivity) -> e
+    android.widget.LinearLayout access$5(com.cosji.activitys.TiXianActivity) -> f
+    android.widget.EditText access$6(com.cosji.activitys.TiXianActivity) -> g
+    void access$7(com.cosji.activitys.TiXianActivity,java.lang.String,java.util.List,java.lang.String) -> a
+com.cosji.activitys.TiXianActivity$1 -> com.cosji.activitys.dg:
+    com.cosji.activitys.TiXianActivity this$0 -> a
+    void onFocusChange(android.view.View,boolean) -> onFocusChange
+com.cosji.activitys.TiXianActivity$2 -> com.cosji.activitys.dh:
+    com.cosji.activitys.TiXianActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.TiXianActivity$3 -> com.cosji.activitys.di:
+    com.cosji.activitys.TiXianActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.TiXianActivity$TixianAsytask -> com.cosji.activitys.dj:
+    com.cosji.activitys.TiXianActivity this$0 -> a
+    java.util.HashMap doInBackground(java.util.HashMap[]) -> a
+    void onPostExecute(java.util.HashMap) -> a
+    void onPreExecute() -> onPreExecute
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.cosji.activitys.WebviewActivity -> com.cosji.activitys.WebviewActivity:
+    com.cosji.view.ProgressWebView webview -> b
+    java.lang.String url -> c
+    java.lang.String title -> d
+    boolean isrebate -> e
+    android.widget.ImageView refresh_big -> f
+    android.widget.ImageView refresh_small -> g
+    android.widget.ImageView refresh -> h
+    android.widget.LinearLayout back -> i
+    android.view.animation.Animation rotate_big -> j
+    android.view.animation.Animation rotate_small -> k
+    android.widget.TextView title_name -> l
+    android.widget.TextView title_state -> m
+    com.cosji.utils.UrlFilter filter -> n
+    android.view.View$OnClickListener lin -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void initView() -> a
+    void Web_link(java.lang.String) -> a
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    android.widget.ImageView access$0(com.cosji.activitys.WebviewActivity) -> a
+    android.widget.ImageView access$1(com.cosji.activitys.WebviewActivity) -> b
+    android.widget.ImageView access$2(com.cosji.activitys.WebviewActivity) -> c
+    android.view.animation.Animation access$3(com.cosji.activitys.WebviewActivity) -> d
+    android.view.animation.Animation access$4(com.cosji.activitys.WebviewActivity) -> e
+    com.cosji.view.ProgressWebView access$5(com.cosji.activitys.WebviewActivity) -> f
+    boolean access$6(com.cosji.activitys.WebviewActivity) -> g
+    android.widget.TextView access$7(com.cosji.activitys.WebviewActivity) -> h
+    java.lang.String access$8(com.cosji.activitys.WebviewActivity) -> i
+    com.cosji.utils.UrlFilter access$9(com.cosji.activitys.WebviewActivity) -> j
+com.cosji.activitys.WebviewActivity$1 -> com.cosji.activitys.dk:
+    com.cosji.activitys.WebviewActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+    com.cosji.activitys.WebviewActivity access$0(com.cosji.activitys.WebviewActivity$1) -> a
+com.cosji.activitys.WebviewActivity$1$1 -> com.cosji.activitys.dl:
+    com.cosji.activitys.WebviewActivity$1 this$1 -> a
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+com.cosji.activitys.WebviewActivity$2 -> com.cosji.activitys.dm:
+    com.cosji.activitys.WebviewActivity this$0 -> a
+    void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long) -> onDownloadStart
+com.cosji.activitys.WebviewActivity$MyWebViewClient -> com.cosji.activitys.dn:
+    com.cosji.activitys.WebviewActivity this$0 -> a
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+    void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap) -> onPageStarted
+com.cosji.activitys.WelcomeActivity -> com.cosji.activitys.WelcomeActivity:
+    android.content.SharedPreferences preferences -> a
+    boolean remenber -> b
+    com.cosji.utils.HttpConnectionHepler helper -> c
+    com.baidu.frontia.api.FrontiaPush mPush -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    void initPush() -> a
+    void isFirstEnter() -> b
+    boolean access$0(com.cosji.activitys.WelcomeActivity) -> a
+    com.cosji.utils.HttpConnectionHepler access$1(com.cosji.activitys.WelcomeActivity) -> b
+com.cosji.activitys.WelcomeActivity$1 -> com.cosji.activitys.do:
+    com.cosji.activitys.WelcomeActivity this$0 -> a
+    void run() -> run
+com.cosji.activitys.WelcomeGuid -> com.cosji.activitys.WelcomeGuid:
+    android.support.v4.view.ViewPager viewPager -> c
+    java.util.List imageViews -> d
+    int count -> a
+    int[] imageResId -> e
+    java.util.List dots -> f
+    int currentItem -> g
+    android.view.LayoutInflater inlfater -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void initProPageView() -> a
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void access$0(com.cosji.activitys.WelcomeGuid,int) -> a
+    java.util.List access$1(com.cosji.activitys.WelcomeGuid) -> a
+com.cosji.activitys.WelcomeGuid$1 -> com.cosji.activitys.dp:
+    com.cosji.activitys.WelcomeGuid this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.WelcomeGuid$MyPageChangeListener -> com.cosji.activitys.dq:
+    int oldPosition -> b
+    com.cosji.activitys.WelcomeGuid this$0 -> a
+    void onPageSelected(int) -> a
+    void onPageScrollStateChanged(int) -> b
+    void onPageScrolled(int,float,int) -> a
+com.cosji.activitys.rebateQuestionActivity -> com.cosji.activitys.rebateQuestionActivity:
+    com.cosji.adapter.ListViewAdapter adapter -> c
+    android.os.Handler handler -> d
+    android.widget.ListView listview -> e
+    java.util.List data -> f
+    android.widget.LinearLayout helpcorner_back -> g
+    java.lang.String ss -> h
+    android.view.View$OnClickListener Myclicklintener -> a
+    android.widget.AdapterView$OnItemClickListener myclicklistener -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void initView() -> a
+    void initdata() -> b
+    java.util.List access$0(com.cosji.activitys.rebateQuestionActivity) -> a
+    com.cosji.adapter.ListViewAdapter access$1(com.cosji.activitys.rebateQuestionActivity) -> b
+    void access$2(com.cosji.activitys.rebateQuestionActivity,java.util.List) -> a
+    void access$3(com.cosji.activitys.rebateQuestionActivity,com.cosji.adapter.ListViewAdapter) -> a
+    android.widget.ListView access$4(com.cosji.activitys.rebateQuestionActivity) -> c
+    java.lang.String access$5(com.cosji.activitys.rebateQuestionActivity) -> d
+    android.os.Handler access$6(com.cosji.activitys.rebateQuestionActivity) -> e
+com.cosji.activitys.rebateQuestionActivity$1 -> com.cosji.activitys.dr:
+    com.cosji.activitys.rebateQuestionActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.activitys.rebateQuestionActivity$2 -> com.cosji.activitys.ds:
+    com.cosji.activitys.rebateQuestionActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.cosji.activitys.rebateQuestionActivity$3 -> com.cosji.activitys.dt:
+    com.cosji.activitys.rebateQuestionActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.cosji.activitys.rebateQuestionActivity$4 -> com.cosji.activitys.du:
+    com.cosji.activitys.rebateQuestionActivity this$0 -> a
+    void run() -> run
+com.cosji.adapter.AdviceAdapter -> com.cosji.a.a:
+    android.content.Context context -> a
+    java.util.ArrayList data -> b
+    android.view.LayoutInflater inflater -> c
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.cosji.adapter.AdviceAdapter$ViewHolder -> com.cosji.a.b:
+    android.widget.TextView advice_item_date -> a
+    android.widget.TextView advice_item_content -> b
+    com.cosji.adapter.AdviceAdapter this$0 -> c
+com.cosji.adapter.GoodsListAdapter -> com.cosji.a.c:
+    android.content.Context context -> a
+    android.os.Handler handler -> b
+    boolean isloading -> c
+    com.cosji.utils.ImageLoader imageLoader -> g
+    java.util.List hod -> d
+    java.util.List data -> e
+    android.view.LayoutInflater inflater -> f
+    boolean mBusy -> h
+    void setFlagBusy(boolean) -> a
+    java.util.List getData() -> a
+    void setData(java.util.List) -> a
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void refreshView(com.cosji.adapter.GoodsListAdapter$ViewHolder,int) -> a
+com.cosji.adapter.GoodsListAdapter$1 -> com.cosji.a.d:
+    com.cosji.adapter.GoodsListAdapter this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.cosji.adapter.GoodsListAdapter$2 -> com.cosji.a.e:
+    com.cosji.adapter.GoodsListAdapter this$0 -> a
+    int val$position -> b
+    void onClick(android.view.View) -> onClick
+    com.cosji.adapter.GoodsListAdapter access$0(com.cosji.adapter.GoodsListAdapter$2) -> a
+com.cosji.adapter.GoodsListAdapter$2$1 -> com.cosji.a.f:
+    com.cosji.adapter.GoodsListAdapter$2 this$1 -> a
+    int val$position -> b
+    void run() -> run
+com.cosji.adapter.GoodsListAdapter$ViewHolder -> com.cosji.a.g:
+    android.widget.TextView goods_name -> a
+    android.widget.TextView goods_price -> b
+    android.widget.TextView goods_money_save -> c
+    android.widget.TextView goods_selt -> d
+    android.widget.ImageView goods_icon -> e
+    android.widget.RelativeLayout good_item -> f
+    com.cosji.adapter.GoodsListAdapter this$0 -> g
+com.cosji.adapter.IncomeAdapter -> com.cosji.a.h:
+    android.content.Context context -> a
+    java.util.List data -> b
+    android.view.LayoutInflater inflater -> c
+    java.lang.String flag -> d
+    void refresh(java.util.List) -> a
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.cosji.adapter.IncomeAdapter$ViewHolder -> com.cosji.a.i:
+    android.widget.TextView item_time -> a
+    android.widget.TextView item_entity -> b
+    android.widget.TextView item_detils -> c
+    com.cosji.adapter.IncomeAdapter this$0 -> d
+com.cosji.adapter.InnerMessageAdapter -> com.cosji.a.j:
+    android.content.Context context -> a
+    java.util.List data -> b
+    android.view.LayoutInflater inflater -> c
+    void refresh(java.util.List) -> a
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.cosji.adapter.InnerMessageAdapter$ViewHolder -> com.cosji.a.k:
+    android.widget.TextView time -> a
+    android.widget.TextView entity -> b
+    android.widget.CheckBox ck -> c
+    com.cosji.adapter.InnerMessageAdapter this$0 -> d
+com.cosji.adapter.JiuYuanAdapter -> com.cosji.a.l:
+    boolean mBusy -> f
+    com.cosji.utils.ImageLoader imageLoader -> g
+    android.content.Context context -> a
+    boolean isloading -> b
+    android.view.LayoutInflater inflater -> h
+    android.os.Handler handler -> c
+    java.util.List hod -> d
+    java.util.List data -> e
+    void setFlagBusy(boolean) -> a
+    java.util.List getData() -> a
+    void setData(java.util.List) -> a
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void refreshView(com.cosji.adapter.JiuYuanAdapter$ViewHolder,int) -> a
+com.cosji.adapter.JiuYuanAdapter$1 -> com.cosji.a.m:
+    com.cosji.adapter.JiuYuanAdapter this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.cosji.adapter.JiuYuanAdapter$2 -> com.cosji.a.n:
+    com.cosji.adapter.JiuYuanAdapter this$0 -> a
+    int val$position -> b
+    void onClick(android.view.View) -> onClick
+    com.cosji.adapter.JiuYuanAdapter access$0(com.cosji.adapter.JiuYuanAdapter$2) -> a
+com.cosji.adapter.JiuYuanAdapter$2$1 -> com.cosji.a.o:
+    com.cosji.adapter.JiuYuanAdapter$2 this$1 -> a
+    int val$position -> b
+    void run() -> run
+com.cosji.adapter.JiuYuanAdapter$ViewHolder -> com.cosji.a.p:
+    android.widget.ImageView picture -> a
+    android.widget.TextView name -> b
+    android.widget.TextView price -> c
+    android.widget.TextView ishas -> d
+    android.widget.LinearLayout bt -> e
+    com.cosji.adapter.JiuYuanAdapter this$0 -> f
+com.cosji.adapter.ListViewAdapter -> com.cosji.a.q:
+    android.content.Context context -> a
+    android.view.LayoutInflater inflater -> b
+    java.util.List data -> c
+    int curentposition -> d
+    int getCount() -> getCount
+    void refersh(int) -> a
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.cosji.adapter.ListViewAdapter$ViewHolder -> com.cosji.a.r:
+    android.widget.TextView titile -> a
+    android.widget.LinearLayout linearlayout -> b
+    android.widget.TextView content -> c
+    android.widget.ImageView arrow -> d
+    com.cosji.adapter.ListViewAdapter this$0 -> e
+com.cosji.adapter.MallMoreAdapter -> com.cosji.a.s:
+    java.util.List data -> a
+    android.content.Context context -> b
+    boolean isrefresh -> c
+    android.view.LayoutInflater inflater -> g
+    java.util.List hod -> d
+    com.cosji.utils.AsynDownloadManager manager -> e
+    android.os.Handler handler -> f
+    boolean mBusy -> h
+    void setFlagBusy(boolean) -> a
+    java.util.List getData() -> a
+    void setData(java.util.List) -> a
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void refreshView(com.cosji.adapter.MallMoreAdapter$ViewHolder,int) -> a
+com.cosji.adapter.MallMoreAdapter$1 -> com.cosji.a.t:
+    com.cosji.adapter.MallMoreAdapter this$0 -> a
+    int val$position -> b
+    void onClick(android.view.View) -> onClick
+com.cosji.adapter.MallMoreAdapter$2 -> com.cosji.a.u:
+    com.cosji.adapter.MallMoreAdapter this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.adapter.MallMoreAdapter$ViewHolder -> com.cosji.a.v:
+    android.widget.ImageView home_mall_item_logo -> a
+    android.widget.TextView home_mall_item_profit -> b
+    android.widget.RelativeLayout home_mall_item_type -> c
+    com.cosji.adapter.MallMoreAdapter this$0 -> d
+com.cosji.adapter.PaipaiRebateAdapter -> com.cosji.a.w:
+    android.content.Context context -> a
+    java.util.List data -> b
+    android.view.LayoutInflater inflater -> c
+    android.os.Handler handler -> d
+    com.cosji.utils.AsynDownloadManager manager -> e
+    int getCount() -> getCount
+    void refresh(java.util.List) -> a
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.cosji.adapter.PaipaiRebateAdapter$ViewHolder -> com.cosji.a.x:
+    android.widget.TextView order -> a
+    android.widget.TextView deal_time -> b
+    android.widget.TextView introduce -> c
+    android.widget.TextView price -> d
+    android.widget.TextView reabate -> e
+    android.widget.TextView number -> f
+    com.cosji.adapter.PaipaiRebateAdapter this$0 -> g
+com.cosji.adapter.ProPagerViewAdapter -> com.cosji.a.y:
+    java.util.List imageViews -> a
+    java.util.List gimageViews -> b
+    android.content.Context context -> c
+    java.util.List slidemap -> d
+    int getCount() -> a
+    java.lang.Object instantiateItem(android.view.View,int) -> a
+    void destroyItem(android.view.View,int,java.lang.Object) -> a
+    boolean isViewFromObject(android.view.View,java.lang.Object) -> a
+    void restoreState(android.os.Parcelable,java.lang.ClassLoader) -> a
+    android.os.Parcelable saveState() -> b
+    void startUpdate(android.view.View) -> a
+    void finishUpdate(android.view.View) -> b
+    java.util.List access$0(com.cosji.adapter.ProPagerViewAdapter) -> a
+    android.content.Context access$1(com.cosji.adapter.ProPagerViewAdapter) -> b
+com.cosji.adapter.ProPagerViewAdapter$1 -> com.cosji.a.z:
+    com.cosji.adapter.ProPagerViewAdapter this$0 -> a
+    int val$arg1 -> b
+    void onClick(android.view.View) -> onClick
+com.cosji.adapter.ShangchengRebateAdapter -> com.cosji.a.aa:
+    android.content.Context context -> a
+    java.util.List data -> b
+    android.view.LayoutInflater inflater -> c
+    int getCount() -> getCount
+    void refresh(java.util.List) -> a
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.cosji.adapter.ShangchengRebateAdapter$ViewHolder -> com.cosji.a.ab:
+    android.widget.TextView deal_time -> a
+    android.widget.TextView introduce -> b
+    android.widget.TextView price -> c
+    android.widget.TextView reabate -> d
+    android.widget.TextView order -> e
+    android.widget.TextView goods_number -> f
+    com.cosji.adapter.ShangchengRebateAdapter this$0 -> g
+com.cosji.adapter.TaobaoRebateAdapter -> com.cosji.a.ac:
+    android.content.Context context -> a
+    java.util.List data -> b
+    android.view.LayoutInflater inflater -> c
+    android.os.Handler handler -> d
+    int getCount() -> getCount
+    void refresh(java.util.List) -> a
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.cosji.adapter.TaobaoRebateAdapter$ViewHolder -> com.cosji.a.ad:
+    android.widget.TextView ordernum -> a
+    android.widget.TextView deal_time -> b
+    android.widget.TextView introduce -> c
+    android.widget.TextView price -> d
+    android.widget.TextView reabate -> e
+    com.cosji.adapter.TaobaoRebateAdapter this$0 -> f
+com.cosji.application.Base -> com.cosji.application.Base:
+    com.cosji.utils.AsynDownloadManager manager -> a
+    com.cosji.utils.ImageLoader imageLoader -> b
+    java.lang.String userId -> h
+    boolean isTaobaoEnabled -> c
+    boolean isInit -> d
+    com.baidu.frontia.api.FrontiaPush mPush -> i
+    com.cosji.application.CosjiDB cosjiDb -> e
+    java.lang.String VersionName -> f
+    int VersionCode -> g
+    com.cosji.activitys.MainTabActivity$MyHandler handler -> j
+    void onCreate() -> onCreate
+    com.cosji.activitys.MainTabActivity$MyHandler getHandler() -> a
+    void setHandler(com.cosji.activitys.MainTabActivity$MyHandler) -> a
+    boolean isNetworkConnected(android.content.Context) -> b
+    boolean scanApp() -> c
+    boolean isWifiConnected(android.content.Context) -> c
+    java.lang.String getUserId() -> b
+    void setUserId(java.lang.String) -> a
+    void setmPush(com.baidu.frontia.api.FrontiaPush) -> a
+    java.lang.String getVersionName() -> d
+    int getVersionCode() -> e
+com.cosji.application.CosjiDB -> com.cosji.application.a:
+    android.database.sqlite.SQLiteDatabase db -> a
+    android.content.Context context -> b
+    java.text.SimpleDateFormat sdf -> c
+com.cosji.application.PushMessageReceiver -> com.cosji.application.PushMessageReceiver:
+    void onBind(android.content.Context,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
+    void onUnbind(android.content.Context,int,java.lang.String) -> a
+    void onSetTags(android.content.Context,int,java.util.List,java.util.List,java.lang.String) -> a
+    void onDelTags(android.content.Context,int,java.util.List,java.util.List,java.lang.String) -> b
+    void onListTags(android.content.Context,int,java.util.List,java.lang.String) -> a
+    void onMessage(android.content.Context,java.lang.String,java.lang.String) -> a
+    void onNotificationClicked(android.content.Context,java.lang.String,java.lang.String,java.lang.String) -> a
+com.cosji.bean.TbkItem -> com.cosji.bean.TbkItem:
+    java.lang.String num_iid -> a
+    java.lang.String seller_id -> b
+    java.lang.String nick -> c
+    java.lang.String title -> d
+    java.lang.String price -> e
+    java.lang.String volume -> f
+    java.lang.String pic_url -> g
+    java.lang.String item_url -> h
+    java.lang.String shop_url -> i
+    java.lang.String click_url -> j
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    java.lang.String getNum_iid() -> a
+    void setNum_iid(java.lang.String) -> a
+    void setSeller_id(java.lang.String) -> b
+    void setNick(java.lang.String) -> c
+    java.lang.String getTitle() -> b
+    void setTitle(java.lang.String) -> d
+    java.lang.String getPrice() -> c
+    void setPrice(java.lang.String) -> e
+    java.lang.String getVolume() -> d
+    void setVolume(java.lang.String) -> f
+    java.lang.String getPic_url() -> e
+    void setPic_url(java.lang.String) -> g
+    void setItem_url(java.lang.String) -> h
+    void setShop_url(java.lang.String) -> i
+    java.lang.String getClick_url() -> f
+    void setClick_url(java.lang.String) -> j
+    java.lang.String toString() -> toString
+    int describeContents() -> describeContents
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+com.cosji.bean.TbkItem$1 -> com.cosji.bean.a:
+    com.cosji.bean.TbkItem[] newArray(int) -> a
+    com.cosji.bean.TbkItem createFromParcel(android.os.Parcel) -> a
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+com.cosji.tbkapihelper.APITest -> com.cosji.b.a:
+    java.lang.String testUrl -> a
+    java.lang.String appkey -> b
+    java.lang.String secret -> c
+    java.lang.String get(java.util.TreeMap) -> a
+com.cosji.tbkapihelper.JsonUtil -> com.cosji.b.b:
+    java.util.List jsonToObject(java.lang.String) -> a
+    java.lang.String getClickUrl(java.lang.String) -> b
+    int getTotle(java.lang.String) -> c
+com.cosji.tbkapihelper.Utils -> com.cosji.b.c:
+    com.cosji.tbkapihelper.JsonUtil json2Object -> a
+    java.lang.String md5Signature(java.util.TreeMap,java.lang.String) -> a
+    java.lang.String byte2hex(byte[]) -> a
+    java.lang.StringBuffer getBeforeSign(java.util.TreeMap,java.lang.StringBuffer) -> a
+    java.lang.String getconvert(java.lang.String,java.lang.String) -> a
+    java.lang.String getItems(java.lang.String) -> a
+com.cosji.utils.AbstractFileCache -> com.cosji.c.a:
+    java.lang.String dirString -> a
+    java.io.File getFile(java.lang.String) -> a
+    java.lang.String getSavePath(java.lang.String) -> b
+    java.lang.String getCacheDir() -> a
+    void clear() -> b
+com.cosji.utils.AsynDownloadManager -> com.cosji.c.b:
+    java.lang.String ThumbFolder -> b
+    java.lang.String ImageFolder -> c
+    android.os.Handler handler -> d
+    java.util.concurrent.ExecutorService pool -> e
+    java.util.concurrent.ConcurrentHashMap mSoftCache -> f
+    java.util.HashMap mHardCache -> g
+    java.lang.Runnable mClearCache -> h
+    com.cosji.utils.AsynDownloadManager manager -> a
+    void clear() -> d
+    void addImage2Cache(java.lang.String,android.graphics.Bitmap) -> a
+    void loadThembBitmap(android.content.Context,java.lang.String,android.widget.ImageView,boolean) -> a
+    android.graphics.Bitmap getBitmapFromCache(java.lang.String) -> a
+    android.graphics.Bitmap getFromURL(java.lang.String,java.lang.String,boolean) -> a
+    android.graphics.Bitmap getFromSDcard(java.lang.String,java.lang.String,boolean) -> b
+    boolean isSDCardAvailable() -> a
+    android.graphics.Bitmap getBitmap(java.lang.String,boolean) -> a
+    void setHandler(android.os.Handler) -> a
+    void access$0(com.cosji.utils.AsynDownloadManager) -> a
+    java.lang.String access$1() -> b
+    android.os.Handler access$2() -> c
+com.cosji.utils.AsynDownloadManager$1 -> com.cosji.c.c:
+com.cosji.utils.AsynDownloadManager$2 -> com.cosji.c.d:
+    com.cosji.utils.AsynDownloadManager this$0 -> a
+    void run() -> run
+com.cosji.utils.AsynDownloadManager$3 -> com.cosji.c.e:
+    com.cosji.utils.AsynDownloadManager this$0 -> a
+    java.lang.String val$url -> b
+    boolean val$isscard -> c
+    android.content.Context val$context -> d
+    android.widget.ImageView val$imageView -> e
+    void run() -> run
+com.cosji.utils.AsynDownloadManager$3$1 -> com.cosji.c.f:
+    com.cosji.utils.AsynDownloadManager$3 this$1 -> a
+    java.lang.String val$url -> b
+    android.widget.ImageView val$imageView -> c
+    android.graphics.Bitmap val$bitmap -> d
+    void run() -> run
+com.cosji.utils.Bitmaptool -> com.cosji.c.g:
+    android.graphics.Bitmap toRoundBitmap(android.graphics.Bitmap) -> a
+com.cosji.utils.CommonLog -> com.cosji.c.h:
+    java.lang.String tag -> c
+    int logLevel -> a
+    boolean isDebug -> b
+    void setTag(java.lang.String) -> a
+    java.lang.String getFunctionName() -> a
+    void error(java.lang.Object) -> a
+    void e(java.lang.Object) -> b
+    void debug(java.lang.Object) -> c
+    void d(java.lang.Object) -> d
+com.cosji.utils.CommonUtil -> com.cosji.c.i:
+    com.cosji.utils.CommonLog log -> a
+    boolean hasSDCard() -> a
+    java.lang.String getRootFilePath() -> b
+com.cosji.utils.Dialog -> com.cosji.c.j:
+    void dialogshow(java.lang.String,android.content.Context,java.lang.String) -> a
+com.cosji.utils.Dialog$1 -> com.cosji.c.k:
+    com.cosji.utils.Dialog this$0 -> a
+    java.lang.String val$URL -> b
+    android.content.Context val$context -> c
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.cosji.utils.Dialog$2 -> com.cosji.c.l:
+    com.cosji.utils.Dialog this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.cosji.utils.DisplayUtils -> com.cosji.c.m:
+    int dip2px(android.content.Context,float) -> a
+com.cosji.utils.Exit -> com.cosji.c.n:
+    java.lang.Boolean isExit -> c
+    java.lang.Boolean hasTask -> d
+    java.util.Timer tExit -> a
+    java.util.TimerTask task -> b
+    boolean exit(android.content.Context) -> a
+    void access$0(java.lang.Boolean) -> a
+    void access$1(java.lang.Boolean) -> b
+com.cosji.utils.Exit$1 -> com.cosji.c.o:
+    com.cosji.utils.Exit this$0 -> a
+    void run() -> run
+com.cosji.utils.FileCache -> com.cosji.c.p:
+    java.lang.String getSavePath(java.lang.String) -> b
+    java.lang.String getCacheDir() -> a
+com.cosji.utils.FileHelper -> com.cosji.c.q:
+    com.cosji.utils.CommonLog log -> a
+    boolean createDirectory(java.lang.String) -> a
+    boolean deleteDirectory(java.lang.String) -> b
+com.cosji.utils.FileManager -> com.cosji.c.r:
+    java.lang.String getSaveFilePath() -> a
+com.cosji.utils.HttpConnectionHepler -> com.cosji.c.s:
+    int data_total -> a
+    java.util.HashMap CookieContiner -> b
+    java.util.HashMap taogdtitlehash -> c
+    java.util.HashMap getTaoGdTitleHash() -> a
+    void setTaoGdTitleHash(java.util.HashMap) -> a
+    java.util.HashMap UserLogin(java.lang.String) -> a
+    void SaveCookies(org.apache.http.HttpResponse) -> a
+    void AddCookies(org.apache.http.client.methods.HttpPost) -> a
+    java.util.HashMap sendPostRequest(java.lang.String,java.util.List) -> a
+    int getData_total() -> b
+    void setData_total(int) -> a
+    android.graphics.Bitmap getimage(java.lang.String) -> b
+    java.util.List sendPostRequestArray(java.lang.String,java.util.List) -> b
+    java.util.List sendPostReArray(android.content.Context,java.lang.String,java.util.List,java.lang.String) -> a
+    void AnalysisJson(java.lang.String,java.util.List) -> c
+    java.util.List sendPostMallReArray(android.content.Context,java.lang.String,java.util.List,java.lang.String) -> b
+    void AnalysisJson1(android.content.Context,java.lang.String,java.util.List,java.lang.String) -> c
+    java.util.List sendPostTaoGdsTpReArray(android.content.Context,java.lang.String,java.util.List) -> a
+    void AnalysisJson2(java.lang.String,java.util.List) -> d
+com.cosji.utils.ImageLoader -> com.cosji.c.t:
+    com.cosji.utils.MemoryCache memoryCache -> a
+    com.cosji.utils.AbstractFileCache fileCache -> b
+    java.util.Map imageViews -> c
+    java.util.concurrent.ExecutorService executorService -> d
+    void DisplayImage(java.lang.String,android.widget.ImageView,boolean) -> a
+    void queuePhoto(java.lang.String,android.widget.ImageView) -> a
+    android.graphics.Bitmap getBitmap(java.lang.String) -> a
+    android.graphics.Bitmap decodeFile(java.io.File) -> a
+    boolean imageViewReused(com.cosji.utils.ImageLoader$PhotoToLoad) -> a
+    void clearCache() -> a
+    void CopyStream(java.io.InputStream,java.io.OutputStream) -> a
+    android.graphics.Bitmap access$0(com.cosji.utils.ImageLoader,java.lang.String) -> a
+    com.cosji.utils.MemoryCache access$1(com.cosji.utils.ImageLoader) -> a
+com.cosji.utils.ImageLoader$BitmapDisplayer -> com.cosji.c.u:
+    android.graphics.Bitmap bitmap -> a
+    com.cosji.utils.ImageLoader$PhotoToLoad photoToLoad -> b
+    com.cosji.utils.ImageLoader this$0 -> c
+    void run() -> run
+com.cosji.utils.ImageLoader$PhotoToLoad -> com.cosji.c.v:
+    java.lang.String url -> a
+    android.widget.ImageView imageView -> b
+    com.cosji.utils.ImageLoader this$0 -> c
+com.cosji.utils.ImageLoader$PhotosLoader -> com.cosji.c.w:
+    com.cosji.utils.ImageLoader$PhotoToLoad photoToLoad -> a
+    com.cosji.utils.ImageLoader this$0 -> b
+    void run() -> run
+com.cosji.utils.IsIntent -> com.cosji.c.x:
+    void prompt(android.content.Context,java.lang.String,java.lang.String) -> a
+    void prompt1(android.content.Context,java.lang.String,java.lang.String) -> b
+    void goodsDetials(android.content.Context,com.cosji.bean.TbkItem) -> a
+    void jiuyuanGoodsDetials(android.content.Context,com.cosji.bean.TbkItem) -> b
+    void Login(android.content.Context,java.lang.String,java.lang.String,java.lang.String) -> b
+    void ToLogin(android.content.Context) -> a
+    void ToWeb(android.content.Context,java.lang.String,java.lang.String,boolean) -> a
+    void ToWeb1(android.content.Context,java.lang.String,java.lang.String,boolean) -> b
+    void SearchGoods(android.content.Context,java.lang.String) -> a
+    boolean isNumericAs(java.lang.String) -> a
+    void access$0(android.content.Context,java.lang.String,java.lang.String,java.lang.String) -> a
+com.cosji.utils.IsIntent$1 -> com.cosji.c.y:
+    android.content.Context val$context -> a
+    java.lang.String val$name -> b
+    java.lang.String val$url -> c
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.cosji.utils.IsIntent$2 -> com.cosji.c.z:
+    java.lang.String val$url -> a
+    android.content.Context val$context -> b
+    java.lang.String val$name -> c
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.cosji.utils.IsIntent$3 -> com.cosji.c.aa:
+    android.content.Context val$context -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.cosji.utils.IsIntent$4 -> com.cosji.c.ab:
+    android.content.Context val$context -> a
+    java.lang.String val$id -> b
+    java.lang.String val$name -> c
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.cosji.utils.IsIntent$5 -> com.cosji.c.ac:
+    android.content.Context val$context -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.cosji.utils.IsIntent$6 -> com.cosji.c.ad:
+    android.content.Context val$context -> a
+    com.cosji.bean.TbkItem val$tbkItem -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.cosji.utils.LogFactory -> com.cosji.c.ae:
+    com.cosji.utils.CommonLog log -> a
+    com.cosji.utils.CommonLog createLog() -> a
+com.cosji.utils.MemoryCache -> com.cosji.c.af:
+    java.util.Map cache -> a
+    long size -> b
+    long limit -> c
+    void setLimit(long) -> a
+    android.graphics.Bitmap get(java.lang.String) -> a
+    void put(java.lang.String,android.graphics.Bitmap) -> a
+    void checkSize() -> b
+    void clear() -> a
+    long getSizeInBytes(android.graphics.Bitmap) -> a
+com.cosji.utils.SettingUtils -> com.cosji.c.ag:
+    android.app.Dialog mProgressDialog -> a
+    android.content.SharedPreferences sp -> b
+    boolean get(android.content.Context,java.lang.String,boolean) -> a
+    boolean set(android.content.Context,java.lang.String,boolean) -> b
+    boolean Stringset(android.content.Context,java.lang.String,java.lang.String) -> a
+    java.lang.String Stringget(android.content.Context,java.lang.String,java.lang.String) -> b
+    long getFolderSize(java.io.File) -> a
+    void deleteFile(java.io.File) -> b
+    void startdialog(android.content.Context) -> a
+    void AutoCompleteText(android.content.Context,android.widget.AutoCompleteTextView) -> a
+com.cosji.utils.SettingUtils$1 -> com.cosji.c.ah:
+    com.cosji.utils.SettingUtils this$0 -> a
+    android.widget.AutoCompleteTextView val$searchtext -> b
+    android.content.Context val$context -> c
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.cosji.utils.SettingUtils$2 -> com.cosji.c.ai:
+    com.cosji.utils.SettingUtils this$0 -> a
+    android.content.Context val$context -> b
+    android.widget.AutoCompleteTextView val$searchtext -> c
+    boolean onKey(android.view.View,int,android.view.KeyEvent) -> onKey
+com.cosji.utils.ToastUtil -> com.cosji.c.aj:
+    android.widget.Toast toast -> a
+    android.view.View view -> b
+    void getToast(android.content.Context) -> a
+    void showShortToast(android.content.Context,java.lang.CharSequence) -> a
+    void showShortToast(android.content.Context,int) -> a
+    void showToast(android.content.Context,java.lang.CharSequence,int) -> a
+    void showToast(android.content.Context,int,int) -> a
+com.cosji.utils.ToggleListener -> com.cosji.c.ak:
+    android.content.Context context -> a
+    java.lang.String settingName -> b
+    android.widget.ToggleButton toggle -> c
+    android.widget.ImageButton toggle_Button -> d
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.cosji.utils.Url -> com.cosji.c.al:
+    java.lang.String[] ProGoods -> a
+    java.lang.String user() -> a
+    java.lang.String version() -> b
+    java.lang.String message() -> c
+    java.lang.String account() -> d
+    java.lang.String registry(java.lang.String) -> a
+    java.lang.String order(java.lang.String) -> b
+    java.lang.String help() -> e
+com.cosji.utils.UrlFilter -> com.cosji.c.am:
+    android.os.Handler handler -> a
+    java.lang.String filters(java.lang.String) -> a
+    java.lang.String doFilter(java.lang.String) -> b
+    boolean dealRequest(java.lang.String,android.webkit.WebView,android.content.Context,java.lang.String) -> a
+    boolean isNumericAs(java.lang.String) -> c
+    android.os.Handler access$0(com.cosji.utils.UrlFilter) -> a
+com.cosji.utils.UrlFilter$1 -> com.cosji.c.an:
+    com.cosji.utils.UrlFilter this$0 -> a
+    android.content.Context val$context -> b
+    android.webkit.WebView val$View -> c
+    void handleMessage(android.os.Message) -> handleMessage
+com.cosji.utils.UrlFilter$2 -> com.cosji.c.ao:
+    com.cosji.utils.UrlFilter this$0 -> a
+    java.lang.String val$endurl -> b
+    void run() -> run
+com.cosji.utils.Util -> com.cosji.c.ap:
+    java.lang.String getDate(java.lang.String) -> a
+    java.lang.String getPhoneIMEI(android.content.Context) -> a
+    java.lang.String createTTid() -> a
+    java.lang.String paramRules(java.lang.String,android.content.Context) -> a
+com.cosji.view.CustomDialog -> com.cosji.view.a:
+com.cosji.view.CustomDialog$Builder -> com.cosji.view.b:
+    android.content.Context context -> a
+    java.lang.String title -> b
+    java.lang.String message -> c
+    java.lang.String positiveButtonText -> d
+    java.lang.String negativeButtonText -> e
+    android.view.View contentView -> f
+    android.content.DialogInterface$OnClickListener positiveButtonClickListener -> g
+    android.content.DialogInterface$OnClickListener negativeButtonClickListener -> h
+    com.cosji.view.CustomDialog$Builder setMessage(int) -> a
+    com.cosji.view.CustomDialog$Builder setTitle(int) -> b
+    com.cosji.view.CustomDialog$Builder setPositiveButton(int,android.content.DialogInterface$OnClickListener) -> a
+    com.cosji.view.CustomDialog$Builder setNegativeButton(int,android.content.DialogInterface$OnClickListener) -> b
+    com.cosji.view.CustomDialog create() -> a
+    android.content.DialogInterface$OnClickListener access$0(com.cosji.view.CustomDialog$Builder) -> a
+    android.content.DialogInterface$OnClickListener access$1(com.cosji.view.CustomDialog$Builder) -> b
+com.cosji.view.CustomDialog$Builder$1 -> com.cosji.view.c:
+    com.cosji.view.CustomDialog$Builder this$1 -> a
+    com.cosji.view.CustomDialog val$dialog -> b
+    void onClick(android.view.View) -> onClick
+com.cosji.view.CustomDialog$Builder$2 -> com.cosji.view.d:
+    com.cosji.view.CustomDialog$Builder this$1 -> a
+    com.cosji.view.CustomDialog val$dialog -> b
+    void onClick(android.view.View) -> onClick
+com.cosji.view.MyGridView -> com.cosji.view.MyGridView:
+    void onMeasure(int,int) -> onMeasure
+    boolean dispatchTouchEvent(android.view.MotionEvent) -> dispatchTouchEvent
+com.cosji.view.MyScrollView -> com.cosji.view.MyScrollView:
+    boolean canScroll -> a
+    android.view.GestureDetector mGestureDetector -> b
+    boolean onInterceptTouchEvent(android.view.MotionEvent) -> onInterceptTouchEvent
+    boolean access$0(com.cosji.view.MyScrollView) -> a
+    void access$1(com.cosji.view.MyScrollView,boolean) -> a
+com.cosji.view.MyScrollView$YScrollDetector -> com.cosji.view.e:
+    com.cosji.view.MyScrollView this$0 -> a
+    boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onScroll
+com.cosji.view.ProgressWebView -> com.cosji.view.ProgressWebView:
+    android.widget.ProgressBar progressbar -> a
+    void onScrollChanged(int,int,int,int) -> onScrollChanged
+    android.widget.ProgressBar access$0(com.cosji.view.ProgressWebView) -> a
+com.cosji.view.ProgressWebView$WebChromeClient -> com.cosji.view.f:
+    com.cosji.view.ProgressWebView this$0 -> a
+    void onProgressChanged(android.webkit.WebView,int) -> onProgressChanged
+com.cosji.view.PullDownListView -> com.cosji.view.PullDownListView:
+    int MAX_LENGHT -> a
+    android.view.animation.Animation mAnimationDown -> i
+    android.view.animation.Animation mAnimationUp -> j
+    android.widget.ImageView mArrow -> k
+    android.view.View emptyHeaderView -> l
+    android.widget.ProgressBar mProgressBar -> m
+    android.widget.TextView more -> n
+    android.widget.ProgressBar mProgressBar2 -> o
+    int mState -> p
+    android.widget.TextView mTitle -> q
+    android.widget.ListView mListView -> b
+    android.widget.LinearLayout foot -> c
+    android.widget.LinearLayout footer_layout -> d
+    android.widget.LinearLayout header -> e
+    android.view.GestureDetector mDetector -> r
+    com.cosji.view.PullDownListView$FlingRunnable mFlinger -> s
+    int mPading -> t
+    int mDestPading -> u
+    int mLastTop -> v
+    android.widget.LinearLayout mFirstChild -> w
+    android.widget.FrameLayout mUpdateContent -> x
+    com.cosji.view.PullDownListView$OnRefreshListioner mRefreshListioner -> y
+    boolean isAutoLoadMore -> z
+    boolean hasMore -> A
+    boolean isEnd -> B
+    boolean listviewDoScroll -> C
+    boolean isFirstLoading -> D
+    boolean mLongPressing -> E
+    boolean mPendingRemoved -> F
+    java.lang.String pulldowntorefresh -> G
+    java.lang.String releasetorefresh -> H
+    java.lang.String loading -> I
+    android.graphics.Rect r -> f
+    android.view.MotionEvent downEvent -> J
+    com.cosji.view.PullDownListView$CheckForLongPress mPendingCheckForLongPress -> K
+    com.cosji.view.PullDownListView$CheckForLongPress2 mPendingCheckForLongPress2 -> L
+    float lastY -> M
+    boolean useempty -> N
+    java.lang.String TAG -> g
+    android.view.View view -> h
+    void addRefreshBar() -> f
+    void onFinishInflate() -> onFinishInflate
+    void setEmptyHeaderView(android.view.View) -> setEmptyHeaderView
+    void addEmptyHeaderView() -> a
+    void removeEmptyHeaderView() -> b
+    void init() -> g
+    boolean move(float,boolean) -> a
+    void updateView() -> h
+    boolean release() -> i
+    void scrollToClose() -> j
+    void scrollToUpdate(boolean) -> a
+    void onRefresh() -> k
+    void onRefreshComplete() -> c
+    void onRefreshComplete(java.lang.String) -> a
+    void setMore(boolean) -> setMore
+    void updateCommon() -> l
+    void onLoadMore() -> d
+    void onLoadMoreComplete(java.lang.String) -> b
+    void onLoadMoreComplete() -> e
+    boolean dispatchTouchEvent(android.view.MotionEvent) -> dispatchTouchEvent
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+    boolean onDown(android.view.MotionEvent) -> onDown
+    boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
+    void onLayout(boolean,int,int,int,int) -> onLayout
+    void onLongPress(android.view.MotionEvent) -> onLongPress
+    boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onScroll
+    void onShowPress(android.view.MotionEvent) -> onShowPress
+    boolean onSingleTapUp(android.view.MotionEvent) -> onSingleTapUp
+    void setRefreshListioner(com.cosji.view.PullDownListView$OnRefreshListioner) -> setRefreshListioner
+    void setAutoLoadMore(boolean) -> setAutoLoadMore
+    void setHasMore(boolean) -> setHasMore
+    com.cosji.view.PullDownListView$CheckForLongPress2 access$0(com.cosji.view.PullDownListView) -> a
+    void access$1(com.cosji.view.PullDownListView,boolean) -> a
+    android.view.MotionEvent access$2(com.cosji.view.PullDownListView) -> b
+    boolean access$3(com.cosji.view.PullDownListView,android.view.MotionEvent) -> a
+    boolean access$4(com.cosji.view.PullDownListView,float,boolean) -> a
+    int access$5(com.cosji.view.PullDownListView) -> c
+    void access$6(com.cosji.view.PullDownListView,int) -> a
+    boolean access$7(com.cosji.view.PullDownListView) -> d
+    boolean access$8(com.cosji.view.PullDownListView) -> e
+    boolean access$9(com.cosji.view.PullDownListView) -> f
+    void access$10(com.cosji.view.PullDownListView,boolean) -> b
+com.cosji.view.PullDownListView$1 -> com.cosji.view.g:
+    com.cosji.view.PullDownListView this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.view.PullDownListView$2 -> com.cosji.view.h:
+    com.cosji.view.PullDownListView this$0 -> a
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+com.cosji.view.PullDownListView$3 -> com.cosji.view.i:
+    com.cosji.view.PullDownListView this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.cosji.view.PullDownListView$4 -> com.cosji.view.j:
+    com.cosji.view.PullDownListView this$0 -> a
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+com.cosji.view.PullDownListView$CheckForLongPress -> com.cosji.view.k:
+    com.cosji.view.PullDownListView this$0 -> a
+    void run() -> run
+com.cosji.view.PullDownListView$CheckForLongPress2 -> com.cosji.view.l:
+    com.cosji.view.PullDownListView this$0 -> a
+    void run() -> run
+com.cosji.view.PullDownListView$FlingRunnable -> com.cosji.view.m:
+    int mLastFlingY -> b
+    android.widget.Scroller mScroller -> c
+    com.cosji.view.PullDownListView this$0 -> a
+    void startCommon() -> a
+    void run() -> run
+    void startUsingDistance(int,int) -> a
+com.cosji.view.PullDownListView$OnRefreshListioner -> com.cosji.view.n:
+    void onRefresh() -> b
+    void onLoadMore() -> c
+com.cosji.view.PullToRefreshView -> com.cosji.view.PullToRefreshView:
+    int mLastMotionY -> a
+    boolean mLock -> b
+    android.view.View mHeaderView -> c
+    android.view.View mFooterView -> d
+    android.widget.AdapterView mAdapterView -> e
+    android.widget.ScrollView mScrollView -> f
+    int mHeaderViewHeight -> g
+    int mFooterViewHeight -> h
+    android.widget.ImageView mHeaderImageView -> i
+    android.widget.ImageView mFooterImageView -> j
+    android.widget.TextView mHeaderTextView -> k
+    android.widget.TextView mFooterTextView -> l
+    android.widget.TextView mHeaderUpdateTextView -> m
+    android.widget.ProgressBar mHeaderProgressBar -> n
+    android.widget.ProgressBar mFooterProgressBar -> o
+    android.view.LayoutInflater mInflater -> p
+    int mHeaderState -> q
+    int mFooterState -> r
+    int mPullState -> s
+    android.view.animation.RotateAnimation mFlipAnimation -> t
+    android.view.animation.RotateAnimation mReverseFlipAnimation -> u
+    com.cosji.view.PullToRefreshView$OnFooterRefreshListener mOnFooterRefreshListener -> v
+    com.cosji.view.PullToRefreshView$OnHeaderRefreshListener mOnHeaderRefreshListener -> w
+    void init() -> c
+    void addHeaderView() -> d
+    void addFooterView() -> e
+    void onFinishInflate() -> onFinishInflate
+    void initContentAdapterView() -> f
+    void measureView(android.view.View) -> a
+    boolean onInterceptTouchEvent(android.view.MotionEvent) -> onInterceptTouchEvent
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    boolean isRefreshViewScroll(int) -> a
+    void headerPrepareToRefresh(int) -> b
+    void footerPrepareToRefresh(int) -> c
+    int changingHeaderViewTopMargin(int) -> d
+    void headerRefreshing() -> g
+    void footerRefreshing() -> h
+    void setHeaderTopMargin(int) -> setHeaderTopMargin
+    void onHeaderRefreshComplete() -> a
+    void onHeaderRefreshComplete(java.lang.String) -> a
+    void onFooterRefreshComplete() -> b
+    void setLastUpdated(java.lang.String) -> setLastUpdated
+    int getHeaderTopMargin() -> getHeaderTopMargin
+    void setOnHeaderRefreshListener(com.cosji.view.PullToRefreshView$OnHeaderRefreshListener) -> setOnHeaderRefreshListener
+    void setOnFooterRefreshListener(com.cosji.view.PullToRefreshView$OnFooterRefreshListener) -> setOnFooterRefreshListener
+com.cosji.view.PullToRefreshView$OnFooterRefreshListener -> com.cosji.view.o:
+    void onFooterRefresh(com.cosji.view.PullToRefreshView) -> a
+com.cosji.view.PullToRefreshView$OnHeaderRefreshListener -> com.cosji.view.p:
+    void onHeaderRefresh(com.cosji.view.PullToRefreshView) -> b
+com.umeng.analytics.MobclickAgent -> com.a.a.a:
+    com.umeng.analytics.b a -> a
+    com.umeng.analytics.onlineconfig.a b -> b
+    void onPause(android.content.Context) -> a
+    void onResume(android.content.Context) -> b
+com.umeng.analytics.a -> com.a.a.b:
+    java.lang.Thread$UncaughtExceptionHandler a -> a
+    com.umeng.analytics.i b -> b
+    android.content.Context c -> c
+    void a(android.content.Context) -> a
+    void a(com.umeng.analytics.i) -> a
+    void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
+    void a(java.lang.Throwable) -> a
+com.umeng.analytics.a.a -> com.a.a.a.a:
+    java.util.HashMap a -> a
+    java.lang.String b -> b
+    long c -> c
+    long d -> d
+    java.lang.String e -> e
+    java.lang.String f -> f
+    java.lang.String g -> g
+    void c(org.json.JSONObject) -> c
+    void d(org.json.JSONObject) -> d
+    void a(org.json.JSONObject) -> a
+    void b(org.json.JSONObject) -> b
+    boolean a() -> a
+com.umeng.analytics.a.b -> com.a.a.a.b:
+    java.lang.String a -> a
+    java.util.ArrayList b -> b
+    void c(org.json.JSONObject) -> c
+    void d(org.json.JSONObject) -> d
+    void a(org.json.JSONObject) -> a
+    void b(org.json.JSONObject) -> b
+    boolean a() -> a
+    void a(com.umeng.analytics.a.b) -> a
+com.umeng.analytics.a.c -> com.a.a.a.c:
+    com.umeng.analytics.a.b a -> a
+com.umeng.analytics.a.d -> com.a.a.a.d:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String a(java.lang.Throwable) -> a
+    boolean a() -> a
+    void a(org.json.JSONObject) -> a
+    void b(org.json.JSONObject) -> b
+com.umeng.analytics.a.e -> com.a.a.a.e:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    int c -> c
+    long d -> d
+    java.lang.String k -> j
+    java.lang.String l -> k
+    java.lang.String m -> l
+    java.lang.String n -> m
+    boolean a() -> a
+    void a(org.json.JSONObject) -> a
+    void b(org.json.JSONObject) -> b
+com.umeng.analytics.a.f -> com.a.a.a.f:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    long f -> f
+    java.lang.String g -> g
+    java.lang.String h -> h
+    java.lang.String i -> i
+    java.lang.String j -> j
+    java.lang.String k -> k
+    java.lang.String l -> l
+    java.lang.String m -> m
+    java.lang.String n -> n
+    java.lang.String o -> o
+    long p -> p
+    java.lang.String q -> q
+    java.lang.String r -> r
+    java.lang.String s -> s
+    java.lang.String t -> t
+    java.lang.String u -> u
+    java.lang.String v -> v
+    java.lang.String w -> w
+    java.lang.String x -> x
+    int y -> y
+    java.lang.String z -> z
+    java.lang.String A -> A
+    java.lang.String B -> B
+    java.lang.String C -> C
+    java.lang.String D -> D
+    java.lang.String E -> E
+    java.lang.String F -> F
+    java.lang.String G -> G
+    java.lang.String H -> H
+    java.lang.String I -> I
+    java.lang.String J -> J
+    java.lang.String K -> K
+    java.lang.String L -> L
+    java.lang.String M -> M
+    java.lang.String N -> N
+    java.lang.String O -> O
+    java.lang.String P -> P
+    java.lang.String Q -> Q
+    java.lang.String R -> R
+    java.lang.String S -> S
+    java.lang.String T -> T
+    java.lang.String U -> U
+    java.lang.String V -> V
+    java.lang.String W -> W
+    java.lang.String X -> X
+    java.lang.String Y -> Y
+    java.lang.String Z -> Z
+    java.lang.String aa -> aa
+    java.lang.String ab -> ab
+    java.lang.String ac -> ac
+    java.lang.String ad -> ad
+    java.lang.String ae -> ae
+    java.lang.String af -> af
+    java.lang.String ag -> ag
+    java.lang.String ah -> ah
+    java.lang.String ai -> ai
+    java.lang.String aj -> aj
+    java.lang.String ak -> ak
+    java.lang.String al -> al
+    void j(org.json.JSONObject) -> a
+    void k(org.json.JSONObject) -> c
+    void l(org.json.JSONObject) -> d
+    void m(org.json.JSONObject) -> e
+    void n(org.json.JSONObject) -> f
+    void o(org.json.JSONObject) -> g
+    void p(org.json.JSONObject) -> h
+    void b(org.json.JSONObject) -> b
+    boolean a() -> a
+    void a(android.content.Context,java.lang.String[]) -> a
+    void a(android.content.Context) -> a
+    void b(android.content.Context) -> b
+    void c(android.content.Context) -> c
+    void d(android.content.Context) -> d
+    void e(android.content.Context) -> e
+    void b(android.content.Context,java.lang.String[]) -> b
+    boolean b() -> b
+com.umeng.analytics.a.g -> com.a.a.a.g:
+    void b(org.json.JSONObject) -> b
+    boolean a() -> a
+com.umeng.analytics.a.h -> com.a.a.a.h:
+    com.umeng.analytics.a.o a -> a
+    void c(org.json.JSONObject) -> c
+    void d(org.json.JSONObject) -> d
+    boolean a() -> a
+    void a(org.json.JSONObject) -> a
+    void b(org.json.JSONObject) -> b
+com.umeng.analytics.a.i -> com.a.a.a.i:
+    java.util.ArrayList a -> a
+    java.util.ArrayList b -> b
+    java.util.ArrayList c -> c
+    java.util.ArrayList d -> d
+    java.util.ArrayList e -> e
+    java.lang.String f -> f
+    java.lang.String g -> g
+    java.lang.String h -> h
+    java.lang.String i -> i
+    java.lang.String j -> j
+    void a(com.umeng.analytics.a.h) -> a
+    void a(com.umeng.analytics.a.m) -> a
+    void a(com.umeng.analytics.a.d) -> a
+    void a(com.umeng.analytics.a.e) -> a
+    void a(com.umeng.analytics.a.b) -> a
+    void c(org.json.JSONObject) -> c
+    void d(org.json.JSONObject) -> d
+    void e(org.json.JSONObject) -> e
+    void f(org.json.JSONObject) -> f
+    void g(org.json.JSONObject) -> g
+    void a(org.json.JSONObject) -> a
+    org.json.JSONArray a(java.util.ArrayList) -> a
+    void b(org.json.JSONObject) -> b
+    boolean a() -> a
+    void a(com.umeng.analytics.a.i) -> a
+    void b(java.util.ArrayList) -> b
+    int b() -> b
+    void c() -> c
+com.umeng.analytics.a.j -> com.a.a.a.j:
+    com.umeng.analytics.a.i a -> a
+com.umeng.analytics.a.k -> com.a.a.a.k:
+    java.lang.String a -> a
+    int b -> b
+com.umeng.analytics.a.l -> com.a.a.a.l:
+    java.lang.String e -> e
+    boolean a() -> a
+    void b(org.json.JSONObject) -> b
+    void a(org.json.JSONObject) -> a
+com.umeng.analytics.a.m -> com.a.a.a.m:
+    com.umeng.analytics.a.o a -> a
+    com.umeng.analytics.a.p b -> b
+    long c -> c
+    java.util.ArrayList d -> d
+    com.umeng.analytics.a.m a(android.content.Context) -> a
+    void a(android.content.SharedPreferences) -> a
+    java.lang.String[] b(android.content.SharedPreferences) -> b
+    java.util.ArrayList c(android.content.SharedPreferences) -> c
+    long d(android.content.SharedPreferences) -> d
+    android.content.SharedPreferences$Editor a(android.content.SharedPreferences,java.lang.String,long,long) -> a
+    android.content.SharedPreferences$Editor a(android.content.SharedPreferences,java.util.ArrayList,long,long) -> a
+    boolean a() -> a
+    void c(org.json.JSONObject) -> c
+    void d(org.json.JSONObject) -> d
+    void e(org.json.JSONObject) -> e
+    void f(org.json.JSONObject) -> f
+    void g(org.json.JSONObject) -> g
+    void h(org.json.JSONObject) -> h
+    void a(org.json.JSONObject) -> a
+    void b(org.json.JSONObject) -> b
+com.umeng.analytics.a.n -> com.a.a.a.n:
+    java.lang.String g -> f
+    java.lang.String h -> g
+    java.lang.String i -> h
+    java.lang.String j -> i
+    boolean a() -> a
+    void b(org.json.JSONObject) -> b
+    void a(org.json.JSONObject) -> a
+com.umeng.analytics.a.o -> com.a.a.a.o:
+    double a -> a
+    double b -> b
+    long c -> c
+    com.umeng.analytics.a.o a(android.content.Context) -> a
+    com.umeng.analytics.a.o b(android.content.Context) -> b
+    android.content.SharedPreferences$Editor a(android.content.Context,android.content.SharedPreferences) -> a
+    boolean a(android.location.Location,android.content.SharedPreferences) -> a
+    void b(org.json.JSONObject) -> b
+    void a(org.json.JSONObject) -> a
+    boolean a() -> a
+com.umeng.analytics.a.p -> com.a.a.a.p:
+    long a -> a
+    long b -> b
+    void a(org.json.JSONObject) -> a
+    void b(org.json.JSONObject) -> b
+    boolean a() -> a
+    com.umeng.analytics.a.p a(android.content.Context) -> a
+    long[] b(android.content.Context) -> b
+com.umeng.analytics.b -> com.a.a.c:
+    java.util.concurrent.ExecutorService a -> a
+    java.lang.String m -> m
+    java.lang.String n -> n
+    int o -> o
+    int p -> p
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String q -> q
+    java.lang.String r -> r
+    java.lang.String s -> s
+    long t -> t
+    int u -> u
+    int v -> v
+    java.util.Stack w -> w
+    java.util.ArrayList x -> x
+    void b(java.lang.String) -> a
+    void a(android.content.Context) -> a
+    void h(android.content.Context) -> e
+    void b(android.content.Context) -> b
+    void i(android.content.Context) -> f
+    void j(android.content.Context) -> g
+    void a(android.content.Context,android.content.SharedPreferences) -> a
+    boolean a(android.content.SharedPreferences) -> a
+    java.lang.String b(android.content.Context,android.content.SharedPreferences) -> b
+    java.lang.String a(android.content.Context,long) -> a
+    java.lang.String c(android.content.Context,android.content.SharedPreferences) -> c
+    void b(android.content.Context,java.lang.Throwable) -> a
+    void a(com.umeng.analytics.b,android.content.Context) -> a
+    void b(com.umeng.analytics.b,android.content.Context) -> b
+com.umeng.analytics.b$a -> com.a.a.d:
+    java.lang.Object b -> b
+    android.content.Context c -> c
+    int d -> d
+    com.umeng.analytics.b a -> a
+    void run() -> run
+com.umeng.analytics.c -> com.a.a.e:
+    com.umeng.analytics.a.i a -> a
+    java.util.HashMap b -> b
+    java.util.HashMap c -> c
+    int d -> d
+    int a() -> a
+    boolean b() -> b
+    void a(com.umeng.analytics.a.d) -> a
+    void a(com.umeng.analytics.a.h) -> a
+    void a(com.umeng.analytics.a.m) -> a
+    boolean c() -> c
+    void a(android.content.Context) -> a
+    void b(android.content.Context) -> b
+    org.json.JSONObject d() -> d
+    void e() -> e
+com.umeng.analytics.d -> com.a.a.f:
+    com.umeng.analytics.a a -> a
+    java.lang.Object b -> b
+    android.os.Handler c -> c
+    com.umeng.analytics.c d -> d
+    com.umeng.analytics.a.f e -> e
+    int f -> f
+    int g -> g
+    int h -> h
+    int i -> i
+    int j -> j
+    java.lang.String m -> m
+    java.lang.String n -> n
+    int o -> o
+    long p -> p
+    long q -> q
+    long r -> r
+    java.lang.String k -> k
+    java.lang.String l -> l
+    boolean s -> s
+    void a(android.content.Context,int) -> a
+    void a(android.content.Context) -> a
+    void f(android.content.Context) -> c
+    void b(android.content.Context) -> b
+    boolean b(android.content.Context,int) -> b
+    java.lang.String c(android.content.Context) -> e
+    void d(android.content.Context) -> f
+    org.json.JSONObject g(android.content.Context) -> d
+    java.lang.String a(java.io.InputStream) -> a
+    java.lang.String a(android.content.Context,org.json.JSONObject,java.lang.String) -> a
+    java.lang.Object a(com.umeng.analytics.d) -> a
+    void a(com.umeng.analytics.d,android.content.Context) -> a
+com.umeng.analytics.d$a -> com.a.a.g:
+    android.content.Context b -> b
+    com.umeng.analytics.d a -> a
+    void run() -> run
+com.umeng.analytics.d$b -> com.a.a.h:
+    android.content.Context b -> b
+    com.umeng.analytics.d a -> a
+    void run() -> run
+com.umeng.analytics.e -> com.a.a.i:
+    com.umeng.analytics.d a -> a
+com.umeng.analytics.f -> com.a.a.j:
+    java.lang.String a -> a
+    long b -> b
+com.umeng.analytics.g -> com.a.a.k:
+    long d -> a
+    long g -> b
+    int h -> c
+    boolean i -> d
+    boolean j -> e
+    boolean k -> f
+    boolean l -> g
+    boolean m -> h
+    java.lang.Object p -> i
+    java.lang.String[] r -> j
+    java.lang.String[] s -> k
+    boolean t -> l
+com.umeng.analytics.h -> com.a.a.l:
+    java.lang.String a -> a
+    java.lang.String a(android.content.Context) -> a
+com.umeng.analytics.i -> com.a.a.m:
+    void b(android.content.Context,java.lang.Throwable) -> a
+com.umeng.analytics.j -> com.a.a.n:
+    long a -> a
+    long b -> b
+    android.content.SharedPreferences b(android.content.Context) -> a
+    android.content.SharedPreferences c(android.content.Context) -> b
+    android.content.SharedPreferences e(android.content.Context) -> c
+    java.lang.String f(android.content.Context) -> d
+    java.lang.String g(android.content.Context) -> e
+    int[] i(android.content.Context) -> f
+    boolean a(java.io.File) -> a
+    org.json.JSONObject a(android.content.Context,java.lang.String) -> a
+    java.lang.String a(java.io.InputStream) -> a
+    void a(android.content.Context,org.json.JSONObject,java.lang.String) -> a
+    void a(android.content.Context,com.umeng.analytics.a.g,java.lang.String) -> a
+    void b(android.content.Context,org.json.JSONObject,java.lang.String) -> b
+    void j(android.content.Context) -> g
+com.umeng.analytics.onlineconfig.UmengOnlineConfigureListener -> com.a.a.b.a:
+com.umeng.analytics.onlineconfig.a -> com.a.a.b.b:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    com.umeng.analytics.onlineconfig.UmengOnlineConfigureListener f -> f
+    com.umeng.analytics.onlineconfig.c g -> g
+    void a(com.umeng.analytics.onlineconfig.c) -> a
+com.umeng.analytics.onlineconfig.c -> com.a.a.b.c:
+com.umeng.common.Log -> com.a.b.a:
+    boolean LOG -> a
+    void a(java.lang.String,java.lang.String) -> a
+    void a(java.lang.String,java.lang.String,java.lang.Exception) -> a
+    void b(java.lang.String,java.lang.String) -> b
+    void b(java.lang.String,java.lang.String,java.lang.Exception) -> b
+    void c(java.lang.String,java.lang.String) -> c
+    void e(java.lang.String,java.lang.String) -> d
+    void e(java.lang.String,java.lang.String,java.lang.Exception) -> c
+com.umeng.common.b -> com.a.b.b:
+    java.lang.String a -> a
+    java.lang.String d(android.content.Context) -> a
+    java.lang.String e(android.content.Context) -> b
+    boolean a(android.content.Context,java.lang.String) -> a
+    java.lang.String a() -> a
+    java.lang.String g(android.content.Context) -> c
+    java.lang.String h(android.content.Context) -> d
+    java.lang.String[] k(android.content.Context) -> e
+    boolean l(android.content.Context) -> f
+    android.location.Location m(android.content.Context) -> g
+    boolean n(android.content.Context) -> h
+    int o(android.content.Context) -> i
+    java.lang.String[] p(android.content.Context) -> j
+    java.util.Locale y(android.content.Context) -> q
+    java.lang.String q(android.content.Context) -> k
+    java.lang.String r(android.content.Context) -> l
+    java.lang.String s(android.content.Context) -> m
+    int a(java.lang.Object,java.lang.String) -> a
+    java.lang.String t(android.content.Context) -> n
+    java.lang.String a(java.util.Date) -> a
+    java.lang.String u(android.content.Context) -> o
+    java.lang.String v(android.content.Context) -> p
+com.umeng.common.util.f -> com.a.b.a.a:
+    int a -> a
+    byte[] a(java.lang.String,java.lang.String) -> a
+com.umeng.common.util.h -> com.a.b.a.b:
+    java.lang.String a -> a
+    java.lang.String a(java.lang.String) -> a
+    java.lang.String b(java.lang.String) -> b
+    boolean d(java.lang.String) -> c
+    java.lang.String a() -> a
+    java.lang.String a(java.util.Date) -> a
