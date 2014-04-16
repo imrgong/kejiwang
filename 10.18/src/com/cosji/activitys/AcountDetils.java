@@ -41,7 +41,7 @@ import com.umeng.analytics.MobclickAgent;
  */
 @SuppressWarnings("deprecation")
 public class AcountDetils extends BaseTab {
-
+活生生
 	private TabWidget tabwidget;
 	private List<TextView> titlelist = new ArrayList<TextView>();
 	private LinearLayout back;
